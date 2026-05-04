@@ -1,17 +1,12 @@
 (function () {
-  // ── CONFIG — replace with your actual HF Space URL ──────────
-  const API_URL = 'https://YOUR_HF_USERNAME-mia-assistant.hf.space/chat';
-
-  // ── Get source from script tag data attribute ─────────────────
+  const API_URL = 'https://xameraman-mia-assistant.hf.space/chat';
   const scriptTag = document.currentScript;
   const SOURCE = (scriptTag && scriptTag.getAttribute('data-source')) || 'general';
 
-  // ── State ─────────────────────────────────────────────────────
   let history = [];
   let isOpen = false;
   let isLoading = false;
 
-  // ── Inject styles ─────────────────────────────────────────────
   const style = document.createElement('style');
   style.textContent = `
     #mia-widget-btn {
@@ -29,7 +24,6 @@
       50%      { box-shadow:0 4px 32px rgba(155,79,219,0.9),0 0 0 8px rgba(155,79,219,0.15); }
     }
     #mia-widget-btn:hover { transform:scale(1.1); }
-
     #mia-widget-panel {
       position:fixed; bottom:94px; right:24px; z-index:99998;
       width:340px; max-width:calc(100vw - 48px);
@@ -41,20 +35,16 @@
       transform:scale(0.9) translateY(16px);
       opacity:0; pointer-events:none;
       transition:all 0.25s cubic-bezier(.4,0,.2,1);
-      overflow:hidden;
-      max-height:520px;
+      overflow:hidden; max-height:520px;
     }
     #mia-widget-panel.mia-open {
       transform:scale(1) translateY(0);
       opacity:1; pointer-events:all;
     }
-
     #mia-panel-header {
       background:linear-gradient(135deg,rgba(155,79,219,0.25),rgba(88,101,242,0.2));
-      padding:14px 16px;
-      display:flex; align-items:center; gap:10px;
-      border-bottom:1px solid rgba(255,255,255,0.07);
-      flex-shrink:0;
+      padding:14px 16px; display:flex; align-items:center; gap:10px;
+      border-bottom:1px solid rgba(255,255,255,0.07); flex-shrink:0;
     }
     #mia-avatar {
       width:36px; height:36px; border-radius:50%;
@@ -72,25 +62,23 @@
       animation: mia-blink 2s ease-in-out infinite;
     }
     @keyframes mia-blink {
-      0%,100% { opacity:1; } 50% { opacity:0.4; }
+      0%,100%{opacity:1} 50%{opacity:0.4}
     }
-
     #mia-messages {
       flex:1; overflow-y:auto; padding:14px 14px 8px;
       display:flex; flex-direction:column; gap:10px;
       font-family:'Nunito',sans-serif;
       scrollbar-width:thin; scrollbar-color:rgba(155,79,219,0.3) transparent;
     }
-    #mia-messages::-webkit-scrollbar { width:4px; }
-    #mia-messages::-webkit-scrollbar-track { background:transparent; }
-    #mia-messages::-webkit-scrollbar-thumb { background:rgba(155,79,219,0.3); border-radius:2px; }
-
+    #mia-messages::-webkit-scrollbar{width:4px;}
+    #mia-messages::-webkit-scrollbar-track{background:transparent;}
+    #mia-messages::-webkit-scrollbar-thumb{background:rgba(155,79,219,0.3);border-radius:2px;}
     .mia-msg {
       max-width:85%; padding:10px 13px; border-radius:12px;
       font-size:13.5px; line-height:1.65; animation:mia-pop .2s ease;
       word-break:break-word;
     }
-    @keyframes mia-pop { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+    @keyframes mia-pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
     .mia-msg.user {
       align-self:flex-end;
       background:linear-gradient(135deg,#9B4FDB,#5865F2);
@@ -102,13 +90,9 @@
       border:1px solid rgba(255,255,255,0.08);
       color:#E0EAF0; border-bottom-left-radius:4px;
     }
-    .mia-msg.bot strong { color:#FFD700; }
-    .mia-msg.bot em { color:#47C96B; font-style:normal; }
-    .mia-msg.bot code {
-      background:rgba(0,0,0,0.4); padding:1px 5px;
-      border-radius:3px; font-size:12px; color:#FFD700;
-    }
-
+    .mia-msg.bot strong{color:#FFD700;}
+    .mia-msg.bot em{color:#47C96B;font-style:normal;}
+    .mia-msg.bot code{background:rgba(0,0,0,0.4);padding:1px 5px;border-radius:3px;font-size:12px;color:#FFD700;}
     .mia-typing {
       align-self:flex-start;
       background:rgba(255,255,255,0.06);
@@ -123,10 +107,7 @@
     }
     .mia-dot:nth-child(2){animation-delay:.15s;}
     .mia-dot:nth-child(3){animation-delay:.3s;}
-    @keyframes mia-bounce {
-      0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)}
-    }
-
+    @keyframes mia-bounce{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-6px)}}
     #mia-input-row {
       display:flex; gap:8px; padding:10px 12px;
       border-top:1px solid rgba(255,255,255,0.07);
@@ -140,21 +121,19 @@
       outline:none; resize:none; max-height:80px; overflow-y:auto;
       transition:border-color .2s;
     }
-    #mia-input:focus { border-color:rgba(155,79,219,0.6); }
-    #mia-input::placeholder { color:rgba(255,255,255,0.3); }
-    #mia-input:disabled { opacity:0.5; cursor:not-allowed; }
-
+    #mia-input:focus{border-color:rgba(155,79,219,0.6);}
+    #mia-input::placeholder{color:rgba(255,255,255,0.3);}
+    #mia-input:disabled{opacity:0.5;cursor:not-allowed;}
     #mia-send {
       width:38px; height:38px; border-radius:10px;
       background:linear-gradient(135deg,#9B4FDB,#5865F2);
       border:none; cursor:pointer; color:#fff; font-size:17px;
       display:flex; align-items:center; justify-content:center;
-      transition:transform .15s, opacity .15s; flex-shrink:0;
+      transition:transform .15s,opacity .15s; flex-shrink:0;
       align-self:flex-end;
     }
-    #mia-send:hover:not(:disabled) { transform:scale(1.08); }
-    #mia-send:disabled { opacity:0.4; cursor:not-allowed; }
-
+    #mia-send:hover:not(:disabled){transform:scale(1.08);}
+    #mia-send:disabled{opacity:0.4;cursor:not-allowed;}
     #mia-footer-note {
       text-align:center; font-size:10px;
       color:rgba(255,255,255,0.2); padding:4px 0 8px;
@@ -163,7 +142,6 @@
   `;
   document.head.appendChild(style);
 
-  // ── Build HTML ────────────────────────────────────────────────
   document.body.insertAdjacentHTML('beforeend', `
     <button id="mia-widget-btn" title="Chat with MIA Assistant">🌿</button>
     <div id="mia-widget-panel">
@@ -186,14 +164,12 @@
     </div>
   `);
 
-  // ── Refs ──────────────────────────────────────────────────────
   const btn     = document.getElementById('mia-widget-btn');
   const panel   = document.getElementById('mia-widget-panel');
   const msgs    = document.getElementById('mia-messages');
   const input   = document.getElementById('mia-input');
   const sendBtn = document.getElementById('mia-send');
 
-  // ── Toggle panel ──────────────────────────────────────────────
   btn.addEventListener('click', () => {
     isOpen = !isOpen;
     panel.classList.toggle('mia-open', isOpen);
@@ -201,13 +177,11 @@
     if (isOpen) { input.focus(); scrollToBottom(); }
   });
 
-  // ── Auto-resize textarea ──────────────────────────────────────
   input.addEventListener('input', () => {
     input.style.height = 'auto';
     input.style.height = Math.min(input.scrollHeight, 80) + 'px';
   });
 
-  // ── Send on Enter (Shift+Enter for newline) ───────────────────
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
@@ -216,23 +190,16 @@
   });
   sendBtn.addEventListener('click', sendMessage);
 
-  // ── Send message ──────────────────────────────────────────────
   async function sendMessage() {
     const text = input.value.trim();
     if (!text || isLoading) return;
 
-    // Add user message to UI
     addMessage('user', text);
     history.push({ role: 'user', content: text });
-
-    // Reset input
     input.value = '';
     input.style.height = 'auto';
 
-    // Show typing indicator
     const typing = addTyping();
-
-    // Lock input
     setLoading(true);
 
     try {
@@ -241,7 +208,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           message: text,
-          history: history.slice(0, -1), // exclude current msg (already sent as message)
+          history: history.slice(0, -1),
           source: SOURCE
         })
       });
@@ -256,20 +223,17 @@
 
     } catch (err) {
       typing.remove();
-      addMessage('bot', '⚠️ Something went wrong connecting to the AI. Please try again in a moment.');
+      addMessage('bot', '⚠️ Something went wrong. Please try again in a moment.');
       console.error('[MIA Widget]', err);
     } finally {
-      // Always re-enable — this is the fix for the locking bug
       setLoading(false);
       input.focus();
     }
   }
 
-  // ── Helpers ───────────────────────────────────────────────────
   function addMessage(role, text) {
     const div = document.createElement('div');
     div.className = `mia-msg ${role}`;
-    // Basic markdown: **bold**, *italic*, `code`
     div.innerHTML = text
       .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
       .replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')
@@ -290,9 +254,7 @@
     return div;
   }
 
-  function scrollToBottom() {
-    msgs.scrollTop = msgs.scrollHeight;
-  }
+  function scrollToBottom() { msgs.scrollTop = msgs.scrollHeight; }
 
   function setLoading(state) {
     isLoading = state;
