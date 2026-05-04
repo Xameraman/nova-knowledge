@@ -1,0 +1,200 @@
+MEGA.nz Complete Guide: How to Download from MEGA Safely
+
+## 1. What Is MEGA?
+MEGA (MEGA.nz) is a secure cloud storage and file‑sharing service founded in 2013 by entrepreneur Kim Dotcom, along with Mathias Ortmann and Bram van der Kolk. Headquartered in Auckland, New Zealand, MEGA was launched as the successor to the controversial Megaupload service. The company's core selling point is end‑to‑end encryption, meaning all files are encrypted on the user's device before being uploaded, and MEGA's servers never have access to unencrypted file contents or decryption keys.
+
+Unlike many other file hosts, MEGA has no advertisements on its platform — revenue comes entirely from paid subscription plans. This makes the download experience exceptionally clean: no banner ads, no fake download buttons, and no confusing redirects. The platform is accessible via any modern web browser, as well as through dedicated desktop and mobile apps (MEGASync for desktop, MEGA app for Android and iOS).
+
+Key facts:
+- Founded: January 2013 (originally as "MEGA Limited")
+- Headquarters: Auckland, New Zealand
+- Founder: Kim Dotcom (original); currently led by CEO Stephen Hall
+- Free storage: 20 GB (with transfer quota limits)
+- Paid plans range from 400 GB to 16 TB
+- End‑to‑end encryption using AES‑128 (originally) and RSA key exchange
+- No advertisements — revenue from subscriptions
+- Files decrypted client‑side in the browser using JavaScript
+- Over 250 million registered users (as of recent reports)
+- Domain: mega.nz (previously mega.co.nz)
+
+MEGA is commonly used by Minecraft creators to host and share add‑ons, mods, resource packs, and world files because of its clean interface and lack of deceptive elements.
+
+## 2. History and Ownership Timeline
+MEGA's history is complex:
+- January 2013: Launched by Kim Dotcom as "MEGA Limited" on the anniversary of the Megaupload shutdown.
+- 2013–2015: Rapid growth to over 15 million users. Kim Dotcom distanced himself from the company.
+- 2015: MEGA was incorporated in New Zealand as MEGA Ltd. A Chinese investor, Li Zhi Min, acquired a controlling stake.
+- 2020–2021: MEGA underwent a management buyout led by CEO Stephen Hall, returning to independent New Zealand‑based operation. The company name changed to MEGA Cloud Services Limited.
+- 2023–2025: Continued privacy‑focused development, public source code releases, and security audits. MEGA remains headquartered in Auckland, New Zealand.
+
+Current leadership: Stephen Hall (CEO). The company continues to emphasize privacy and encryption as its core differentiators.
+
+## 3. How MEGA Encryption Works
+MEGA's encryption model is among the most transparent in the industry:
+- All files are encrypted on the user's device using AES‑128 (historically) or AES‑256 with RSA key exchange before being uploaded to MEGA's servers.
+- MEGA's servers store only encrypted blobs — the service has no access to file contents, file names, or the encryption keys.
+- When a download link is shared, MEGA creates a temporary, encrypted session. The decryption key is embedded in the shared URL (everything after the # symbol).
+- When you open a MEGA download link, your browser first downloads the encrypted file data, then uses JavaScript via the HTML5 File API to decrypt the file locally in your browser's memory. Only after decryption is the plaintext file assembled and presented for saving.
+- This decryption‑before‑saving process causes a brief but noticeable delay on large files, similar to Proton Drive. No special software is required; any modern browser can handle the decryption.
+
+There have been some security critiques of MEGA's cryptographic implementation over the years, primarily around its JavaScript‑based in‑browser encryption model. However, multiple academic security analyses have affirmed that for practical purposes, the model provides strong protection and MEGA cannot read your files. If you are handling extremely sensitive data, dedicated client‑side encryption tools before uploading provide an additional layer.
+
+## 4. Free Account vs Paid Plans
+MEGA offers progressive storage tiers:
+
+Free account:
+- 20 GB of encrypted storage
+- Transfer quota: approximately 5 GB downloaded per 6‑hour rolling window (varies by region and usage)
+- No ads
+- Access via web, desktop app (MEGASync), and mobile apps
+- 30‑day inactive account expiration (files may be deleted if the account is inactive for over 30 days)
+
+Paid plans:
+- Pro Lite: 400 GB (~€4.99/month)
+- Pro I: 2 TB (~€9.99/month)
+- Pro II: 8 TB (~€19.99/month)
+- Pro III: 16 TB (~€29.99/month)
+- Business plans also available with centralized administration
+
+All paid plans include larger or no transfer quotas, priority support, and the ability to use MEGASync for real‑time folder syncing. The transfer quota is the most common pain point for free users, especially when downloading large modpacks or worlds.
+
+## 5. MEGA Download Pages
+When you open a shared MEGA link, the page is clean and straightforward:
+- The file name and file size are displayed prominently at the top.
+- A large red "Download" button is the primary interaction. Below it, "Import to Cloud Drive" allows transferring the file to your own MEGA account.
+- There are no ads, no fake download buttons, and no countdowns.
+- If the link points to a folder, you'll see a folder view with multiple files. You can select and download them individually or use "Download as ZIP" (which compresses them before downloading).
+- If the link requires a decryption key, it's already part of the URL (the portion after #). You don't need to enter it separately.
+
+## 6. Download Process (Step‑by‑Step)
+Step 1: Open the MEGA link. The URL usually begins with mega.nz/file/ or mega.nz/folder/.
+
+Step 2: The page shows the file name and size. Confirm this matches what you expect.
+
+Step 3: Click the red Download button. Your browser begins downloading the encrypted file data. A progress bar appears.
+
+Step 4: Once the encrypted data is fully downloaded, your browser begins client‑side decryption. This uses JavaScript and the HTML5 File API and requires no plugins. The page will show "Decrypting…"
+
+Step 5: After decryption finishes, your browser prompts you to save the plaintext file. Choose a location (Downloads folder is typical).
+
+Step 6: The file saves to your device. For Minecraft files (.mcpack, .mcaddon, .mcworld), tap to auto‑import. For .jar files, place in the correct mods folder.
+
+Optional alternative: Instead of downloading directly, click "Import to Cloud Drive" if you have a MEGA account. The file will be saved to your personal cloud storage and you can download it at any time without transfer quota concerns.
+
+## 7. Transfer Quotas — Understanding the Limits
+The #1 frustration with MEGA is the free user transfer quota. Here's exactly what it is and how to deal with it:
+
+What is the transfer quota?
+MEGA free users are limited to approximately 5 GB of downloaded data per 6‑hour rolling window. This means if you download 5 GB at 2 PM, you may need to wait until ~8 PM before you can download another large file. The quota is per IP address. If you reach the limit, you'll see "Transfer quota exceeded — Try again in X hours."
+
+Why it exists: MEGA is a subscription‑based service. Bandwidth is expensive, and the quota encourages heavy users to subscribe. The 5 GB/6 hour limit is generous enough for most typical downloads (including most Minecraft add‑ons and mods, which are usually under 500 MB).
+
+Workarounds for exceeding the quota:
+- Wait 6 hours — the quota resets automatically. This is the simplest solution.
+- Use a different network — the quota is per IP, so switching from Wi‑Fi to mobile data or using a VPN may reset the counter.
+- Use the MEGA desktop or mobile app — the app has a separate mechanism and may process large downloads more reliably.
+- Create a free MEGA account and import the file to your cloud drive. Once in your account, you can download it at any time without quota restrictions.
+- Subscribe to a paid plan (Pro Lite, €4.99/month) — removes all quota restrictions.
+
+## 8. Mobile‑Specific Guidance
+MEGA works well on mobile, but there are some important limitations to know:
+
+Android:
+- Use Chrome, Firefox, or the MEGA Android app.
+- Browser downloads work fine for files up to a few hundred MB. For larger files, the MEGA app is recommended.
+- In‑browser decryption works on mobile but is slower due to limited device memory. Be patient.
+
+iOS (iPhone/iPad):
+- iOS browsers (even Chrome for iOS) have a ~1 MB file‑size limit for downloads directly in the browser. This means you CANNOT download any significant Minecraft file through iOS Safari or Chrome.
+- Always use the MEGA iOS app for downloading on iPhone or iPad. The app bypasses the browser limit.
+- The MEGA iOS app is free and available on the App Store. No account is required to download shared files.
+
+Best practice: On any mobile device, if the file is over 50 MB, use the MEGA app rather than the browser to avoid limits.
+
+## 9. MEGASync Desktop App
+MEGASync is MEGA's desktop application for Windows, macOS, and Linux. It acts like a cloud‑syncing client (similar to Dropbox or Google Drive) but with end‑to‑end encryption.
+
+Key features:
+- Syncs a local folder with your MEGA cloud drive in real time.
+- Streams large files without downloading the entire file at once.
+- Supports resume of interrupted transfers.
+- Allows downloading entire folders shared via MEGA links.
+- Optional integration with the file explorer (Windows/macOS).
+
+For Minecraft creators who host large modpacks on MEGA, MEGASync is the best way to manage uploads and ensure file integrity. For downloaders, MEGASync can handle large files and folders more reliably than any browser.
+
+## 10. Troubleshooting Common Issues
+"Transfer quota exceeded":
+- You've downloaded ~5 GB in the past 6 hours. Wait (the quota resets automatically) or switch networks. Alternatively, import the file to your own MEGA account if you have one.
+
+Download stuck at "Decrypting…":
+- The browser is handling a large file decryption that uses system memory. Be patient. If it takes more than 15 minutes, close the tab, open the link in a different browser, and try again.
+- On older devices or devices with limited RAM, decryption of large files may fail. Use the MEGA desktop or mobile app instead.
+
+Download never starts (just spins):
+- Your browser may be blocking the download. Check your download bar and ensure pop‑ups are allowed for mega.nz.
+- Try a Chromium‑based browser (Chrome, Edge, Brave, Opera) — they handle MEGA's streaming download system better than Firefox or Safari.
+- If on iOS, you must use the MEGA app — browser downloads are capped at ~1 MB.
+
+Slow download:
+- MEGA does not intentionally throttle speed, but peak‑time congestion affects all services. Try downloading during off‑hours.
+- If you've hit the transfer quota, MEGA may slow your connection rather than block it. Either wait or switch networks.
+
+"Link not found" or "File removed":
+- The sharer may have deleted the file or the link may have expired. Contact the person who shared it.
+
+## 11. Safety & Security
+MEGA is among the safest file hosting platforms:
+- No ads — eliminates the risk of malicious advertisements or fake download buttons.
+- All files are scanned for malware upon upload (server‑side scanning of unencrypted data — MEGA does have access to unencrypted files at upload time, before encryption occurs).
+- The platform has a strong anti‑malware policy. Infected files are removed and uploaders are banned.
+- End‑to‑end encryption ensures that downloaded files cannot be tampered with in transit.
+
+Safety best practices:
+- Only download MEGA links from trusted sources. While MEGA itself is safe, a link to a malicious file is still malicious.
+- Check the file extension before opening — ensure it matches what you expect (.mcpack, .mcaddon, .jar, etc.).
+- Never download third‑party "MEGA downloader" tools that promise to bypass quotas or speed up downloads. These are often malware.
+- If a MEGA link redirects you to an external site asking for payment or personal information, it is a scam. Genuine MEGA links open directly to MEGA's download page.
+
+## 12. Frequently Asked Questions
+Q: Do I need a MEGA account to download?
+A: No. You can download any shared MEGA file without an account. An account is only needed to upload files or use the import feature.
+
+Q: Is MEGA completely free?
+A: Yes, with a 20 GB storage limit and a ~5 GB per 6‑hour transfer quota. Paid plans remove these limits.
+
+Q: Why is my download so slow?
+A: Possible reasons: you've reached the transfer quota (which triggers throttling), peak network congestion, or a slow local internet connection.
+
+Q: Can I download MEGA files on my iPhone?
+A: Yes, but you must use the MEGA iOS app. Safari and Chrome for iOS have a file‑size limit of ~1 MB for direct downloads.
+
+Q: Are there ads on MEGA download pages?
+A: No. MEGA has zero advertisements on any of its pages.
+
+Q: What do I do if the transfer quota is exceeded?
+A: Wait 6 hours for it to reset automatically. Alternatively, switch to a different network (e.g., mobile data) or import the file to your own MEGA account.
+
+Q: Is MEGA safe from malware?
+A: The platform itself is safe. MEGA scans uploads for malware before they reach users. However, always check file extensions and verify the source before opening any file.
+
+Q: How does "Import to Cloud Drive" work?
+A: Instead of downloading the file to your device, you can transfer it to your own MEGA cloud storage (free 20 GB). This avoids transfer quota limits and lets you download later at your convenience.
+
+Q: Can I download an entire folder from MEGA?
+A: Yes. If the link points to a folder, MEGA shows all files in that folder. You can download individual files, select multiple, or use "Download as ZIP" to receive a single compressed archive.
+
+## Summary: The MEGA.nz Journey
+1. Open the MEGA link (mega.nz/file/... or mega.nz/folder/...)
+2. Page shows file name and size — confirm it's correct
+3. Click the red Download button
+4. Wait for browser‑side decryption (takes longer for large files)
+5. After decryption, save the file
+6. Locate the file → import into Minecraft or place in the correct folder
+
+Alternate routes:
+- Import to Cloud Drive (requires MEGA account) → download later, bypassing quota limits
+- Use MEGA desktop or mobile app for large files (bypasses browser limitations)
+- Use MEGASync for syncing folders across devices
+
+MEGA: Clean interface, no ads, end‑to‑end encrypted. The transfer quota is the only limitation — and it's solvable.

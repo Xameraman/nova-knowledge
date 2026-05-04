@@ -1,0 +1,299 @@
+Mirrored.to Multi‑Host Guide: Platform Overview, All 16 Hosts Ranked by Safety
+
+## 1. What Is Mirrored.to?
+Mirrored.to is a file distribution service that takes a single uploaded file and mirrors it across multiple third‑party file hosting platforms simultaneously. Instead of receiving a link to one host, the downloader receives a Mirrored.to link that presents a page with multiple host options — typically 10‑16 different services. This gives users the flexibility to pick the host they prefer or the one that works best on their device and network.
+
+Behind the scenes, Mirrored.to uploads the creator's file to many of the most popular file hosts automatically. The downloader then sees a list and can choose whichever they want. This is particularly common in the Minecraft modding and add‑on community where some hosts are blocked in certain regions or have aggressive ad policies.
+
+Key characteristics of Mirrored.to links:
+- The main page shows a list of 10‑16 hosting service buttons, each linking to the file on that specific host.
+- Each host has a different interface, ad policy, and download process — which is why this guide exists.
+- Clicking a button opens the file on the chosen host. From there, you follow that host's download process.
+- Mirrored.to itself does not host files; it only provides the mirror links.
+- No account is required to use Mirrored.to.
+
+## 2. Safety Note
+Mirrored.to itself is safe — it's just a directory. The safety of the download depends entirely on which host you choose and how well you navigate that host's ads. This guide categorizes every common host into Easy, Medium, and Hard/Danger tiers.
+
+## 3. About the Tier System
+This guide groups the 16 most common hosts into three tiers:
+
+🟢 Easy (Green): Clean interfaces, no timers or captchas, minimal ads. Best choice for all users.
+- Gofile.io
+- MediaFire.com
+- Send.now
+- Google Drive
+- Dropbox
+
+🟡 Medium (Yellow): Some timers, captchas, or ad distractions, but still usable with guidance.
+- Krakenfiles.com
+- Userdrive.com
+- Devuploads.com
+- 1fichier.com
+- Rapidgator.net
+
+🔴 Hard / Danger (Red): Heavy ads, NSFW pop‑ups, account requirements, malware risks, or broken downloads. Avoid unless absolutely necessary.
+- Katfile.online
+- 4shared.com
+- Upfiles.com
+- Megaup.net
+- Upload.ee
+- FilesDL
+
+## 4. Easy Tier Hosts (Green) — Recommended
+
+Host #1: Gofile.io
+Overview: A free, no‑account file hosting service known for its clean interface and lack of intrusive ads. Gofile is one of the safest and easiest hosts to use.
+Download process:
+1. Open the Gofile link. You'll see a list of all files in that folder.
+2. Locate the file you want in the list.
+3. On the right side of the file's row, you'll see a download icon (usually an arrow pointing down) next to three dots (⋮).
+4. Click the download icon.
+5. Wait a brief moment while Gofile prepares the file (usually just 1‑3 seconds).
+6. The download begins automatically. Save the file to your Downloads folder.
+Tips: No timers, no captchas, no fake buttons. Very straightforward.
+
+Host #2: MediaFire.com
+Overview: One of the oldest and most widely used file hosts, founded in 2006. Free users see ads on the download page, but the real download button is always a large blue button with the file name.
+Download process:
+1. Open the MediaFire link. The page shows the file name and size at the top.
+2. Locate the large blue "Download" button directly below the file information. This is the genuine button.
+3. Do NOT click any flashing or banner ads — those are fake download buttons.
+4. Click the genuine blue download button.
+5. If a captcha appears (simple checkbox), complete it.
+6. The browser downloads the file automatically. Save to your Downloads folder.
+Safety Note: MediaFire pages have banner ads that mimic download buttons. The real button is always in the center, below the file name and details, and does not open new tabs.
+
+Host #3: Send.now
+Overview: A relatively new, ultra‑simple file sharing service with a very clean interface.
+Download process:
+1. Open the Send.now link. You will see a big blue "Download" button prominently displayed.
+2. Click the button. The download starts instantly.
+3. There are no timers, captchas, or ads. One click and the file saves to your Downloads folder.
+Tips: This is one of the easiest hosts of all. If you see a Send.now option on a Mirrored.to page, it's an excellent choice.
+
+Host #4: Google Drive
+Overview: Google's cloud storage and file sharing platform. Download pages are clean, ad‑free, and secure.
+Download process:
+1. Open the Google Drive link. You'll see a preview of the file (if it's a document or image) or a file‑type icon.
+2. Look for the download icon (an arrow pointing down) in the top‑right corner of the page.
+3. Click the download icon. If the file is large, Google may show a "Can't scan for viruses" warning — click "Download anyway."
+4. If you're not signed into a Google account, you may be prompted to sign in. Follow the prompts or skip if possible.
+5. The download starts and the file saves to your Downloads folder.
+Tips: Google Drive has no ads and no fake buttons. It's one of the safest options.
+
+Host #5: Dropbox
+Overview: A widely used cloud storage service. Public download links are clean and require no account.
+Download process:
+1. Open the Dropbox link. You'll see a file preview or file name.
+2. Click the "Download" button (usually located in the top‑right area).
+3. If the link is public (most shared links are), no login is required. The browser downloads the file automatically.
+4. Save to your Downloads folder.
+Tips: Dropbox is another excellent, clean option. If a login is required, the sharer may need to adjust their link settings.
+
+## 5. Medium Tier Hosts (Yellow) — Useable with Guidance
+
+Host #1: Krakenfiles.com
+Overview: A file hosting service with a moderately clean interface but some advertisements.
+Download process:
+1. Open the Krakenfiles link. Scroll down past the initial file information and any banner ads.
+2. Look for a green "Download" button positioned below the verification section (if one exists).
+3. Click the green download button. You may be redirected to an ad page — if so, press your browser's back button and click again.
+4. The download should start after the second click.
+5. Save the file to your Downloads folder.
+Tips: The green download button is the real one. Ignore any "Download Now" banners.
+
+Host #2: Userdrive.com
+Overview: A file host that requires a captcha to generate a download link.
+Download process:
+1. Open the Userdrive link. You'll see file details at the top and a captcha further down.
+2. Scroll down to the captcha and complete it (usually a checkbox or image selection).
+3. After completing the captcha, click the "Create download link" button below it.
+4. You will be taken to a new page. Press your browser's back button to return.
+5. Now you'll see a "Click to download" button. Click it.
+6. The file begins downloading. Save to your Downloads folder.
+Tips: The back‑button step is important — don't skip it.
+
+Host #3: Devuploads.com
+Overview: A file hosting service with a blue "Generate Download Link" button and a short timer.
+Download process:
+1. Open the Devuploads link. Scroll down to near the bottom of the page.
+2. Locate the blue "Generate Download Link" button and click it.
+3. A 13‑second timer begins. Wait for it to finish.
+4. After the timer ends, a "Go to generated download link" button appears. Click it — a new tab opens.
+5. In the new tab, you'll see two buttons. Click the larger "Download Now" button (ignore the smaller "fast" button — it may be an ad).
+6. The download starts. Save to your Downloads folder.
+Tips: The 13‑second wait is normal. Always pick the larger button.
+
+Host #4: 1fichier.com
+Overview: A French file hosting service. Clean interface but has a 60‑second wait for free users.
+Download process:
+1. Open the 1fichier link. You'll see the file name, size, and a green download arrow.
+2. A 60‑second countdown timer starts automatically. Wait for it to complete.
+3. After the timer ends, click the green download button/arrow.
+4. The file begins downloading. Save to your Downloads folder.
+Tips: The 60‑second wait is the only hurdle. The interface is otherwise clean with no deceptive ads.
+
+Host #5: Rapidgator.net
+Overview: A file host with a free and premium tier. Free users must wait and complete a captcha.
+Download process:
+1. Open the Rapidgator link. You'll see file details and multiple buttons.
+2. Click the grey "Free Download" button (NOT the premium button).
+3. A 45‑second countdown begins. Wait for it to finish.
+4. After the timer, a captcha field appears. Enter the characters shown.
+5. Click the large orange "Click here to download" button.
+6. The file downloads immediately. Save to your Downloads folder.
+Tips: Always choose "Free Download" — never pay for premium unless you use Rapidgator regularly.
+
+## 6. Hard / Danger Tier Hosts (Red) — Avoid Unless Absolutely Necessary
+
+⚠️ IMPORTANT: The hosts in this section have significant issues — NSFW ads, malware risks, account requirements, or broken functionality. We strongly recommend choosing an Easy or Medium host whenever possible. Only use these if no other options exist.
+
+Host #1: Katfile.online
+Overview: A file host with aggressive advertising, including NSFW (adult) pop‑ups. Not recommended.
+Download process:
+1. Open the Katfile link. Multiple buttons appear.
+2. Click "Slow Speed Download" for the free option.
+3. A 30‑second countdown begins. Wait for it.
+4. After the timer, clicking may open a new tab with adult content (JavMit). Close this tab immediately.
+5. Return to the original tab and try again. You may need multiple attempts.
+6. If you succeed, the file downloads. Save with caution.
+Safety Warnings:
+- This host opens NSFW tabs containing adult content. Be aware before clicking.
+- We strongly recommend skipping this host and choosing a different mirror.
+- If you must use it, be prepared to close unexpected tabs quickly.
+
+Host #2: 4shared.com
+Overview: A file hosting service that requires account creation to download. This creates a privacy and friction issue.
+Download process:
+1. Open the 4shared link. The page shows the file but hides the download behind a login wall.
+2. You must sign in with an existing 4shared account OR create a new free account.
+3. After logging in, the download button becomes available.
+4. Click the download button.
+5. The file saves to your Downloads folder.
+Safety Warnings:
+- Requires personal information (email, name) to create an account.
+- Free accounts may receive marketing emails.
+- We recommend skipping this host if possible — many other mirrors don't require accounts.
+
+Host #3: Upfiles.com
+Overview: An extremely dangerous file host that bombards users with pop‑up ads and may host malware. Strongest possible recommendation to AVOID.
+Download process (if you absolutely must):
+1. Open the Upfiles link. Be prepared for multiple pop‑ups and new tabs.
+2. Look for a "Free Download" button and click it.
+3. Wait 5 seconds (a short timer may appear).
+4. You'll likely need to press your browser's back button repeatedly to escape ad loops.
+5. Eventually, a download may start. If a file downloads, do NOT open it immediately.
+6. Scan the file with antivirus software before opening.
+Safety Warnings:
+- Upfiles may detect and block ad‑blockers, forcing you to disable them.
+- Pop‑up ads can redirect to malicious sites or initiate unwanted downloads.
+- Files from Upfiles have a higher risk of containing malware.
+- We STRONGLY recommend skipping this host entirely. The risk is not worth the file.
+
+Host #4: Megaup.net
+Overview: A file host known for NSFW (adult) advertisements and pop‑ups. Avoid if possible.
+Download process:
+1. Open the Megaup link. A short delay occurs while the page "fetches the download link."
+2. After the delay, a download button appears.
+3. Click the download button. A new tab with adult content often opens — close it immediately.
+4. Press your browser's back button and click the download button again.
+5. If successful, the file downloads. Save with caution.
+Safety Warnings:
+- This host contains explicit NSFW advertisements.
+- Be prepared to close unexpected tabs.
+- We recommend skipping this host — choose a Green or Yellow tier option instead.
+
+Host #5: Upload.ee
+Overview: A file host that may rename files to .apk (Android application format), which is a potential malware vector. Extreme caution required.
+Download process:
+1. Open the Upload.ee link. The page may contain dangerous ads.
+2. Locate the large download button (usually centrally positioned).
+3. Click the button. The download starts immediately — no captcha or timer.
+4. Before opening the file, check its extension. Upload.ee sometimes renames files to .apk.
+5. If the file is .apk and you were expecting a Minecraft file (.mcpack, .mcaddon, .jar), DO NOT open it. Delete it and try another host.
+6. If the extension matches what you expect, proceed with caution.
+Safety Warnings:
+- .apk files are Android applications and can contain malware. Minecraft add‑ons should NEVER be .apk files.
+- The page may display deceptive advertisements.
+- We recommend skipping this host unless it's your only option.
+
+Host #6: FilesDL
+Overview: A broken host where the download consistently fails. Every attempt redirects to an ad page without providing the actual file.
+Download process:
+1. Open the FilesDL link.
+2. Any button click leads to an advertisement page, not a download.
+3. There is no working download link.
+Recommendation: FilesDL is non‑functional. Close the tab and pick any other host from the Mirrored.to list.
+
+## 7. General Safety Guidelines for All Hosts
+These universal rules apply to every file host you may encounter:
+
+Before downloading:
+- Use a browser with built‑in ad blocking (Brave is highly recommended) for cleaner download experiences.
+- Ensure your browser's pop‑up blocker is enabled.
+- Never disable your ad blocker on request — some dangerous hosts demand this to serve malware.
+- Download from the Easy tier hosts whenever available.
+
+During the download:
+- Only click buttons that are part of the file host's official interface.
+- Close any unexpected pop‑ups or new tabs immediately.
+- Never install any software, browser extensions, or run any downloaded programs that appear during the process.
+- Never allow browser notifications from file host pages.
+- If a page asks for payment information, close it — this is not part of the download.
+
+After downloading:
+- Check the file extension matches what you expected (.mcpack, .mcaddon, .jar, .zip, .mcworld).
+- Scan any file from a Red tier host with antivirus software before opening.
+- Delete any unexpected files immediately.
+
+## 8. How MIA Handles Mirrored.to Links
+MIA (Minecraft Items Accelerated) rarely shares Mirrored.to links directly. MIA's policy is to share direct download links whenever possible, skipping the Mirrored.to intermediary entirely. If a creator has only provided a Mirrored.to link, MIA:
+
+- Recommends choosing from the Easy tier (Green) hosts shown in the Quick Start section.
+- Specifically recommends: Gofile.io, MediaFire.com, Send.now, Google Drive, or Dropbox.
+- Advises against using Hard/Danger (Red) tier hosts unless no other option exists.
+- Recommends Brave browser for its automatic ad blocking capabilities.
+
+## 9. Frequently Asked Questions
+Q: What is Mirrored.to?
+A: It's a service that uploads a file to many different hosting sites and presents them all as options for you to choose from.
+
+Q: Which host should I pick?
+A: Always pick from the Easy (Green) tier if available: Gofile.io, MediaFire.com, Send.now, Google Drive, or Dropbox. These are the cleanest and safest.
+
+Q: Do I need an account on any of these hosts?
+A: Most hosts do not require an account. The exception is 4shared.com (requires login). Google Drive may require a Google account for large files.
+
+Q: Why do some hosts have timers?
+A: File hosting services use timers to display ads before the download starts. This is how they generate revenue from free users. Wait for the timer to finish; the download will start afterwards.
+
+Q: Is it safe to download from the Red tier hosts?
+A: It's risky. Red tier hosts have NSFW ads, malicious pop‑ups, or may rename files to dangerous formats. We strongly recommend using an Easy or Medium host instead.
+
+Q: What should I do if a host opens a NSFW tab?
+A: Close the tab immediately. This is an advertisement, not part of the download. Try clicking the download button again, or choose a different host.
+
+Q: Can I get a virus from these downloads?
+A: The risk varies by host. Easy tier hosts are very safe. Red tier hosts, especially Upfiles.com and Upload.ee, have higher risks. Always scan files from Red hosts before opening.
+
+Q: Why do some hosts ask me to create an account?
+A: 4shared.com requires account creation. Most other hosts do not. If a host asks for account creation and it's not 4shared, you may be on a fake page — close it.
+
+Q: How does MIA help with Mirrored.to?
+A: MIA provides direct download links whenever possible, avoiding Mirrored.to entirely. If a Mirrored.to link is unavoidable, this guide helps you navigate each host safely.
+
+## Summary: The Mirrored.to Journey
+1. Receive a Mirrored.to link from the creator.
+2. The page displays 10‑16 hosting options categorized by difficulty.
+3. Choose a Green (Easy) host whenever possible.
+4. Follow the specific download steps for that host (detailed in this guide).
+5. Navigate any timers, captchas, or ad pages according to the host's instructions.
+6. Complete the download and save the file to your device.
+7. Verify the file extension matches your expectations.
+8. Import into Minecraft or install according to the file type.
+
+Best hosts: Gofile.io, MediaFire.com, Send.now, Google Drive, Dropbox.
+Hosts to avoid: Upfiles.com, Katfile.online, Megaup.net, Upload.ee, FilesDL.
+
+Stay safe, use Brave browser, and when in doubt, pick a Green host!

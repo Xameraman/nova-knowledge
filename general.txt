@@ -1,0 +1,222 @@
+MIA (Minecraft Items Accelerated) — Complete Platform Information
+
+## 1. What Is MIA?
+MIA stands for Minecraft Items Accelerated. It is a community‑driven Discord server and network of guide websites focused on making Minecraft Bedrock content fast, direct, organized, and safe to download. MIA was founded and is owned by Xameraman5022.
+
+MIA's core mission is to remove the friction from downloading Bedrock add‑ons, mods, texture packs, maps, and other content. Instead of navigating ad‑walls, link shorteners, fake download buttons, and confusing file hosts, MIA provides:
+- Direct download links whenever possible — no Linkvertise, no ad links
+- Manually verified files that are checked for quality and safety
+- Proper credit always given to original creators
+- Cleanly organized Discord channels by content category
+- Step‑by‑step guide websites for every major file host and platform
+- An AI‑powered chat assistant (MIA Helper) embedded on every guide site to answer questions instantly
+
+The MIA Discord server has approximately 179 members and is the central hub where new content is shared daily, questions are answered, and the community connects.
+
+## 2. MIA On Disboard
+MIA is publicly listed on Disboard (disboard.org), the largest public Discord server directory. Disboard allows users to discover Discord servers based on tags, categories, and keywords — and MIA is listed there to help Minecraft Bedrock players find the community.
+
+Server ID on Disboard: 1402293305785581721
+
+Being on Disboard means:
+- Players searching for "Minecraft Bedrock add‑ons," "MCPEDL," "texture packs," or similar keywords can discover MIA
+- The server is categorized under Minecraft‑related tags
+- New members can join directly from the Disboard listing
+- The server's visibility is boosted by the Disboard bot, which allows members to "bump" the server to the top of relevant listings
+
+## 3. Who Created MIA?
+MIA was created and is owned by Xameraman5022 (also known as Xameraman on GitHub). Key details:
+
+- Primary Discord identity: xameraman5022_alt_v2
+- GitHub: github.com/Xameraman — 77+ contributions in the last year, 8+ repositories created in May 2026 alone
+- YouTube: youtube.com/@xameraman5022 — 193+ subscribers, 22 videos showcasing Minecraft Bedrock packs and tutorials
+- All 10+ MIA guide sites are built and maintained personally
+- Bio page: https://xameraman.github.io/Official-Bio/
+- Central guides hub: https://xameraman.github.io/All-Mia-Guides/
+
+Xameraman5022's content focuses on Minecraft Bedrock pack showcases, tutorials, and making the download experience faster and safer for the community.
+
+## 4. The MIA Discord Server
+The MIA Discord server is the heart of the community. Key details:
+
+- Server name: Minecraft Items Accelerated [MIA]
+- Permanent invite: https://discord.gg/tS5WmGEyxN
+- Owner: Xameraman5022 (xameraman5022_alt_v2)
+- Member count: ~179 members
+- Online: ~21 members at typical times
+- Listed on: Disboard (Server ID: 1402293305785581721)
+
+Server features and structure:
+- Organized channels by content category — PvP, Shaders, Horror, Anime, Weapons, Bosses, and more
+- Fast, direct download links shared regularly — no Linkvertise, no ad links
+- All files are manually checked for quality and safety before sharing
+- Proper creator credit is always given in every post
+- Community support for installation help and troubleshooting
+- AI‑powered chat assistant (MIA Helper) available on all guide websites
+- Partnership channels for yFree and The Titans Club
+
+## 5. MIA's Guide Network
+MIA operates a network of 10 comprehensive, step‑by‑step guide websites, all hosted on GitHub Pages and built with a consistent Minecraft‑themed design (animated star backgrounds, pixel grass/dirt ground, purple glow MIA logo, interactive step navigation, tips, warnings, and MIA callout boxes).
+
+The full guide list (accessible from https://xameraman.github.io/All-Mia-Guides/):
+
+1. Java & Bedrock Import Guide — How to install every file type (.mcpack, .mcaddon, .mcworld, .jar, .zip) on both Java and Bedrock editions. Full step‑by‑step with device‑specific instructions.
+   URL: https://xameraman.github.io/mia-install-guide-java-n-bedrock/
+
+2. MCPEDL Guide — How to safely download from MCPEDL, the largest Bedrock content site. Covers finding packs, using "Skip to Download," picking versions, avoiding fake download buttons, and importing files.
+   URL: https://xameraman.github.io/Mia-guide-for-Mcpedl/
+
+3. Mirrored.to Guide — How to navigate 16 different file hosts, all ranked by safety into Easy (Green), Medium (Yellow), and Hard/Danger (Red) tiers. Includes step‑by‑step for every host and strong safety warnings.
+   URL: https://xameraman.github.io/Mia-official-guide-mirror.io/
+
+4. MediaFire Guide — How to spot the real blue download button, avoid fake banner ads, handle captchas, and safely download from one of the oldest file hosts.
+   URL: https://xameraman.github.io/Mia-official-guide-mediafire/
+
+5. Sub2Unlock Guide — How to complete social tasks (subscribe, follow, join) quickly, use the "smart skip" method, and unlock downloads. Includes Brave browser tips and FastForward extension recommendation.
+   URL: https://xameraman.github.io/Mia-Guide-for-Sub2unlock/
+
+6. Modrinth Guide — How to download Java mods, modpacks, resource packs, and shaders from Modrinth. Covers version checking, mod loader compatibility, the Modrinth App, and troubleshooting.
+   URL: https://xameraman.github.io/Mia-guide-for-modrinth/
+
+7. CurseForge Guide — How to download from CurseForge for both Java and Bedrock editions. Includes edition selector, compatibility checks, and the CurseForge App.
+   URL: https://xameraman.github.io/Mia-guide-for-curseforge/
+
+8. MEGA Guide — How to download from MEGA.nz, handle the ~5 GB per 6‑hour transfer quota, use the MEGA desktop and mobile apps, and import files.
+   URL: https://xameraman.github.io/mia-guide-for-meganz/
+
+9. Linkvertise Guide — How to navigate ad walls, complete tasks, handle errors like "Invalid Visit Detected," and unlock downloads safely. Covers all task types and troubleshooting.
+   URL: https://xameraman.github.io/Mia-guide-for-linkvertise/
+
+10. Proton Drive Guide — How to download from Proton Drive's encrypted, ad‑free platform. Explains browser‑side decryption delays, password protection, and mobile options.
+    URL: https://xameraman.github.io/Mia-guide-for-ProtonDrive/
+
+All guide sites feature the MIA AI assistant (Chatling, chatbot ID: 7411237892) embedded as a floating chat bubble in the bottom‑right corner, ready to answer questions about any guide topic.
+
+## 6. MIA Partnerships
+MIA has established partnerships with two other Discord communities:
+
+- yFree — A partner community (invite: https://discord.gg/3grtzmUapH)
+- The Titans Club — A partner community (invite: https://discord.gg/9xK7emRcNM)
+
+These partnerships expand MIA's reach and provide additional community spaces for members. Both are displayed on the official MIA bio page and linked from the main MIA landing site.
+
+## 7. MIA's YouTube Presence
+Xameraman5022 runs a YouTube channel focused on Minecraft Bedrock content:
+- Channel: youtube.com/@xameraman5022
+- Subscribers: 193+
+- Videos: 22
+- Content: Minecraft Bedrock pack showcases, tutorials, and download guides
+- Links from the channel lead to the MIA Discord server and guide sites
+
+## 8. The MIA AI Assistant (MIA Helper)
+Every MIA guide site and the official bio page feature the MIA Helper — an embedded AI chatbot powered by Chatling. Key details:
+
+- Chatbot ID: 7411237892
+- Platform: Chatling.ai (free tier)
+- Knowledge base: Trained on all 10 platform guides (Linkvertise, Modrinth, CurseForge, MCPEDL, MediaFire, Proton Drive, Sub2Unlock, MEGA, Mirrored.to, and the Java & Bedrock Import Guide) plus this MIA platform information document
+- The AI is instructed to answer only from the knowledge base, never invent steps, and never tell users to install apps or pay anything
+- If a question falls outside the guide, the AI suggests joining the MIA Discord for direct support
+- The AI uses warm, casual, reassuring language and is allowed light emojis (🌿, ✅, 🔧)
+- The same agent is used across ALL MIA sites — so training updates instantly benefit every guide
+
+## 9. MIA's Approach to Content & Credits
+MIA has a strict policy regarding creator credits:
+- Proper credit is always given to original pack creators in every Discord post
+- MIA never claims ownership of shared content
+- Direct links to the original creator's page (MCPEDL, CurseForge, Modrinth, etc.) are included whenever possible
+- The MIA community respects intellectual property and encourages users to support original creators
+
+MIA's content sourcing:
+- Content is curated from trusted Bedrock creators and platforms
+- All files are manually checked for quality and safety before being shared
+- MIA prioritizes direct download links (MediaFire, Google Drive, MEGA, Proton Drive) over ad‑walled links
+- When a creator uses Linkvertise or Sub2Unlock, MIA provides guides to help users navigate those safely
+
+## 10. Safety & Trust
+MIA's commitment to safety:
+- No Linkvertise or ad links in MIA‑shared content (when direct alternatives exist)
+- All shared files are manually checked before posting
+- Guide websites teach users how to identify fake download buttons, avoid malware, and stay safe on every platform
+- The AI assistant never tells users to install apps, browser extensions, or pay for anything
+- Brave browser is recommended throughout guides for its built‑in ad blocking
+- MIA educates users about dangerous hosts (Upfiles.com, Upload.ee, Katfile.online) and strongly recommends safer alternatives
+
+MIA's guide sites themselves are safe:
+- Hosted on GitHub Pages (no third‑party ads, no tracking)
+- The only external script is the Chatling AI assistant
+- All content is static HTML/CSS/JS with no user data collection
+- The animated background and pixel ground are purely decorative
+
+## 11. MIA's Values & Mission
+Core values:
+- Fast: Direct links, no unnecessary steps, quick access to content
+- Direct: No Linkvertise, no ad walls, no redirect chains (when possible)
+- Organized: Clean Discord channels by category, structured guide websites
+- Credited: Always naming original creators and linking to their pages
+- Safe: Files checked, dangerous hosts flagged, safety guidance everywhere
+- Community‑Driven: Growing through Discord, YouTube, Disboard, and word of mouth
+
+MIA's mission statement: "A hub for Minecraft Bedrock content with quick access downloads, proper creator credits, and structured categories — no clutter, no confusion."
+
+## 12. Frequently Asked Questions About MIA
+Q: What does MIA stand for?
+A: Minecraft Items Accelerated.
+
+Q: Who owns MIA?
+A: Xameraman5022 (also known as Xameraman on GitHub, xameraman5022_alt_v2 on Discord).
+
+Q: How do I join the MIA Discord server?
+A: Use the permanent invite link: https://discord.gg/tS5WmGEyxN
+
+Q: Is MIA free?
+A: Yes, completely free. There are no paid tiers, subscriptions, or hidden costs.
+
+Q: Does MIA create the add‑ons and mods?
+A: No. MIA curates and shares content from Bedrock creators, always giving proper credit. MIA does not claim ownership of any shared content.
+
+Q: How many guide websites does MIA have?
+A: 10 comprehensive guide websites covering Linkvertise, Modrinth, CurseForge, MCPEDL, MediaFire, Proton Drive, Sub2Unlock, MEGA, Mirrored.to, and a general Java & Bedrock Import Guide — plus an official bio page and a central guides hub.
+
+Q: Where can I find all the guides?
+A: The central hub is at https://xameraman.github.io/All-Mia-Guides/ — or from the bio page at https://xameraman.github.io/Official-Bio/
+
+Q: Is MIA on Disboard?
+A: Yes. MIA is listed on Disboard (Server ID: 1402293305785581721), making it discoverable for Minecraft players searching for Bedrock content.
+
+Q: Does MIA have a YouTube channel?
+A: Yes — youtube.com/@xameraman5022 (193+ subscribers, 22 videos).
+
+Q: What is the MIA AI Helper?
+A: An AI chatbot powered by Chatling (ID: 7411237892) embedded on every MIA guide site. It answers questions about downloading, installing, and troubleshooting using the comprehensive knowledge base built from all 10 guides and MIA platform information.
+
+Q: How can I get help if I'm stuck?
+A: Use the MIA AI Helper on any guide site, ask in the MIA Discord server, or check the guide site's step‑by‑step instructions.
+
+## 13. Summary: The MIA Ecosystem
+The complete MIA ecosystem at a glance:
+
+- Discord Server: https://discord.gg/tS5WmGEyxN (~179 members, ~21 online)
+- Disboard Listing: Server ID 1402293305785581721
+- YouTube: youtube.com/@xameraman5022 (193+ subscribers, 22 videos)
+- GitHub: github.com/Xameraman (77+ contributions, 8+ repos)
+- Bio Page: https://xameraman.github.io/Official-Bio/
+- Central Guides Hub: https://xameraman.github.io/All-Mia-Guides/
+- AI Chatbot: Chatling ID 7411237892 (embedded on all guide sites)
+
+10 Guide Sites:
+1. Import Guide: https://xameraman.github.io/mia-install-guide-java-n-bedrock/
+2. MCPEDL: https://xameraman.github.io/Mia-guide-for-Mcpedl/
+3. Mirrored.to: https://xameraman.github.io/Mia-official-guide-mirror.io/
+4. MediaFire: https://xameraman.github.io/Mia-official-guide-mediafire/
+5. Sub2Unlock: https://xameraman.github.io/Mia-Guide-for-Sub2unlock/
+6. Modrinth: https://xameraman.github.io/Mia-guide-for-modrinth/
+7. CurseForge: https://xameraman.github.io/Mia-guide-for-curseforge/
+8. MEGA: https://xameraman.github.io/mia-guide-for-meganz/
+9. Linkvertise: https://xameraman.github.io/Mia-guide-for-linkvertise/
+10. Proton Drive: https://xameraman.github.io/Mia-guide-for-ProtonDrive/
+
+Partnerships:
+- yFree: https://discord.gg/3grtzmUapH
+- The Titans Club: https://discord.gg/9xK7emRcNM
+
+MIA — Fast. Direct. Organized. Always crediting creators. No clutter, no confusion.

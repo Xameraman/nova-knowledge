@@ -1,0 +1,195 @@
+Proton Drive Complete Guide: How to Download from Proton Drive Safely
+
+## 1. What Is Proton Drive?
+Proton Drive is an end‑to‑end encrypted cloud storage service developed by Proton AG, the Swiss company behind Proton Mail, Proton VPN, Proton Calendar, and Proton Pass. Founded in 2014 by scientists who met at CERN, Proton is headquartered in Geneva, Switzerland. The company’s products are built on a foundation of privacy, security, and open‑source transparency.
+
+Proton Drive was launched in 2022 as the cloud storage component of the Proton ecosystem. Unlike many other file hosts, Proton Drive encrypts all files, file names, and metadata on the user’s device before they ever reach Proton’s servers. This means Proton cannot read your files — even if compelled by a legal order. Data is stored in secure data centers in Switzerland and Germany, protected by the world’s strongest privacy laws.
+
+Key facts:
+- Founded: 2014 (Proton AG), Proton Drive launched 2022
+- Headquarters: Geneva, Switzerland
+- Free storage: 5 GB with unlimited file sharing
+- Paid plans: 200 GB (Proton Unlimited) or up to 500 GB (Business plans)
+- End‑to‑end encryption for all files, file names, and metadata
+- Open‑source and audited (under the GNU GPLv3 license)
+- Zero ads, zero trackers
+- Available on web, Windows, macOS, Android, and iOS
+
+For Minecraft players, Proton Drive is increasingly used by creators who value privacy and want a clean, ad‑free download experience for their community. Unlike MediaFire or other hosts, Proton Drive pages have no banner ads, no fake download buttons, and no transfer quotas — every file shared can be downloaded in full.
+
+## 2. How Proton Drive Encryption Works
+Proton Drive’s encryption is unique among file hosts. Here’s what happens behind the scenes when you download a shared file:
+
+- File encryption: The creator’s files are encrypted on their device before upload. Proton Drive uses AES‑256 encryption for file content and RSA for key exchange.
+- Secure sharing: When a creator shares a file, Proton Drive generates an encrypted share link. The file remains encrypted on Proton’s servers — Proton never has the decryption key.
+- Your download: When you open a Proton Drive link, your browser downloads the encrypted file data. Your browser then uses cryptography (via the Web Crypto API) to decrypt the file locally, on your device, before saving.
+- The decryption delay: Because the file must be decrypted in your browser, downloads don’t start instantly. Your browser must first verify the file signature, decrypt the data, and then assemble the final file. This can take a few seconds for small files, and longer for large files, especially on mobile devices with limited processing power or memory.
+
+Important practical takeaway: If a Proton Drive download seems to "pause" or "not start," it’s usually because your browser is still decrypting the file. Wait — almost always, the download will begin after the decryption finishes.
+
+## 3. Proton Drive Features (Free & Paid)
+Proton Drive’s free plan includes:
+- 5 GB of encrypted storage
+- No file size limits for sharing
+- No bandwidth caps
+- Unlimited folder sharing via links
+- Password protection for shared links
+- Expiration dates for shared links (optional)
+- File version history (up to 10 versions)
+- Secure file previews for images and documents
+
+Paid plans (Proton Unlimited, Proton Drive Plus) add:
+- 200 GB or 500 GB of storage
+- Longer version history
+- Priority support
+- Additional Proton services (VPN, Mail, etc.)
+
+Proton Drive does not run advertisements. Revenue comes from paid subscriptions, not from selling user data or displaying ads on download pages. This is why Proton Drive download pages are clean, simple, and free of deceptive elements.
+
+## 4. Proton Drive Download Pages
+When you receive a Proton Drive share link, the page is intentionally simple:
+
+- File name and file size are displayed prominently.
+- A single “Download” button (usually colored) is the only interactive element you need.
+- There are no banner ads, no fake download buttons, no countdowns, and no external redirects.
+- If the creator enabled a password, a password field will appear first. Enter the password to proceed.
+- After clicking Download, the file processes (decryption) and then saves.
+
+This simplicity makes Proton Drive one of the safest and easiest file hosts to navigate. The only common confusion is the initial decryption delay.
+
+## 5. Password‑Protected Links
+Proton Drive allows creators to set a password for shared links. If you encounter a password prompt:
+
+- The creator intentionally set this password. It is not a paywall, ad, or scam.
+- Contact the sharer to obtain the password.
+- Enter the password and click “Submit” or “Authenticate.” The file page will then load as normal with the Download button visible.
+
+In MIA’s guides, if a Proton Drive link is password‑protected, MIA will include the password in the same post that shares the link. You won’t need to guess.
+
+## 6. Download Process (Step‑by‑Step)
+Step 1: Open the Proton Drive link. The URL typically contains “drive.proton.me” or “proton.drive”.
+
+Step 2: If prompted for a password, enter it and submit.
+
+Step 3: The file page appears with the file name, size, and a Download button. There are no ads or other distractions.
+
+Step 4: Click the Download button.
+
+Step 5: Your browser will now decrypt the file. This may take a few seconds to a minute depending on file size and your device’s processing power. The download progress may not show immediately — wait patiently.
+
+Step 6: Once decryption is complete, the download starts (or your browser asks where to save). Save the file to your Downloads folder or preferred location.
+
+Step 7: After the download, locate the file and proceed with installation according to your edition (Bedrock or Java).
+
+## 7. Troubleshooting Common Issues
+Download not starting (seems stuck):
+- The file is being decrypted in your browser. Wait. This delay is expected.
+- For very large files (>1 GB), decryption can take several minutes on slower devices. Be patient.
+- If nothing happens after 5 minutes, try refreshing the page once. Refreshing does not restart any progress because the file needs to be downloaded again anyway.
+- Switch to a faster internet connection (Wi‑Fi) or use a different browser.
+
+Slow download speeds:
+- Proton Drive itself does not limit speeds, but your internet connection may be slow.
+- Try downloading at a different time when your network is less congested.
+- For very large files, consider using a desktop browser rather than a mobile device.
+
+Browser compatibility issues:
+- Proton Drive works best on modern browsers: Chrome, Firefox, Edge, Brave, and Safari.
+- On iOS, Safari may sometimes have trouble with large decryptions. Use Chrome for iOS or the Proton Drive app as a fallback.
+- Ensure JavaScript is enabled (required for client‑side decryption).
+
+“Access Denied” or “Link Invalid”:
+- The creator may have set an expiration date on the link, and it may have passed.
+- The creator may have revoked access to the file.
+- The link may have been typed incorrectly. Double‑check the URL.
+- If the link is public but still gives access denied, ask the creator to verify the sharing settings.
+
+Password prompt appears but no password was given:
+- Contact the sharer. Proton Drive passwords are set by the file owner and are not sent automatically. You must obtain the password from the person who shared the link.
+
+## 8. Mobile‑Specific Guidance
+Mobile users may notice longer decryption delays due to limited device memory and processing power.
+
+Android:
+- Use Chrome or Brave browser. These handle Proton Drive downloads well.
+- After tapping Download, wait for the decryption to complete. The file will save to your Downloads folder.
+- For easier file management, install a file manager like ZArchiver.
+- Alternative: Install the Proton Drive app (free, no account needed). When you open a Proton Drive link, it may redirect to the app, where downloads can be more stable.
+
+iOS (iPhone/iPad):
+- Safari can handle Proton Drive downloads but may be slower. For best results, use Chrome for iOS.
+- After processing, the file will appear in the Downloads section of the Files app.
+- If the download seems stuck, close Safari and try Chrome.
+- The Proton Drive app for iOS is also available and can provide a smoother experience for repeated downloads.
+
+## 9. Proton Drive vs Other File Hosts
+Proton Drive compared to MediaFire:
+- MediaFire: Free tier has ads, fake download buttons are common, no encryption.
+- Proton Drive: No ads, no fake buttons, end‑to‑end encrypted, clean interface.
+
+Proton Drive compared to Google Drive:
+- Google Drive: Large storage, convenient, but Google can scan your files for analytics and may show targeted ads.
+- Proton Drive: End‑to‑end encryption means Proton cannot read your files. Privacy‑focused, but smaller free storage (5 GB vs 15 GB).
+
+Proton Drive compared to Dropbox:
+- Dropbox: Widely used, good collaboration features, but file scanning is possible.
+- Proton Drive: Built on privacy, encrypted by default, no file scanning.
+
+For Minecraft creators and players who value privacy and a clean download experience, Proton Drive is an excellent choice. It’s particularly useful for sharing add‑ons and mods without subjecting users to ads or fake buttons.
+
+## 10. Proton Drive and MIA
+MIA (Minecraft Items Accelerated) shares Proton Drive links for add‑ons and mods because:
+
+- Proton Drive links are clean, safe, and ad‑free, matching MIA’s values.
+- No Linkvertise or similar is needed when using Proton Drive — the experience is already direct and simple.
+- MIA verifies Proton Drive links before sharing, ensuring files are correct and safe.
+- If a password is required, MIA includes it alongside the link in posts.
+
+MIA’s recommendation: If you see a Proton Drive link shared in MIA, you can trust it. The page will have no ads, no tricks, and the download will be secure.
+
+## 11. Security & Privacy
+Proton Drive’s commitment to privacy means:
+
+- All files are encrypted before leaving the creator’s device. Proton cannot access file contents.
+- Downloaded files are decrypted in your browser, so even during transfer, the data is encrypted.
+- Proton Drive is open‑source (GNU GPLv3) and has undergone public security audits.
+- Swiss privacy laws protect user data — Switzerland is not part of the EU or the Five Eyes surveillance alliance.
+- No user data is sold or shared with third parties. Proton’s business model is subscription‑based, not ad‑based.
+
+For users, this means the download is safe: the file you receive has not been tampered with or scanned by the host.
+
+## 12. Frequently Asked Questions
+Q: Do I need a Proton account to download?
+A: No. You can download any shared file without a Proton account. Accounts are only needed to upload and manage files.
+
+Q: Is Proton Drive really free?
+A: Yes. The free plan gives you 5 GB of storage and unlimited sharing. There are no hidden costs.
+
+Q: Why does the download take so long to start?
+A: Because the file is being decrypted in your browser. This is a privacy feature, not a bug. Wait for decryption to finish.
+
+Q: Are there ads on Proton Drive download pages?
+A: No. Proton Drive has zero ads. The download page is clean and contains only the file name, size, and a Download button.
+
+Q: Can I download on my phone?
+A: Yes. Use Chrome or the Proton Drive app. Note that decryption may take longer on older phones.
+
+Q: What if I get an “Access Denied” error?
+A: The link may have expired, been revoked, or the sharing settings were changed. Contact the person who shared the link.
+
+Q: Is Proton Drive safer than MediaFire?
+A: Proton Drive is end‑to‑end encrypted and has no ads, making it significantly safer against malware and deceptive ads. MediaFire is also safe but requires users to navigate around ads.
+
+Q: Can I share Proton Drive links myself?
+A: Yes, if you have a Proton account. You can upload files and generate share links with optional password protection and expiration dates.
+
+## Summary: The Proton Drive Journey
+1. Receive a Proton Drive link (drive.proton.me)
+2. If prompted, enter the password provided by the sharer
+3. Arrive at the clean download page — no ads, no fake buttons
+4. Click the Download button
+5. Wait for browser decryption (a few seconds to a few minutes)
+6. Once decryption finishes, save the file
+7. Import into Minecraft (tap .mcpack/.mcaddon for Bedrock, place .jar in mods folder for Java)
+
+Proton Drive: The privacy‑focused, ad‑free, encrypted cloud storage that gives you a clean, safe download every time.
