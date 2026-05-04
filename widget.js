@@ -1,5 +1,5 @@
 (function () {
-  const API_URL = 'https://xameraman-mia-assistant.hf.space/chat';
+  const API_URL = 'https://xameraman5022-mia-assistant.hf.space/chat';
   const scriptTag = document.currentScript;
   const SOURCE = (scriptTag && scriptTag.getAttribute('data-source')) || 'general';
 
