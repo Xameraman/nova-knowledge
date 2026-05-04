@@ -7,6 +7,7 @@
   let isOpen = false;
   let isLoading = false;
 
+  // ── CSS (same as before, but avatar now holds an <img>) ──
   const style = document.createElement('style');
   style.textContent = `
     #mia-widget-btn {
@@ -47,11 +48,11 @@
       border-bottom:1px solid rgba(255,255,255,0.07); flex-shrink:0;
     }
     #mia-avatar {
-      width:36px; height:36px; border-radius:50%;
-      background:linear-gradient(135deg,#9B4FDB,#5865F2);
-      display:flex; align-items:center; justify-content:center;
-      font-size:18px; flex-shrink:0;
-      box-shadow:0 0 12px rgba(155,79,219,0.5);
+      width:36px; height:36px; border-radius:50%; overflow:hidden;
+      flex-shrink:0; box-shadow:0 0 12px rgba(155,79,219,0.5);
+    }
+    #mia-avatar img {
+      width:100%; height:100%; object-fit:cover;
     }
     #mia-panel-title { font-weight:900; font-size:14px; color:#fff; line-height:1.2; }
     #mia-panel-sub { font-size:11px; color:rgba(255,255,255,0.45); margin-top:2px; }
@@ -61,9 +62,7 @@
       box-shadow:0 0 6px #47C96B;
       animation: mia-blink 2s ease-in-out infinite;
     }
-    @keyframes mia-blink {
-      0%,100%{opacity:1} 50%{opacity:0.4}
-    }
+    @keyframes mia-blink { 0%,100%{opacity:1} 50%{opacity:0.4} }
     #mia-messages {
       flex:1; overflow-y:auto; padding:14px 14px 8px;
       display:flex; flex-direction:column; gap:10px;
@@ -142,11 +141,14 @@
   `;
   document.head.appendChild(style);
 
+  // ── HTML (avatar now uses mia-logo.jpg, button uses 🤖) ──
   document.body.insertAdjacentHTML('beforeend', `
-    <button id="mia-widget-btn" title="Chat with MIA Assistant">🌿</button>
+    <button id="mia-widget-btn" title="Chat with MIA Assistant">🤖</button>
     <div id="mia-widget-panel">
       <div id="mia-panel-header">
-        <div id="mia-avatar">🌿</div>
+        <div id="mia-avatar">
+          <img src="mia-logo.jpg" alt="MIA">
+        </div>
         <div>
           <div id="mia-panel-title">MIA Assistant</div>
           <div id="mia-panel-sub">Minecraft Items Accelerated</div>
@@ -160,10 +162,11 @@
         <textarea id="mia-input" placeholder="Ask me anything..." rows="1"></textarea>
         <button id="mia-send">➤</button>
       </div>
-      <div id="mia-footer-note">MIA AI • Powered by Gemini</div>
+      <div id="mia-footer-note">MIA Assistance</div>
     </div>
   `);
 
+  // ── JavaScript (logic unchanged except toggle icon) ──
   const btn     = document.getElementById('mia-widget-btn');
   const panel   = document.getElementById('mia-widget-panel');
   const msgs    = document.getElementById('mia-messages');
@@ -173,7 +176,7 @@
   btn.addEventListener('click', () => {
     isOpen = !isOpen;
     panel.classList.toggle('mia-open', isOpen);
-    btn.textContent = isOpen ? '✕' : '🌿';
+    btn.textContent = isOpen ? '✕' : '🤖';
     if (isOpen) { input.focus(); scrollToBottom(); }
   });
 
