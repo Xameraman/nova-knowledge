@@ -7,7 +7,7 @@
   let isOpen = false;
   let isLoading = false;
 
-  // ── CSS (same as before, but avatar now holds an <img>) ──
+  // ── CSS ──
   const style = document.createElement('style');
   style.textContent = `
     #mia-widget-btn {
@@ -141,7 +141,7 @@
   `;
   document.head.appendChild(style);
 
-  // ── HTML (avatar now uses mia-logo.jpg, button uses 🤖) ──
+  // ── HTML ──
   document.body.insertAdjacentHTML('beforeend', `
     <button id="mia-widget-btn" title="Chat with MIA Assistant">🤖</button>
     <div id="mia-widget-panel">
@@ -166,7 +166,7 @@
     </div>
   `);
 
-  // ── JavaScript (logic unchanged except toggle icon) ──
+  // ── JavaScript ──
   const btn     = document.getElementById('mia-widget-btn');
   const panel   = document.getElementById('mia-widget-panel');
   const msgs    = document.getElementById('mia-messages');
