@@ -30,7 +30,7 @@ MIA was created and is owned by Xameraman5022 (also known as Xameraman on GitHub
 - Primary Discord identity: xameraman5022_alt_v2
 - GitHub: github.com/Xameraman — 77+ contributions in the last year, 8+ repositories created in May 2026 alone
 - YouTube: youtube.com/@xameraman5022 — 193+ subscribers, 22 videos showcasing Minecraft Bedrock packs and tutorials
-- All 10+ MIA guide sites are built and maintained personally
+- All 11 MIA guide sites are built and maintained personally
 - Bio page: https://xameraman.github.io/Official-Bio/
 - Central guides hub: https://xameraman.github.io/All-Mia-Guides/
 
@@ -56,7 +56,7 @@ Server features and structure:
 - Partnership channels for yFree and The Titans Club
 
 ## 5. MIA's Guide Network
-MIA operates a network of 10 comprehensive, step‑by‑step guide websites, all hosted on GitHub Pages and built with a consistent Minecraft‑themed design (animated star backgrounds, pixel grass/dirt ground, purple glow MIA logo, interactive step navigation, tips, warnings, and MIA callout boxes).
+MIA operates a network of 11 comprehensive, step‑by‑step guide websites, all hosted on GitHub Pages and built with a consistent Minecraft‑themed design (animated star backgrounds, pixel grass/dirt ground, purple glow MIA logo, interactive step navigation, tips, warnings, and MIA callout boxes).
 
 The full guide list (accessible from https://xameraman.github.io/All-Mia-Guides/):
 
@@ -90,6 +90,9 @@ The full guide list (accessible from https://xameraman.github.io/All-Mia-Guides/
 10. Proton Drive Guide — How to download from Proton Drive's encrypted, ad‑free platform. Explains browser‑side decryption delays, password protection, and mobile options.
     URL: https://xameraman.github.io/Mia-guide-for-ProtonDrive/
 
+11. Urlspay Guide — How to unlock Urlspay links, skip the timers, avoid popup ads, and reach the actual file. Urlspay is a paid URL shortener (similar to Linkvertise and Adf.ly) where visitors must go through 3–5 unlock rounds (waiting, scrolling, verifying) before reaching the final download. Urlspay has a slightly low trust score on Scamadviser — MIA never shares Urlspay links and only provides this guide to help users who encounter them elsewhere. The guide includes step‑by‑step unlock instructions, scam warnings, and safety notes.
+    URL: https://xameraman.github.io/Mia-guide-for-Urlspay/
+
 All guide sites feature the MIA AI assistant (Chatling, chatbot ID: 7411237892) embedded as a floating chat bubble in the bottom‑right corner, ready to answer questions about any guide topic.
 
 ## 6. MIA Partnerships
@@ -113,7 +116,7 @@ Every MIA guide site and the official bio page feature the MIA Helper — an emb
 
 - Chatbot ID: 7411237892
 - Platform: Chatling.ai (free tier)
-- Knowledge base: Trained on all 10 platform guides (Linkvertise, Modrinth, CurseForge, MCPEDL, MediaFire, Proton Drive, Sub2Unlock, MEGA, Mirrored.to, and the Java & Bedrock Import Guide) plus this MIA platform information document
+- Knowledge base: Trained on all 11 platform guides (Linkvertise, Modrinth, CurseForge, MCPEDL, MediaFire, Proton Drive, Sub2Unlock, MEGA, Mirrored.to, Urlspay, and the Java & Bedrock Import Guide) plus this MIA platform information document
 - The AI is instructed to answer only from the knowledge base, never invent steps, and never tell users to install apps or pay anything
 - If a question falls outside the guide, the AI suggests joining the MIA Discord for direct support
 - The AI uses warm, casual, reassuring language and is allowed light emojis (🌿, ✅, 🔧)
@@ -130,11 +133,11 @@ MIA's content sourcing:
 - Content is curated from trusted Bedrock creators and platforms
 - All files are manually checked for quality and safety before being shared
 - MIA prioritizes direct download links (MediaFire, Google Drive, MEGA, Proton Drive) over ad‑walled links
-- When a creator uses Linkvertise or Sub2Unlock, MIA provides guides to help users navigate those safely
+- When a creator uses Linkvertise, Sub2Unlock, or Urlspay, MIA provides guides to help users navigate those safely
 
 ## 10. Safety & Trust
 MIA's commitment to safety:
-- No Linkvertise or ad links in MIA‑shared content (when direct alternatives exist)
+- No Linkvertise, Urlspay, or ad links in MIA‑shared content (when direct alternatives exist)
 - All shared files are manually checked before posting
 - Guide websites teach users how to identify fake download buttons, avoid malware, and stay safe on every platform
 - The AI assistant never tells users to install apps, browser extensions, or pay for anything
@@ -175,7 +178,7 @@ Q: Does MIA create the add‑ons and mods?
 A: No. MIA curates and shares content from Bedrock creators, always giving proper credit. MIA does not claim ownership of any shared content.
 
 Q: How many guide websites does MIA have?
-A: 10 comprehensive guide websites covering Linkvertise, Modrinth, CurseForge, MCPEDL, MediaFire, Proton Drive, Sub2Unlock, MEGA, Mirrored.to, and a general Java & Bedrock Import Guide — plus an official bio page and a central guides hub.
+A: 11 comprehensive guide websites covering Linkvertise, Modrinth, CurseForge, MCPEDL, MediaFire, Proton Drive, Sub2Unlock, MEGA, Mirrored.to, Urlspay, and a general Java & Bedrock Import Guide — plus an official bio page and a central guides hub.
 
 Q: Where can I find all the guides?
 A: The central hub is at https://xameraman.github.io/All-Mia-Guides/ — or from the bio page at https://xameraman.github.io/Official-Bio/
@@ -187,7 +190,7 @@ Q: Does MIA have a YouTube channel?
 A: Yes — youtube.com/@xameraman5022 (193+ subscribers, 22 videos).
 
 Q: What is the MIA AI Helper?
-A: An AI chatbot powered by Chatling (ID: 7411237892) embedded on every MIA guide site. It answers questions about downloading, installing, and troubleshooting using the comprehensive knowledge base built from all 10 guides and MIA platform information.
+A: An AI chatbot powered by Chatling (ID: 7411237892) embedded on every MIA guide site. It answers questions about downloading, installing, and troubleshooting using the comprehensive knowledge base built from all 11 guides and MIA platform information.
 
 Q: How can I get help if I'm stuck?
 A: Use the MIA AI Helper on any guide site, ask in the MIA Discord server, or check the guide site's step‑by‑step instructions.
@@ -203,7 +206,7 @@ The complete MIA ecosystem at a glance:
 - Central Guides Hub: https://xameraman.github.io/All-Mia-Guides/
 - AI Chatbot: Chatling ID 7411237892 (embedded on all guide sites)
 
-10 Guide Sites:
+11 Guide Sites:
 1. Import Guide: https://xameraman.github.io/mia-install-guide-java-n-bedrock/
 2. MCPEDL: https://xameraman.github.io/Mia-guide-for-Mcpedl/
 3. Mirrored.to: https://xameraman.github.io/Mia-official-guide-mirror.io/
@@ -214,6 +217,7 @@ The complete MIA ecosystem at a glance:
 8. MEGA: https://xameraman.github.io/mia-guide-for-meganz/
 9. Linkvertise: https://xameraman.github.io/Mia-guide-for-linkvertise/
 10. Proton Drive: https://xameraman.github.io/Mia-guide-for-ProtonDrive/
+11. Urlspay: https://xameraman.github.io/Mia-guide-for-Urlspay/
 
 Partnerships:
 - yFree: https://discord.gg/3grtzmUapH
