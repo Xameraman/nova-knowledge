@@ -1,0 +1,317 @@
+URLSPAY GUIDE — MIA KNOWLEDGE FILE
+==================================
+
+WHAT IS URLSPAY
+---------------
+Urlspay is a completely free URL shortener that pays you for every click your
+links receive. It's a "pay-per-view" shortener — similar to Linkvertise, Adf.ly,
+and Shorte.st — where visitors must go through several unlock pages (with timers,
+verification steps, and ads) before reaching the final content. The creator earns
+money per view: Urlspay claims up to $20 per 1,000 views from global traffic.
+
+Urlspay explicitly advertises itself as "High CPM Url Shortner With Simple Pages"
+and operates in 3 steps: create an account, create a short link, and share it.
+As of its last reported stats, the platform has served over 4.5 million total
+clicks, hosts over 939,000 shortened URLs, and has around 14,000 registered users.
+
+Q: What is Urlspay?
+A: Urlspay is a free URL shortener that pays creators when people click
+their links. Visitors complete unlock steps (timers, scrolling, verification)
+before reaching the final destination. It is similar to Linkvertise, Adf.ly,
+and Shorte.st but has its own unique unlock flow.
+
+Q: Is Urlspay safe or a scam?
+A: Urlspay has a TRUST SCORE OF 47/100 on Scamadviser (considered "slightly
+low"). Here's the breakdown of what was found:
+- SSL Certificate: VALID (Google Trust Services, DV SSL)
+- Hosting: Cloudflare (reputable provider)
+- Domain Registered: July 8, 2024 (relatively new — about 1 year old)
+- Registrar: NameCheap — but the SAME registrar is used by several known
+  spammers and scammers, which lowered the trust rating
+- Visitor Traffic: LOW Tranco ranking (few visitors)
+- Payment Methods: PayPal and credit cards (considered safe, you may be able
+  to dispute charges)
+- Cryptocurrency services detected (considered HIGH RISK by Scamadviser)
+- Some user reviews on Trustindex call it a "scam," claiming accounts were
+  cancelled without reason and unauthorized charges made
+- Trustpilot rating: "Poor" at 1.9/5 — users report zero customer service,
+  ignored emails and social media messages
+- However, one Partnerkin reviewer gave positive feedback about payment
+  reliability and responsive support
+VERDICT: Be extremely cautious. Never enter personal or financial information
+beyond what's required for a free account. Do NOT pay for any "upgrades" or
+"premium" features. Many users report losing money.
+
+Q: Does MIA share Urlspay links?
+A: No. MIA only shares direct download links. Urlspay, Linkvertise, and
+similar monetized redirect services are NOT shared in MIA. MIA's policy
+requires direct links only — no ad walls, no link shorteners, no paid
+redirect services. If you found a Urlspay link through MIA, please report it.
+
+Q: Why would someone use Urlspay instead of a direct link?
+A: Creators use Urlspay to earn money from their shared content. Every
+time someone clicks their link and completes the unlock process, the
+creator earns a small amount. Urlspay advertises this as "make money from
+home." This is common in the Minecraft modding and addon community, though
+MIA always provides direct alternatives.
+
+Q: How much does Urlspay pay creators?
+A: Urlspay claims "up to $20 per 1,000 views." The 5% referral program gives
+you a lifetime 5% commission on earnings from anyone you refer. Minimum payout
+is only $5 via PayPal. However, actual user reports vary — some say they never
+received payouts, while one Partnerkin reviewer reported successful payments.
+
+
+HOW URLSPAY WORKS (FOR CREATORS)
+---------------------------------
+Urlspay operates in 3 simple steps:
+1. Create a free account
+2. Shorten your link (turns long URLs into unique short links)
+3. Share your link on forums, websites, or with friends and earn money per click
+
+Features Urlspay advertises to creators:
+- Administration Panel: Control all features from a dashboard
+- Detailed Stats: Analyze traffic sources, income, and strategies
+- Low Minimum Payout: Only $5 needed before you can cash out via PayPal
+- Highest Rates: Always increasing CPM rates
+- API Access: Shorten links programmatically
+- 5% Referral Bonus: Earn 5% of your referrals' earnings for life
+- Support: Dedicated support team (though user reviews contradict this)
+
+
+HOW URLSPAY WORKS (FOR VISITORS)
+--------------------------------
+When you click a Urlspay link, you are taken to an intermediate page
+(not the final content). You must complete several rounds of unlocking
+before being redirected to the actual file or website.
+
+Each unlock round typically involves:
+- Waiting for a countdown timer (usually around 20 seconds)
+- Scrolling to the bottom of the page
+- Clicking "Verify" or a similar button
+- Waiting again for the button to change
+- Clicking "Continue" or "Unlock Link"
+
+This process repeats 3 to 5 times before you reach the final link.
+
+Q: How many times do I have to unlock?
+A: Usually 3 to 5 rounds. Each round follows the same pattern:
+wait, scroll, verify, continue. The exact number varies by link.
+
+Q: Why does Urlspay make me wait so long?
+A: The waiting time and repeated steps are designed to show you
+advertisements. The creator earns money from these ad views. This is
+how the entire Urlspay business model works. It's the "High CPM" model
+— more ad views = higher earnings for the link creator.
+
+Q: Does Urlspay use cryptocurrency?
+A: Scamadviser detected cryptocurrency-related services on the site, which
+they consider high-risk. If you encounter crypto-related prompts or offers
+during the unlock process, avoid engaging with them.
+
+
+STEP-BY-STEP GUIDE TO UNLOCK A URLSPAY LINK
+-------------------------------------------
+
+Step 1 — Open the Link Properly
+If you opened the link inside an app like YouTube, Discord, or
+Instagram, the in-app browser may cause problems:
+- Tap the three dots (⋮) menu in the top right
+- Select "Open in Chrome" or "Open in Browser"
+- If on iPhone, tap the Safari icon to open externally
+
+Always use Chrome or Safari — in-app browsers can break the unlock
+process.
+
+Q: The link won't open in the in-app browser. What do I do?
+A: Tap the three dots menu and choose "Open in Chrome" or "Open in
+external browser". In-app browsers (YouTube, Discord, Instagram) often
+block the scripts needed for the unlock flow.
+
+Q: Can I use Firefox or another browser?
+A: Yes, any modern browser works. Chrome is recommended because it's
+the most compatible with these types of link services. Safari on
+iPhone also works fine.
+
+
+Step 2 — Initial Verification
+When you first land on the Urlspay page:
+- Wait a few seconds for the page to fully load
+- A "Continue to Content" or similar button will appear
+- Press it after verification completes
+
+Sometimes this step shows a brief "verifying your browser" message.
+Just wait — it usually takes 3–5 seconds.
+
+Q: The page just shows a blank screen or keeps loading forever.
+A: Try refreshing the page. If that doesn't work, close the tab and
+open the link again in Chrome. Also disable any ad blockers
+temporarily — they can interfere with the verification.
+
+
+Step 3 — First Unlock
+- Wait about 20 seconds (a countdown timer may be visible)
+- Tap the "Unlock Link" button when it becomes active
+- Scroll all the way to the bottom of the page
+- Press the "Verify" button
+- Wait a moment while the button processes
+- The button will change to "Continue" — press it
+
+Important: Always scroll to the very bottom. Some buttons are hidden
+below the visible area and you may miss them if you don't scroll.
+
+Q: I scrolled down but can't find the Verify button.
+A: Scroll slowly and look carefully near the bottom of the page.
+Sometimes the button is small or placed after a block of ads. If you
+still can't find it, try zooming out or rotating your phone to
+landscape mode.
+
+Q: The timer keeps resetting.
+A: This can happen if you switch tabs or your phone screen turns off.
+Stay on the page until the timer completes. Don't minimize the
+browser or switch to another app during the countdown.
+
+
+Step 4 — Repeat the Unlock Process
+You will go through this cycle multiple times (usually 3 to 5 rounds).
+Each round follows the exact same pattern:
+
+1. Wait approximately 20 seconds
+2. Tap "Unlock Link"
+3. Scroll all the way to the bottom
+4. Press "Verify"
+5. Wait for verification to complete
+6. Press "Continue" when it appears
+
+The page may look slightly different each round, but the steps are
+always the same. Don't get discouraged — this is normal for Urlspay.
+
+Q: I've done this 5 times and it's still not done. Am I stuck?
+A: Some links require up to 7 rounds. If it goes beyond 7 rounds
+without reaching the final page, the link may be broken or the system
+may be glitching. Try refreshing the page and starting over, or
+contact the person who shared the link for a direct alternative.
+
+Q: The button says something different like "Get Link" or "Access
+Content". Is that normal?
+A: Yes. The exact button text varies. Common variations include:
+"Unlock Link", "Get Link", "Continue to Content", "Access Now",
+"Get Access", "Download". All of them serve the same purpose.
+
+
+Step 5 — Final Step
+After the last unlock round:
+- Press "Unlock Link" one more time
+- Scroll down to the bottom
+- Press "Continue" or "Get Link"
+- You will be redirected to the actual file, download page, or
+destination website
+
+If the final destination is a file download, your browser may ask
+where to save it. If it's another website, it will open normally.
+
+Q: I reached the final page but it's just another ad site.
+A: Some Urlspay links are set up by malicious users who stack multiple
+redirect services. If you land on another unlock page (like
+Linkvertise), the creator chained multiple services together. MIA
+never shares links like this — always request a direct link instead.
+
+
+URLSPAY BY THE NUMBERS (FROM THEIR WEBSITE)
+--------------------------------------------
+- Total Clicks Served: 4,583,723+
+- Total URLs Shortened: 939,679+
+- Registered Users: 14,132+
+- Payout Rate: Up to $20 per 1,000 views
+- Minimum Payout: $5 via PayPal
+- Referral Commission: 5% of referred users' earnings (for life)
+- Domain Registered: July 8, 2024 (through NameCheap)
+- Hosting: Cloudflare
+- SSL: Google Trust Services (DV SSL)
+
+
+MIA RESOURCES
+-------------
+For a detailed visual guide on unlocking Urlspay links (with step‑by‑step
+pictures and extra tips), visit the official MIA Urlspay Guide:
+https://xameraman.github.io/Mia-guide-for-Urlspay/
+
+
+IMPORTANT NOTES AND WARNINGS
+----------------------------
+
+Ads and Popups
+During the unlock process, popup ads or new tabs may open:
+- DO NOT click on any ads
+- DO NOT download anything from popups
+- Close popup tabs immediately
+- Never enter personal information, email, or phone number
+
+Popups are part of how Urlspay generates revenue for the link creator.
+They are annoying but can be safely closed.
+
+Q: A popup says my phone is infected with a virus. Is it real?
+A: No. This is a fake scare tactic ad. Do not click anything on it.
+Close the tab immediately. These ads try to trick you into downloading
+malicious software. Your phone is not infected.
+
+Q: The page asked me to install a Chrome extension. Should I?
+A: No! Never install browser extensions or apps from link shortener
+pages. These are usually adware, spyware, or malware. Close the tab.
+
+If Stuck or Progress Resets
+- Refresh the page by swiping down or pressing the reload button
+- Make sure you're using Chrome or an external browser, not an
+in-app browser
+- If your screen times out or you switch tabs, the timer may reset
+- Close all tabs and start fresh if needed
+
+Q: My progress keeps resetting after I complete a round. Why?
+A: This usually happens because of:
+- Using an in-app browser (always switch to Chrome/Safari)
+- Having cookies blocked (Urlspay uses cookies to track progress)
+- Using a VPN or proxy (some are blocked)
+- Having an ad blocker enabled (try disabling it temporarily)
+
+Q: Can I use an ad blocker with Urlspay?
+A: Ad blockers can break the unlock flow because Urlspay relies on
+showing ads. If you're stuck, try temporarily disabling your ad
+blocker for the unlock process, then re-enable it afterwards.
+
+Scam & Safety Warnings
+Urlspay has a LOW TRUST SCORE (47/100 on Scamadviser). Documented issues:
+- Some users report being charged without authorization after signing up
+- Trustindex reviewers call it a "scam" with accounts cancelled randomly
+- Trustpilot rating: "Poor" (1.9/5) — complaints about nonexistent support
+- The registrar (NameCheap) hosts many low-reputation sites
+- Cryptocurrency services on the site are flagged as HIGH RISK
+- Domain is relatively new (registered July 2024)
+RECOMMENDATION: Never pay Urlspay for any upgrade or premium service.
+If you want to use it as a creator, accept that payouts may never arrive.
+For visitors: never enter payment info or personal details.
+
+Using Chrome (Recommended)
+Always use Chrome or your device's default browser — not an in-app
+browser. In-app browsers found in apps like YouTube, Discord, TikTok,
+Instagram, and Facebook often break the scripts that run the countdown
+timers and verification buttons.
+
+Desktop vs Mobile
+The unlock process works on both desktop and mobile. On desktop:
+- You may see more ads and popup windows
+- A popup blocker browser extension is recommended
+- The "scroll to bottom" step is easier since you can see more of
+the page at once
+
+On mobile:
+- Popup redirects are harder to manage
+- Stay on the same tab — switching apps resets the timer
+- Rotate to landscape if buttons are cut off
+
+Final Tip
+If you encounter a Urlspay link and don't want to deal with the
+unlock process, ask the person who shared it if they have a direct
+download link instead. MIA's policy is to always provide direct
+links without any ad walls or paid redirect services. If you found
+the link through MIA and it redirects to Urlspay, please report it
+to MIA staff — it violates MIA's direct-link-only policy.
