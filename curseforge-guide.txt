@@ -1,283 +1,93 @@
-CurseForge Complete Guide: Platform Overview, History, Editions, and Download Steps
+WHAT IS CURSEFORGE
 
-## 1. What Is CurseForge?
-CurseForge is the largest and most well‑known platform for downloading Minecraft modifications and related content. Originally founded as a World of Warcraft add‑on site in 2007, it was acquired by Twitch in 2016 and then by Overwolf in 2020. For Minecraft specifically, CurseForge hosts mods, modpacks, resource packs, shaders, data packs, worlds, and add‑ons for both Java Edition and Bedrock Edition.
+CurseForge is the largest modding platform for Minecraft hosting mods, modpacks, resource packs, shaders, data packs, worlds, and add‑ons for both Java and Bedrock Editions. Originally created in 2007 as a World of Warcraft add‑on site, it was acquired by Twitch in 2016 and later by Overwolf in 2020. The platform includes the CurseForge website (curseforge.com) and the CurseForge App, a standalone desktop launcher. CurseForge supports Forge, Fabric, NeoForge, and Quilt mod loaders for Java, and .mcpack/.mcaddon files for Bedrock. It hosts over 200,000 projects and its Author Rewards Program pays creators based on downloads.
 
-CurseForge functions primarily as a mod repository and launcher. The website allows browsing and downloading, while the CurseForge App (desktop launcher) handles automatic installation, profile management, and modpack creation. The platform supports Forge, Fabric, NeoForge, and Quilt mod loaders for Java Edition, and .mcpack/.mcaddon files for Bedrock Edition.
+JAVA EDITION DOWNLOAD STEPS ON CURSEFORGE
 
-As the central hub for Minecraft modding, CurseForge hosts over 200,000 projects and serves millions of users worldwide. It’s the default modding platform for many players and is deeply integrated into the modding ecosystem.
+1. Go to curseforge.com/minecraft. This is the Java section.
+2. Search for a mod using the search bar at the top. Look for the "Verified" badge on trusted mods.
+3. Click the mod to open its project page. Check compatibility before downloading. Look at: Minecraft Version (must match your game), Mod Loader (Forge, Fabric, NeoForge, Quilt), and the Relations tab for dependencies like Fabric API or GeckoLib.
+4. Click the Files tab. You will see a list of available file versions. Use the dropdown filters to narrow by game version and mod loader.
+5. Find the correct version. Click the three dots (⋯) next to the file, then click "Download File". A 5‑second countdown will appear. Wait for it and the .jar file will download automatically.
+6. Locate the downloaded .jar file in your Downloads folder. Do not double‑click it.
+7. Open your .minecraft folder. On Windows press Win+R, type %appdata% and open .minecraft. On macOS use Cmd+Shift+G and paste ~/Library/Application Support/minecraft. On Linux go to ~/.minecraft.
+8. Inside .minecraft, create a folder named mods (lowercase) if it does not exist. Drag the .jar file into the mods folder.
+9. Launch the Minecraft Launcher. Select your Forge, Fabric, or other loader profile and press Play. The mod should appear in the Mods menu if installed correctly.
 
-## 2. History & Ownership Timeline
-CurseForge has a long and complex history:
-- 2007: Founded as a World of Warcraft add‑on platform by Curse Inc.
-- 2016: Acquired by Twitch (Amazon) and integrated into the Twitch Desktop App.
-- 2020: Acquired by Overwolf, an Israeli company that builds in‑game overlay and app platforms.
-- 2021–2023: Overwolf invested heavily in improving the platform, including a new website design, better search, and enhanced creator tools.
-- 2024–2025: Continued growth with focus on the CurseForge App, creator monetization through the Author Rewards Program, and expanded Bedrock support.
+BEDROCK EDITION DOWNLOAD STEPS ON CURSEFORGE
 
-Current ownership: Overwolf Ltd., headquartered in Tel Aviv, Israel.
+1. Go to curseforge.com/minecraft-bedrock. This is the Bedrock section.
+2. Browse categories like Add‑ons, Texture Packs, or Worlds. Search for what you want.
+3. Before downloading, check the file extension. Bedrock only works with .mcpack, .mcaddon, .mcworld, and .mcskin. If you see a .jar file, it is for Java and will not work.
+4. Click the Files tab on the project page. Select the latest version.
+5. Click the orange Download button. A 5‑second countdown may appear. Wait for it and the file saves to your Downloads folder.
+6. Open your file manager. On Android use ZArchiver. On iOS use the Files app. Locate the .mcpack or .mcaddon file.
+7. Tap the file and select Minecraft. Minecraft will open and display "Import Started…" followed by "Successfully Imported".
+8. After importing, create or edit a world. Go to Behaviour Packs and/or Resource Packs. Tap the pack to move it to Active. For .mcaddon files, enable both packs.
+9. Some add‑ons need Experimental Gameplay. Go to World Settings then Experiments and enable the required toggles.
+10. Enter your world and test the add‑on.
 
-## 3. CurseForge vs Other Platforms
-CurseForge vs Modrinth:
-- CurseForge is older and has a larger mod library, especially for older Minecraft versions.
-- CurseForge is proprietary and owned by Overwolf; Modrinth is fully open‑source.
-- CurseForge has the CurseForge App (standalone launcher); Modrinth has the Modrinth App.
-- CurseForge’s Author Rewards Program pays creators based on downloads; Modrinth splits ad revenue 75/25.
-- CurseForge has ads and a 5‑second countdown on downloads; Modrinth has non‑intrusive Acceptable Ads Standard ads.
-- CurseForge supports both Java and Bedrock; Modrinth is Java‑only (as of 2025).
+CURSEFORGE APP
 
-Many users use both platforms depending on which mods are available where.
+The CurseForge App is a desktop launcher that automates mod installation, profile management, and modpack creation. Download it from curseforge.com/app. Sign in with your Microsoft account. Browse mods and click Install to automatically handle dependencies and mod loaders.
 
-## 4. Java Edition vs Bedrock Edition on CurseForge
-CurseForge is one of the few platforms that supports both major Minecraft editions. The distinction is critical:
+COMMON PROBLEMS
 
-Java Edition:
-- For PC players on Windows, macOS, and Linux.
-- Uses .jar file format.
-- Requires a mod loader (Forge, Fabric, NeoForge, or Quilt).
-- Found at curseforge.com/minecraft.
-- Mods are installed manually into the .minecraft/mods folder.
-- The CurseForge App can handle installation automatically.
+PROBLEM: Mod does not appear after installation (Java).
+SOLUTION: Check the .jar is directly in the mods folder. Verify the mod loader matches. Check the Minecraft version matches exactly. Look for missing dependencies on the Relations tab.
 
-Bedrock Edition:
-- For mobile devices (Android, iOS), Windows 10/11, Xbox, PlayStation, and Switch.
-- Uses .mcpack, .mcaddon, and .mcworld file formats.
-- No mod loader required — files auto‑import when opened.
-- Found at curseforge.com/minecraft‑bedrock.
-- Packs must be activated in world settings after import.
-- Some add‑ons require Experimental Gameplay features enabled.
+PROBLEM: Game crashes on launch (Java).
+SOLUTION: Read the crash report to find the problematic mod. Remove recently added mods one by one. Check all mods are for the correct version. Ensure Java is up to date.
 
-Critical rule: Java mods (.jar) NEVER work on Bedrock, and Bedrock packs (.mcpack) NEVER work on Java. Always check which edition a file is for.
+PROBLEM: Import failed on Bedrock.
+SOLUTION: Make sure the file is .mcpack or .mcaddon. If it downloaded as .zip, rename to .mcpack. Try "Open with" Minecraft. Make sure Minecraft has storage permission.
 
-## 5. The CurseForge App (Desktop Launcher)
-The CurseForge App is a standalone desktop application (not to be confused with the discontinued Overwolf overlay version) that simplifies modding for Java Edition:
+PROBLEM: Pack not working after import (Bedrock).
+SOLUTION: Activate both behaviour and resource packs for .mcaddon. Enable Experimental Gameplay. Check the pack is compatible with your Minecraft version.
 
-Key Features:
-- One‑click mod and modpack installation.
-- Automatic mod loader and dependency management.
-- Custom profile creation with specific Minecraft versions and mod loaders.
-- Built‑in modpack browsing and creation tools.
-- Automatic updates for installed mods.
-- RAM allocation controls.
-- Backup and restore functionality.
+PROBLEM: 5‑second countdown does not start download.
+SOLUTION: Wait for the countdown to finish. If nothing happens, refresh the page and try again. Do not click ads.
 
-How to Use:
-1. Download the CurseForge App from curseforge.com/app.
-2. Install and launch the app.
-3. Sign in with your Microsoft account.
-4. Browse or search for mods/modpacks.
-5. Click “Install” — the app handles everything.
+PROBLEM: Dependency missing (Java).
+SOLUTION: Go to the Relations tab on CurseForge and download all required dependencies like Fabric API, GeckoLib, or Cloth Config.
 
-Note: The CurseForge App is different from the now‑discontinued Overwolf CurseForge integration. The standalone app is the recommended installation method.
+IMPORTANT WARNINGS
 
-## 6. How to Download from CurseForge (Java Edition – Step by Step)
-Step 1: Go to curseforge.com/minecraft. This is the Java Edition section. You can search for mods using the search bar at the top, or browse by category.
+· Only download from curseforge.com. Do not use third‑party sites claiming to host CurseForge files.
+· Never click banner ads around the download area. The real button is inside the Files tab.
+· Java mods (.jar) never work on Bedrock. Bedrock packs (.mcpack) never work on Java.
+· Always check the Relations tab for dependencies before downloading.
+· Do not double‑click .jar files. Place them in the mods folder.
+· The 5‑second countdown is normal and part of the platform. It supports the Author Rewards Program.
 
-Step 2: Find your desired mod from the search results. Look for the “Verified” badge on trusted, official mods. Click the mod to open its project page.
+FREQUENTLY ASKED QUESTIONS
 
-Step 3: On the project page, check compatibility BEFORE downloading. Verify:
-- Minecraft Version (e.g., 1.20.1) — must match your game.
-- Mod Loader (Forge, Fabric, NeoForge) — must match your installed loader.
-- Check the “Relations” tab for any required dependencies (e.g., Fabric API, GeckoLib).
-
-Step 4: Click the “Files” tab. You’ll see a list of all available versions with the newest at the top. Use the dropdown filters to narrow by game version and mod loader.
-
-Step 5: Find the correct version. Click the three dots (⋯) next to the file, then click “Download File.” A 5‑second countdown appears — this is normal. Wait for it, and the .jar file downloads automatically.
-
-Step 6: Locate the downloaded .jar file in your Downloads folder. Do NOT double‑click it — just move it to your mods folder.
-
-Step 7: Open your .minecraft folder:
-- Windows: Press Win+R, type %appdata%, open .minecraft.
-- macOS: Cmd+Shift+G, paste ~/Library/Application Support/minecraft.
-- Linux: ~/.minecraft.
-
-Step 8: Inside .minecraft, find or create a “mods” folder (lowercase). Drag the .jar file into this folder.
-
-Step 9: Launch Minecraft using the correct profile (e.g., Fabric Loader 1.20.1 or Forge 1.20.1). The mod should load automatically. Check by clicking the “Mods” button on the main menu.
-
-## 7. How to Download from CurseForge (Bedrock Edition – Step by Step)
-Step 1: Go to curseforge.com/minecraft‑bedrock. This is the Bedrock Edition section. You can also use the edition toggle at the top of the main CurseForge page to switch.
-
-Step 2: Browse categories like Add‑ons, Texture Packs, or Worlds. Search for the content you want.
-
-Step 3: Before downloading, ALWAYS check the file extension. Bedrock only works with:
-- .mcpack — single resource or behaviour pack.
-- .mcaddon — contains both resource + behaviour pack.
-- .mcworld — world/map file.
-If you see a .jar file, it’s for Java — do NOT download it.
-
-Step 4: Click the “Files” tab on the project page. Select the latest version.
-
-Step 5: Click the orange Download button. A 5‑second countdown may appear. After it finishes, the file saves to your Downloads folder.
-
-Step 6: Open your file manager (ZArchiver on Android, Files app on iOS). Locate the .mcpack or .mcaddon file.
-
-Step 7: Tap the file and select Minecraft. Minecraft will open and display “Import Started…” followed by “Successfully Imported.”
-
-Step 8: After importing, activate the pack:
-- Create or edit a world.
-- Scroll to Behaviour Packs and/or Resource Packs.
-- Tap the pack → Active.
-- For .mcaddon files, enable both packs.
-
-Step 9: Some add‑ons require Experimental Gameplay. Go to World Settings → Experiments and enable what the add‑on documentation specifies.
-
-Step 10: Enter your world. The content should now be active.
-
-## 8. Common Issues & Troubleshooting
-Mod Not Appearing After Installation (Java):
-- Check the .jar is directly in the mods folder (not a subfolder).
-- Verify the mod loader matches (Fabric mod won’t work with Forge).
-- Verify the Minecraft version matches exactly.
-- Check for missing dependencies (check the “Relations” tab on CurseForge).
-- Make sure you’re launching the correct profile in the launcher.
-
-Game Crashes on Launch (Java):
-- Read the crash report — it usually identifies the problematic mod.
-- Remove recently added mods one by one to isolate the issue.
-- Check all mods are for the correct Minecraft version.
-- Verify Java is up to date.
-- Common missing dependencies: Fabric API, Cloth Config, GeckoLib.
-
-Import Failed (Bedrock):
-- Verify the file is .mcpack or .mcaddon (not .zip or .jar).
-- If the file downloaded as .zip, rename the extension to .mcpack.
-- Try “Open with” → Minecraft instead of tapping directly.
-- Make sure Minecraft is installed and up to date.
-- On iOS, use the Files app; on Android, use ZArchiver or the built‑in file manager.
-
-Pack Not Working After Import (Bedrock):
-- Check the pack is enabled in world settings (both behaviour and resource packs for .mcaddon).
-- Enable required Experimental Gameplay features.
-- Verify the pack is compatible with your Minecraft version.
-- Some older packs may not work with newer Minecraft versions.
-
-CurseForge App Issues:
-- If mods won’t install, try restarting the app.
-- If profiles won’t launch, check your Minecraft launcher is installed correctly.
-- RAM allocation: Most modpacks need 4–8 GB allocated in the app settings.
-- If the app crashes, reinstall from curseforge.com/app.
-
-## 9. Safety & Security
-CurseForge is generally considered safe, but users should still exercise caution:
-
-Malware Prevention:
-- CurseForge actively scans projects for malware and malicious code.
-- During the 2023 Fracturiser malware incident, CurseForge was affected — but the platform responded quickly, removing infected projects and issuing security updates.
-- Look for the “Verified” badge on mods from trusted, official authors.
-- Check download counts and reviews — popular, well‑maintained mods are generally safer.
-
-Safety Best Practices:
-- Always download from curseforge.com directly — never from third‑party sites claiming to host CurseForge files.
-- Check the “Relations” tab for dependencies to avoid crashes.
-- Read the project description for any special installation instructions.
-- Use the CurseForge App for automatic dependency handling.
-- Keep your mods and mod loaders updated.
-- Avoid clicking banner ads around the page — the real download button is inside the Files tab.
-
-Account Safety:
-- The CurseForge App requires a Microsoft account for Minecraft authentication.
-- CurseForge does not require an account for browsing or downloading from the website.
-- Never share your Microsoft account credentials with third parties.
-
-## 10. Creator Monetization: Author Rewards Program
-CurseForge’s Author Rewards Program allows creators to earn money from their projects:
-
-How It Works:
-- Creators earn points based on project downloads and usage.
-- Points are converted to monetary rewards.
-- The program is available to all eligible creators.
-- Payouts are processed regularly.
-
-How Users Support Creators:
-- Simply downloading and using a mod generates points for the creator.
-- Users don’t need to pay anything — downloads alone contribute to creator earnings.
-- Using the CurseForge App also counts toward creator points.
-- Leaving reviews and ratings helps boost visibility.
-
-Additional Monetization:
-- Some creators may have donation links (Patreon, Ko‑fi) on their CurseForge pages.
-- Donations are separate from the Author Rewards Program and go directly to creators.
-
-## 11. The 5‑Second Countdown & Ads
-CurseForge uses a 5‑second countdown before file downloads begin. This is a built‑in feature of the platform, not a separate service like Linkvertise.
-
-Why the Countdown Exists:
-- It supports the platform’s operational costs.
-- It’s part of the Author Rewards Program — the ad revenue helps pay creators.
-- It’s significantly less intrusive than third‑party link shorteners.
-
-What Users Should Know:
-- The countdown is safe and expected — no need to worry.
-- Do NOT click any banner ads around the page during the countdown.
-- The real download starts automatically after the countdown.
-- If the download doesn’t start, refresh the page (but you’ll need to wait again).
-
-## 12. Dependencies & the “Relations” Tab
-Many mods require other mods to function, called dependencies. CurseForge tracks these in the “Relations” tab on each project page.
-
-Common Dependencies:
-- Fabric API: Required by most Fabric mods.
-- Forge API: Built into Forge (no separate download usually needed).
-- GeckoLib: Required by many mods with custom animations.
-- Cloth Config API: Required by mods with configuration screens.
-- Architectury API: Required by mods that support multiple loaders.
-
-How to Handle Dependencies:
-1. Before downloading any mod, click the “Relations” tab.
-2. Look for “Required Dependencies” (not optional ones).
-3. Download and install all required dependencies first.
-4. Install the main mod after all dependencies are in place.
-5. If using the CurseForge App, dependencies are handled automatically.
-
-## 13. Frequently Asked Questions
 Q: Do I need an account to download from CurseForge?
-A: No. You can browse and download from the CurseForge website without any account. An account is only needed for the CurseForge App.
+A: No account is needed for browsing or downloading from the website.
 
 Q: Is CurseForge free?
-A: Yes, CurseForge is completely free for downloading mods and content. There is no paid tier for users.
+A: Yes, CurseForge is completely free for users. There is no paid tier.
 
 Q: Is CurseForge safe?
-A: Generally yes. CurseForge scans for malware and has security measures. The platform was affected by the 2023 Fracturiser malware incident but responded quickly. Always download from the official website.
+A: Yes, CurseForge scans projects for malware. Look for the Verified badge on trusted mods.
 
-Q: What’s the difference between Java and Bedrock on CurseForge?
-A: Java Edition content uses .jar files and requires a mod loader (Forge, Fabric, NeoForge). Bedrock Edition content uses .mcpack/.mcaddon files and auto‑imports into Minecraft. They are NOT interchangeable.
+Q: What is the difference between Java and Bedrock on CurseForge?
+A: Java uses .jar files and mod loaders. Bedrock uses .mcpack and .mcaddon files that auto‑import.
 
 Q: Can I use CurseForge mods with other launchers?
-A: Yes. Mods downloaded from CurseForge are standard .jar files. You can place them in any Minecraft instance’s mods folder, including Prism Launcher or Modrinth App instances.
+A: Yes, you can place the .jar files in any Minecraft instance’s mods folder.
 
-Q: What is the CurseForge App?
-A: A standalone desktop launcher that automates mod installation, profile management, and modpack creation for Java Edition. It’s the recommended way to use CurseForge content.
+Q: How do creators earn money on CurseForge?
+A: Through the Author Rewards Program. Downloads generate points that become monetary rewards.
 
-Q: Why is there a 5‑second countdown before downloads?
-A: This is part of CurseForge’s ad‑supported model that helps pay creators through the Author Rewards Program. It’s built into the platform and is safe.
+MIA NOTES
 
-Q: How do I know if a mod needs other mods to work?
-A: Check the “Relations” tab on the mod’s CurseForge page. Required dependencies are listed there. The CurseForge App handles this automatically.
+MIA encourages the use of direct CurseForge links when sharing mods. CurseForge is allowed as a file host. When uploading to MIA, use a direct curseforge.com link to the project or file page. Do not wrap CurseForge links with Linkvertise or other ad services. Always credit the original creator in MIA uploads.
 
-Q: Can I get Bedrock add‑ons from CurseForge?
-A: Yes, CurseForge has a dedicated Bedrock section at curseforge.com/minecraft‑bedrock with add‑ons, texture packs, worlds, and more.
+MIA DISCORD
 
-Q: How do creators make money on CurseForge?
-A: Through the Author Rewards Program. Creators earn points based on downloads and usage, which are converted to monetary rewards.
-
-## Summary: The CurseForge Journey
-
-Java Edition:
-1. Go to curseforge.com/minecraft → Search for your mod.
-2. Check compatibility (version, loader, dependencies via Relations tab).
-3. Click Files tab → Select correct version → Click ⋯ → Download File.
-4. Wait for 5‑second countdown → .jar file downloads.
-5. Move .jar to .minecraft/mods folder.
-6. Launch with correct loader profile → Play!
-
-Bedrock Edition:
-1. Go to curseforge.com/minecraft‑bedrock → Search for add‑on.
-2. Verify file type is .mcpack or .mcaddon (NOT .jar).
-3. Click Files tab → Click orange Download button.
-4. Wait for countdown → File downloads.
-5. Tap file → Open with Minecraft → Import completes automatically.
-6. Activate pack in world settings → Enable Experimental Gameplay if needed.
-7. Enter world → Play!
-
-CurseForge: The largest Minecraft mod repository. Safe, free, and supporting creators through the Author Rewards Program.
+If you need more help join the MIA Discord server.
+Invite: https://discord.gg/tS5WmGEyxN
+Owner: Xameraman5022
+MIA only shares direct download links. No ad links or shorteners.
+Always credit the original creator when sharing in MIA.
