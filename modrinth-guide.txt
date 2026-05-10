@@ -1,271 +1,57 @@
-Modrinth Complete Guide: Platform Overview, Monetization, Ad Policy, and More
-
-## 1. What Is Modrinth?
-Modrinth is an open-source Minecraft modding platform built on community principles, a fully open-source codebase, and a focus on creators. It was founded in 2020 by Jai Agrawal (also known as Geometrically) and is headquartered in Tempe, Arizona, United States. The platform lets users discover, download, and publish Minecraft modifications and related content — including mods, plugins, data packs, shaders, resource packs, and modpacks.
+WHAT IS MODRINTH
 
-Key facts:
-- Founded: 2020
-- Headquarters: Tempe, AZ, United States
-- Founder: Jai Agrawal (Geometrically)
-- Over 12,000 creators and millions of players
-- Fully open-source under primarily the GNU AGPLv3 license
-- Supports Forge, Fabric, Quilt, and NeoForge mod loaders
-- Three main components: Modrinth.com (website), Modrinth App (desktop launcher), Modrinth Servers (hosting)
-- The backend API is called "Labrinth," a RESTful API providing programmatic access to all Modrinth content
+Modrinth is an open source Minecraft modding platform founded in 2020. It is based in Tempe Arizona USA. Modrinth hosts mods, plugins, data packs, shaders, resource packs, and modpacks for Java Edition only. Modrinth supports Forge, Fabric, Quilt, and NeoForge mod loaders. The platform is fully open source under the GNU AGPLv3 license. Modrinth has a website at modrinth.com and a free desktop app called the Modrinth App. Modrinth has over twelve thousand creators and millions of players. Creators earn money through ad revenue sharing where 75 percent goes to creators. Modrinth also offers a Modrinth Plus subscription for ad free browsing.
 
-Modrinth describes itself as a platform intended to make the world of video game modding better for everyone — whether you're a player, an author, a developer, or some combination. Currently focused exclusively on Minecraft: Java Edition, with plans to host content for other games in the future.
+HOW TO DOWNLOAD FROM MODRINTH
 
-## 2. Origin Story & History
-Modrinth was born from the Fabric modding community's desire for a better mod hosting platform. Before Modrinth, several giant platforms for mod hosting existed, but they were often too specialized, outdated, or controlled by uncaring third parties. The Fabric project set an example of a community-powered alternative — democratic, FOSS (Free and Open Source Software), listening to the community, and welcoming contributions.
+1. Go to modrinth.com and search for the mod, modpack, or resource pack you want. Use the search bar or browse by category.
+2. Click the project you want from the search results. The project page shows the description, images, and version information. Check the project name and icon match what you need.
+3. Before downloading, check compatibility. Look at three things: the Minecraft version must match your game, the mod loader must match what you have installed either Forge, Fabric, Quilt, or NeoForge, and the environment must say Client or Both for most players.
+4. Click the Versions tab on the project page. This shows all available files with their supported Minecraft version and mod loader. Modrinth may highlight a version for you but always double check manually.
+5. Click the Download button next to the correct version. The file saves as a .jar for mods or .zip for resource packs. Modrinth has no fake download buttons so the button you click is the real one.
+6. Open your Downloads folder and find the file. Do not double click .jar files. You only need to place them in the correct folder.
+7. Open your .minecraft folder. On Windows press Win plus R, type percent appdata percent, and open .minecraft. On macOS use Cmd plus Shift plus G and paste the path to Application Support minecraft. On Linux go to tilde .minecraft.
+8. Inside .minecraft create a folder named mods in lowercase if it does not exist. Drag the .jar file into the mods folder.
+9. Launch the Minecraft Launcher and select the correct profile for your mod loader, such as Fabric Loader or Forge. Press Play and the mod should load. Check the Mods menu to confirm.
+10. For the easiest method, download the Modrinth App from modrinth.com/app. Sign in with your Microsoft account. Browse mods and click Install. The app handles all dependencies, versions, and mod loaders automatically.
 
-The project that became Modrinth started as "Fabricate," a proprietary project indexing website by Geometrically. After community pressure to make it open-source, Geometrically open-sourced the work, and a team formed around it — including falseresync, MulverineX, AppleTheGolden, Aeledfyr, and Redblueflame. The name "Modrinth" and its logo were born during a brainstorming session.
+COMMON PROBLEMS
 
-In 2022, Modrinth raised a $1.2 million pre-seed round of investor capital, which helped them hire full-time developers, launch creator monetization, authentication, analytics, organizations, collections, and the Modrinth App. However, in February 2024, founder Jai Agrawal made the decision to return $800,000 in remaining investor capital back to investors and significantly reduce the team size. The decision was made to build Modrinth independently at a sustainable pace, putting creators, community, and open-source values first — without having to worry about expectations of profit or growth. Modrinth is now fully sustainable through ad revenue and the Modrinth+ subscription program.
+PROBLEM: Mod does not work after installation.
+SOLUTION: Check the mod loader matches. A Fabric mod will not work with Forge. Check the Minecraft version matches exactly. Look for missing dependencies like Fabric API or Cloth Config on the mod page.
 
-## 3. What Modrinth Supports (Project Types & Loaders)
-Modrinth supports multiple types of Minecraft content:
-- Mods: Gameplay modifications and enhancements
-- Plugins: Server-side modifications for platforms like Bukkit, Spigot, Paper
-- Data Packs: Custom game mechanics, recipes, advancements
-- Shaders: Graphics enhancements and visual overhauls
-- Resource Packs: Visual and audio customizations
-- Modpacks: Curated collections of mods with configurations
+PROBLEM: Game crashes on launch after installing a mod.
+SOLUTION: Read the crash report. It usually names the problematic mod. Remove recently added mods one by one to find the cause. Check all mods are for the correct Minecraft version.
 
-Supported mod loaders:
-- Fabric: Lightweight, modern mod loader
-- Forge: The classic, most widely used mod loader
-- Quilt: A community-driven fork of Fabric
-- NeoForge: A modern fork of Forge
-
-The platform provides powerful search and filtering tools. Users can filter by project type (mods, plugins, resource packs, shaders, modpacks, data packs), Minecraft version, mod loader, and more. The search results can be sorted by relevance, downloads, or recently updated.
-
-## 4. How Modrinth Works (Behind the Scenes)
-Modrinth's codebase is organized as a monorepo containing the web frontend, the desktop launcher application, and managed Minecraft server hosting. The platform consists of four main components:
-
-1. Modrinth.com (the frontend/website): A Nuxt.js-based web interface for browsing, uploading, and sharing content.
-2. The Modrinth App (the launcher): A Tauri-based desktop application with a Rust backend and Vue.js frontend for managing Minecraft instances, discovering and installing mods, and launching the game. Available for Windows, macOS, and Linux.
-3. Modrinth Servers: A server hosting platform deeply integrated into the Modrinth ecosystem.
-4. The Modrinth API (Labrinth): A RESTful API that is the foundation for everything Modrinth. Used by the frontend, the launcher, and third-party developers.
-
-The API provides endpoints for searching projects, fetching versions, managing users, and more. It's open-source and primarily licensed under the GNU Affero General Public License v3 (AGPLv3), though some parts use other licenses. Third-party developers have built wrappers in TypeScript, Python, C#, and Dart.
-
-Most of Modrinth's code is written in Rust, with the frontend using Nuxt.js. The monorepo is powered by Turborepo. Community contributions are welcome via GitHub, and the team encourages discussion on their Discord before making significant changes.
-
-## 5. Creator Monetization Program
-Modrinth's Creator Monetization Program (also called "payouts") lets creators earn money from their projects. All creators are automatically enrolled — there's no need to sign up.
-
-Revenue Distribution:
-- The advertising revenue of the entire website and app is split 75% to creators and 25% to Modrinth.
-- Originally (2022), the split was 90/10. It was updated in September 2024 to 75/25 when the platform switched to a new ad network, but overall creator revenue increased 5-8x despite the lower percentage.
-- The creator allotment is decided by how many page views and in-app downloads each project receives. Each page view and in-app download counts as a "point," and money is distributed based on each author's point earnings daily.
-- For modpacks, revenue is split 80% to the dependencies (the mods included) and 20% to the modpack author.
-- Project owners can decide how to split revenue between team members.
-- Modrinth actively removes botted downloads and page views. Users caught botting are permanently banned.
-
-Payout Details:
-- Creators earn money as soon as their project is approved and uploaded to Modrinth.
-- Modrinth receives ad revenue on a NET 60 basis (60 days after the last day of each month). Revenue is pending until the ad network pays out.
-- Creators can withdraw via PayPal, Venmo, or gift card. The minimum balance to withdraw is 0.26 USD.
-- As of September 2024, creators had earned over $160,000 total on Modrinth.
-- Modrinth publishes its site-wide ad revenue via API for full transparency.
-
-Modrinth+ Subscription:
-- Launched August 2024, Modrinth+ is a monthly subscription ($5/month) that gives users:
-  - Ad-free browsing on the Modrinth App and website
-  - An exclusive badge on their profile
-  - Half of the subscription goes to creators on the site
-- No content is paywalled; creator features never cost money.
-
-## 6. Advertising & Privacy
-Modrinth's ad policy prioritizes non-intrusive, privacy-respecting advertising:
-
-- Ads fall under the Acceptable Ads Standard: only one ad per page, less than 120 pixels tall, separate and distinguishable from actual site content.
-- Modrinth does not show personalized ads and does not collect personally identifiable information (PII) for advertising purposes.
-- The ad network is called "Adrinth," powered by Aditude.
-- All ads are compliant with GDPR and CCPA regulations.
-- Modrinth previously experimented with EthicalAds and Carbon Ads before settling on their current setup.
-
-Modrinth is committed to transparency about finances. They publish site-wide ad revenue via API and plan to publish monthly transparency reports.
-
-## 7. How to Download from Modrinth (Step by Step)
-Step 1: Go to modrinth.com and search for the mod, modpack, resource pack, or other content you want. You can use the search bar on the homepage or browse by category.
-
-Step 2: Click on the project you want from the search results. The project page shows the description, images, version info, and other details. Verify the project name and icon match what you're looking for.
-
-Step 3: Check compatibility BEFORE downloading. Verify three things:
-- Minecraft Version: Must match your game version (e.g., 1.20.1)
-- Mod Loader: Must match your installed loader (Fabric, Forge, Quilt, or NeoForge)
-- Environment: Usually "Client," "Server," or "Both." Most players need "Client" or "Both."
-
-Step 4: Click the "Versions" tab on the project page. This shows all available files with their supported Minecraft version and mod loader. Modrinth usually highlights the latest version for your setup, but always double-check manually.
-
-Step 5: Click the "Download" button next to the correct version. The file saves as a .jar (for mods/plugins), .zip (for resource packs), or other format.
-
-Step 6: Locate the downloaded file in your Downloads folder. Do not double-click or open .jar files directly — just place them in the correct folder.
-
-Step 7: Open your .minecraft folder:
-- Windows: Press Win+R, type %appdata%, press Enter, then open .minecraft
-- macOS: In Finder, press Cmd+Shift+G, paste ~/Library/Application Support/minecraft
-- Linux: The folder is at ~/.minecraft
-
-Step 8: Inside .minecraft, find or create a "mods" folder (lowercase). Place the .jar file directly into the mods folder.
-
-Step 9: Launch Minecraft using the correct profile (e.g., Fabric Loader or Forge). The mod should load automatically.
-
-Important tips:
-- Some mods require other mods to work (called dependencies). Check the mod's Modrinth page for a "Relations" or "Dependencies" section (e.g., Fabric API, Cloth Config).
-- Never try to open .jar files by double-clicking — just place them in the mods folder.
-- Modrinth doesn't have fake download buttons or confusing ad redirects — the button you click is the real download.
-
-## 8. The Modrinth App (Easiest Method)
-The Modrinth App is a free, open-source desktop launcher that automates mod management:
-
-Key Features:
-- Install, uninstall, or update mods with a single click
-- Browse and install modpacks directly from the Modrinth library
-- Create custom profiles with specific Minecraft versions and mod loaders
-- Import and export instances (perfect for sharing modpacks)
-- Manage shaders, resource packs, and data packs alongside mods
-- Automatic dependency handling
-- Built-in RAM allocation controls
-- Native support for Forge, Fabric, Quilt, and NeoForge
-
-How to Use:
-1. Download the Modrinth App from modrinth.com/app
-2. Install and launch the app
-3. Sign in with your Microsoft account (required for Minecraft authentication)
-4. To install modpacks: Click the compass icon, browse or search modpacks, click "Install"
-5. To create custom profiles: Click the plus icon, choose loader and version, then add mods individually
-6. To change RAM allocation: Settings → Default instance options → Memory allocated (recommended: 4-8GB for most modpacks)
-
-The Modrinth App is built with Tauri (Rust backend, Vue.js frontend), making it lightweight and performant. It's fully open-source under the GNU GPLv3 license.
-
-## 9. Common Issues & Troubleshooting
-
-Mod Not Working After Installation:
-- Wrong Loader: A Fabric mod won't work with Forge (and vice versa). Check both match.
-- Wrong Version: A mod for 1.20 will crash on 1.21. Always download the exact version.
-- Missing Dependencies: Some mods need other mods (like Fabric API or Cloth Config). Check the mod's Modrinth page for dependencies.
-- Opening the .jar: Never double-click .jar files. Just place them in the mods folder.
-- Environment Mismatch: A server-only mod won't work on a client. Check if the mod says "Client," "Server," or "Both."
-
-Installation Issues:
-- Mods not appearing in-game: Verify the .jar is directly in the mods folder (not a subfolder).
-- Game crashes on launch: Check the crash report — it often tells you which mod caused the issue.
-- "Disabled" mods still loading: This is a known issue — ensure mods are fully compatible with your Minecraft version.
-
-Modrinth App Issues:
-- Connection problems: Modrinth Servers has datacenters in the US, Europe, and Southeast Asia. Geographic distance affects latency. Contact support to switch datacenters.
-- "Can't connect to server": Try changing the server URL, then changing it back, then restarting.
-- Modpack not installing: Check your internet connection. If problems persist, try restarting the app.
-- Mods appearing blank or invisible: Try clearing the app cache or reinstalling the app.
-
-Website Issues:
-- Page not loading: Check internet connection, disable browser extensions temporarily.
-- Search not working: Try refreshing the page or clearing browser cache.
-- Project review taking long: Modrinth tries to review projects within 24-48 hours. Malware-detection flags or high submission volume can cause delays.
-
-## 10. Safety & Security
-Modrinth has a strong safety record and is widely considered safe:
-
-Malware Prevention:
-- All uploaded projects are scanned by an in-house malware detection tool.
-- Content cannot contain or download malware designed to upload data to remote servers without clear disclosure.
-- During the 2023 Fracturiser malware outbreak, Modrinth confirmed all projects were scanned and found safe.
-- The platform has been consistently malware-free, with prompt detection and removal of any suspicious content.
-- Projects flagged by the malware detector undergo manual code review by technical moderators.
-
-Account Security:
-- Modrinth uses Microsoft account authentication for the launcher.
-- The website supports multiple authentication providers: GitHub, GitLab, Discord, Steam, Microsoft, Google.
-- You can browse and download from the website without any account.
-
-Safety Best Practices:
-- Always check compatibility before downloading (version, loader, environment).
-- Read the project description — legitimate mods have detailed information.
-- Check the number of downloads and user reviews — popular, well-maintained mods are generally safer.
-- Use the Modrinth App for automatic dependency management.
-- Never download mods from unofficial or repackaged sources.
-- If you get a crash, read the crash report — it will identify problematic mods.
-
-## 11. Modrinth vs CurseForge
-Modrinth is widely considered a strong alternative to CurseForge:
-
-Advantages of Modrinth:
-- Faster and cleaner website design
-- Better search tools with filtering by mod loader and version
-- Fully open-source under AGPLv3/GPLv3
-- Higher creator revenue share (75% vs lower on CurseForge)
-- Non-intrusive ads (Acceptable Ads Standard)
-- No Overwolf dependency
-- Clean, modern user interface
-- Strong community focus and transparency
-
-Where CurseForge Still Leads:
-- Larger mod library (older and more established)
-- More mature modpack creation tools
-- Faster payout processing for creators in some cases
-- Some mods are exclusive to CurseForge
-
-Many users use both platforms: CurseForge for modpacks and Modrinth for individual mod downloads. The Prism Launcher supports both platforms.
-
-## 12. Community & Support
-Modrinth has an active community across multiple platforms:
-- Discord: The primary hub for community discussions, development chat, support, and announcements. Over 3,700 members. Join at discord.modrinth.com.
-- GitHub: All code is open-source. Bug reports, feature requests, and code contributions are handled through GitHub at github.com/modrinth.
-- Official Blog: Regular updates on new features, monetization changes, and platform news at modrinth.com/news.
-- Help Center: Support articles at support.modrinth.com covering common issues.
-- Security Reporting: Vulnerabilities can be reported according to the security policy at modrinth.com/legal/security.
-
-Contributors don't need to write code — quality assurance, community support, feature ideas, and participation in public discussions are all valuable forms of contribution.
-
-## 13. Frequently Asked Questions
-Q: Do I need an account to download from Modrinth?
-A: No. You can browse and download from the Modrinth website without any account. An account is only required for uploading content or using the Modrinth App as a launcher.
-
-Q: Is Modrinth free?
-A: Yes. Modrinth is completely free to use for downloading and playing modded content. The optional Modrinth+ subscription ($5/month) provides ad-free browsing and supports creators, but no content is paywalled.
-
-Q: Is Modrinth safe?
-A: Yes. Modrinth scans all uploaded projects for malware, has strict content policies, and was unaffected by the 2023 Fracturiser malware outbreak. All projects are scanned and vetted before being publicly listed.
-
-Q: Does Modrinth work for Minecraft Bedrock Edition?
-A: Currently, Modrinth focuses exclusively on Minecraft: Java Edition content. Bedrock support is not available.
-
-Q: What mod loaders does Modrinth support?
-A: Modrinth supports Forge, Fabric, Quilt, and NeoForge.
-
-Q: Can I use Modrinth mods with other launchers?
-A: Yes. Mods downloaded from Modrinth are standard .jar files. You can place them in any Minecraft instance's mods folder, including CurseForge or Prism Launcher instances.
-
-Q: How many mods can I install?
-A: There's no hard limit, but installing too many mods can cause RAM limitations, lower frame rates, and performance issues. Monitor your FPS and RAM usage.
-
-Q: Where can I get help if something isn't working?
-A: Join the Modrinth Discord server, check the Help Center at support.modrinth.com, or report bugs on GitHub at github.com/modrinth/code/issues.
-
-Q: Does Modrinth have ads?
-A: Yes, but they are non-intrusive. Modrinth follows the Acceptable Ads Standard — only one ad per page, less than 120 pixels tall, and clearly distinguishable from content.
-
-Q: How do creators make money on Modrinth?
-A: Through the Creator Monetization Program: 75% of ad revenue is distributed to creators based on project page views and in-app downloads. All creators are automatically enrolled.
-
-Q: Is Modrinth open source?
-A: Yes. Most of Modrinth's code is publicly available under the GNU AGPLv3 license (some parts use other licenses). The code is hosted on GitHub.
-
-## Summary: The Modrinth Journey
-
-1. Go to modrinth.com → Search for your desired mod/modpack
-2. Click the project → Read description → Check compatibility (version, loader, environment)
-3. Click "Versions" tab → Select correct version for your setup
-4. Click "Download" → The file saves to your Downloads folder
-5. Open .minecraft/mods folder → Place the .jar file inside
-6. Launch Minecraft with the correct loader profile → Play!
-
-Or for the easiest experience:
-1. Download and install the Modrinth App from modrinth.com/app
-2. Sign in with your Microsoft account
-3. Browse, install, and play modpacks with one click
-4. The app handles versions, loaders, dependencies, and updates automatically
-
-Modrinth: Open source, creator-focused, community-driven modding platform. Safe, clean, and free.
+PROBLEM: Modrinth App cannot connect or install modpacks.
+SOLUTION: Check your internet connection. Try restarting the app. If the problem continues, reinstall the Modrinth App from the official website.
+
+PROBLEM: Search on the Modrinth website is not finding what I need.
+SOLUTION: Try different keywords. Use the filters on the left side to narrow by mod loader, version, and category. Refresh the page or clear your browser cache.
+
+PROBLEM: Downloaded file is .zip but I expected .jar.
+SOLUTION: Some content like resource packs and data packs come as .zip files. Place .zip resource packs in the resourcepacks folder. Place .zip data packs in the datapacks folder inside your world save.
+
+PROBLEM: I do not know which mod loader I have installed.
+SOLUTION: Open your Minecraft Launcher and look at the profile name. It will say Forge, Fabric, Quilt, or NeoForge if you have a mod loader installed.
+
+IMPORTANT WARNINGS
+
+· Modrinth is for Java Edition only. There is no Bedrock Edition support on Modrinth.
+· Never double click .jar files. Just place them in the mods folder.
+· Always check the Relations tab on the mod page for required dependencies like Fabric API.
+· Do not download mods from unofficial or repackaged sources. Only use modrinth.com.
+· Modrinth has clean ads under the Acceptable Ads Standard. No fake download buttons exist.
+· The Modrinth App is free and open source. Never pay for a mod installer claiming to be Modrinth.
+
+MIA NOTES
+
+MIA encourages using Modrinth for Java Edition mods because of its clean interface and strong safety record. MIA shares direct Modrinth links to project pages. When uploading to MIA, use a direct modrinth.com link. Modrinth content is for Java Edition only so keep it in Java specific channels in MIA. Always credit the original creator when sharing Modrinth content in MIA.
+
+MIA DISCORD
+
+If you need more help join the MIA Discord server.
+Invite link: https://discord.gg/tS5WmGEyxN
+Owner: Xameraman5022
+MIA focuses on direct downloads with no ad links.
+Always credit the original creator when sharing in MIA.
