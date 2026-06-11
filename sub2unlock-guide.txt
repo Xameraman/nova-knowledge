@@ -30,20 +30,20 @@ SOLUTION: Never install anything. Never allow notifications. These are scam ads.
 
 IMPORTANT WARNINGS
 
-路 Never install any apps, browser extensions, or software from Sub2Unlock pages.
-路 Never allow browser notifications from Sub2Unlock. Decline all notification requests.
-路 Never enter personal information, email, or payment details. Sub2Unlock is free.
-路 Use only Chrome, Brave, or Firefox. In app browsers cause progress resets.
-路 Install the FastForward browser extension to bypass Sub2Unlock tasks completely. It works automatically.
+· Never install any apps, browser extensions, or software from Sub2Unlock pages.
+· Never allow browser notifications from Sub2Unlock. Decline all notification requests.
+· Never enter personal information, email, or payment details. Sub2Unlock is free.
+· Use only Chrome, Brave, or Firefox. In app browsers cause progress resets.
+· Install the FastForward browser extension to bypass Sub2Unlock tasks completely. It works automatically.
 
-MIA NOTES
+NOVA NOTES
 
-MIA rarely shares Sub2Unlock links. MIA provides direct download links whenever possible. If a creator only provides a Sub2Unlock link, this guide helps you complete it safely. When uploading to MIA, do not use Sub2Unlock wrappers. Direct file host links only. Always credit the original creator.
+NOVA rarely shares Sub2Unlock links. NOVA provides direct download links whenever possible. If a creator only provides a Sub2Unlock link, this guide helps you complete it safely. When uploading to NOVA, do not use Sub2Unlock wrappers. Direct file host links only. Always credit the original creator.
 
-MIA DISCORD
+NOVA DISCORD
 
-If you need more help join the MIA Discord server.
-Invite link: https://discord.gg/tS5WmGEyxN
+If you need more help join the NOVA Discord server.
+Invite: https://discord.gg/ThgxvPtUjZ
 Owner: Xameraman5022
-MIA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in MIA.
+NOVA focuses on direct downloads with no ad links.
+Always credit the original creator when sharing in NOVA.
