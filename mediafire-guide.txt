@@ -29,7 +29,7 @@ PROBLEM: My file downloaded as .zip but I expected .mcpack.
 SOLUTION: Rename the file extension from .zip to .mcpack or .mcaddon. Then tap the file and open with Minecraft. Do not rename .jar files to .mcpack as they will not work on Bedrock.
 
 PROBLEM: The MediaFire page says File Not Found or the file was deleted.
-SOLUTION: The creator may have removed the file or the link expired. Contact the sharer for a new link. Ask in the MIA Discord server for an updated link.
+SOLUTION: The creator may have removed the file or the link expired. Contact the sharer for a new link. Ask in the NOVA Discord server for an updated link.
 
 PROBLEM: I see multiple download buttons on the page and I do not know which one is real.
 SOLUTION: The real button is a single large colored button, usually blue, directly below the file name and file details. Any button in a sidebar, banner, or pop up is an advertisement. Using the Brave browser hides most fake buttons automatically.
@@ -41,17 +41,17 @@ IMPORTANT WARNINGS
 · If a click opens a new tab or pop up, you clicked an ad. Close it and go back.
 · MediaFire never requires you to install any software to download. If asked to install something, close that window.
 · Use Brave browser for automatic ad blocking. It removes fake download buttons and shows only the real one.
-· Do not share MediaFire links wrapped with Linkvertise or other ad services in MIA channels.
+· Do not share MediaFire links wrapped with Linkvertise or other ad services in NOVA channels.
 · If a download goes through Linkvertise before reaching MediaFire, complete the Linkvertise tasks first, then follow this guide on the MediaFire page.
 
-MIA NOTES
+NOVA NOTES
 
-MIA shares direct MediaFire links regularly. MIA pre verifies all MediaFire links before sharing and manually checks files for safety. MIA removes extra ad layers like Linkvertise when possible and provides the direct MediaFire link. MIA recommends using Brave browser for a cleaner MediaFire experience. When uploading to MIA, use a direct mediafire.com link. Do not wrap MediaFire links with ad services. Always credit the original creator when sharing in MIA.
+NOVA shares direct MediaFire links regularly. NOVA pre-verifies all MediaFire links before sharing and manually checks files for safety. NOVA removes extra ad layers like Linkvertise when possible and provides the direct MediaFire link. NOVA recommends using Brave browser for a cleaner MediaFire experience. When uploading to NOVA, use a direct mediafire.com link. Do not wrap MediaFire links with ad services. Always credit the original creator when sharing in NOVA.
 
-MIA DISCORD
+NOVA DISCORD
 
-If you need more help join the MIA Discord server.
-Invite link: https://discord.gg/tS5WmGEyxN
+If you need more help join the NOVA Discord server.
+Invite: https://discord.gg/ThgxvPtUjZ
 Owner: Xameraman5022
-MIA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in MIA.
+NOVA focuses on direct downloads with no ad links.
+Always credit the original creator when sharing in NOVA.
