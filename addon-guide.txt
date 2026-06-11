@@ -1,11 +1,11 @@
 WHAT IS MINECRAFT ADDON AND MOD INSTALLATION
 
-The MIA Import Guide covers how to install Minecraft addons, mods, and maps for both Bedrock and Java editions. Bedrock uses auto鈥慽mport files like .mcpack .mcaddon .mcworld .mcskin. Java uses manual folder placement for .jar mods and .zip resource packs. This guide covers the full process for both editions step by step.
+The NOVA Import Guide covers how to install Minecraft addons, mods, and maps for both Bedrock and Java editions. Bedrock uses auto‑import files like .mcpack .mcaddon .mcworld .mcskin. Java uses manual folder placement for .jar mods and .zip resource packs. This guide covers the full process for both editions step by step.
 
 BEDROCK INSTALLATION STEPS
 
 1. Check the file extension is .mcpack .mcaddon .mcworld or .mcskin. Do NOT open .exe .apk or .msi files.
-2. Download the file from a trusted source like MCPEDL, MIA Discord, CurseForge Bedrock section, or the creator's official page. The file goes to your Downloads folder.
+2. Download the file from a trusted source like MCPEDL, NOVA Discord, CurseForge Bedrock section, or the creator's official page. The file goes to your Downloads folder.
 3. Open your file manager. On Android, use ZArchiver for best results. Navigate to the Downloads folder.
 4. Tap the .mcpack or .mcaddon file. If it is a .zip file, rename it: remove .zip and make the extension .mcpack or .mcaddon.
 5. Choose Minecraft to open the file. You will see "Import Started" then "Successfully Imported".
@@ -19,7 +19,7 @@ JAVA INSTALLATION STEPS
 1. Install a mod loader first. Forge from files.minecraftforge.net or Fabric from fabricmc.net. Choose the version that matches your Minecraft.
 2. To install a mod (.jar file): Open the .minecraft folder. On Windows press Win+R and type %appdata%\.minecraft. On macOS use Cmd+Shift+G and type ~/Library/Application Support/minecraft. On Linux it is ~/.minecraft.
 3. Inside .minecraft, look for a folder named mods. If it does not exist, create a new folder and name it mods in lowercase.
-4. Place the downloaded .jar mod file into the mods folder. Do not double鈥慶lick the .jar.
+4. Place the downloaded .jar mod file into the mods folder. Do not double‑click the .jar.
 5. Launch the Minecraft Launcher and select the Forge or Fabric profile. Press Play. If the mod loads correctly it will appear in the Mods menu.
 6. To install a resource pack (.zip file): Open Minecraft, click Options, Resource Packs, Open Pack Folder. Drag the .zip into that folder. Then activate it in game.
 7. For datapacks: Go to .minecraft/saves/yourworld/datapacks. Place the .zip there. In game run /reload.
@@ -40,7 +40,7 @@ PROBLEM: Resource pack not appearing in Java.
 SOLUTION: Ensure the .zip is directly inside the resourcepacks folder. Check that the pack is compatible with your Minecraft version.
 
 PROBLEM: Downloaded file is .exe or .apk.
-SOLUTION: Delete it immediately. It is malware. Report the link in the MIA Discord server.
+SOLUTION: Delete it immediately. It is malware. Report the link in the NOVA Discord server.
 
 PROBLEM: I cannot find the mods folder.
 SOLUTION: Create a new folder named mods inside .minecraft. The name must be all lowercase.
@@ -50,13 +50,13 @@ SOLUTION: Rename the file extension. Remove .zip and type .mcpack or .mcaddon. T
 
 IMPORTANT WARNINGS
 
-路 Never open .exe .apk or .msi files that claim to be Minecraft addons.
-路 Only download from trusted sites: MCPEDL, CurseForge, Modrinth, official websites, and MIA channels.
-路 Bedrock files do not work on Java. Java mods do not work on Bedrock.
-路 Do not extract .zip resource packs or datapacks. Keep them compressed.
-路 Always check mod dependencies before installing (like Fabric API, Cloth Config).
-路 Some addons require Experimental Gameplay to be turned on.
-路 For .mcaddon files you must activate both packs.
+· Never open .exe .apk or .msi files that claim to be Minecraft addons.
+· Only download from trusted sites: MCPEDL, CurseForge, Modrinth, official websites, and NOVA channels.
+· Bedrock files do not work on Java. Java mods do not work on Bedrock.
+· Do not extract .zip resource packs or datapacks. Keep them compressed.
+· Always check mod dependencies before installing (like Fabric API, Cloth Config).
+· Some addons require Experimental Gameplay to be turned on.
+· For .mcaddon files you must activate both packs.
 
 FREQUENTLY ASKED QUESTIONS
 
@@ -78,14 +78,14 @@ A: Mod loaders allow .jar mod files to run. Without them mods will not work.
 Q: What if my addon does not appear after import?
 A: Go to world settings and activate the pack in Behaviour Packs or Resource Packs.
 
-MIA NOTES
+NOVA NOTES
 
-MIA allows direct download links for both Bedrock and Java content. Uploads must use direct links only, no Linkvertise or Urlspay wrappers. For Bedrock uploads use .mcpack or .mcaddon files. For Java uploads use .jar or .zip files. Always credit the original creator when sharing in MIA. MIA has separate channels for Bedrock and Java content.
+NOVA allows direct download links for both Bedrock and Java content. Uploads must use direct links only, no Linkvertise or Urlspay wrappers. For Bedrock uploads use .mcpack or .mcaddon files. For Java uploads use .jar or .zip files. Always credit the original creator when sharing in NOVA. NOVA has separate channels for Bedrock and Java content.
 
-MIA DISCORD
+NOVA DISCORD
 
-If you need more help join the MIA Discord server.
-Invite: https://discord.gg/tS5WmGEyxN
+If you need more help join the NOVA Discord server.
+Invite: https://discord.gg/ThgxvPtUjZ
 Owner: Xameraman5022
-MIA only shares direct download links. No ad links or shorteners.
-Always credit the original creator when sharing in MIA.
+NOVA only shares direct download links. No ad links or shorteners.
+Always credit the original creator when sharing in NOVA.
