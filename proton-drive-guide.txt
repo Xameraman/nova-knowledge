@@ -31,20 +31,20 @@ SOLUTION: Safari may struggle with large files. Use Chrome for iOS or the free P
 
 IMPORTANT WARNINGS
 
-路 Proton Drive has no ads. Any pop up asking for money is a scam.
-路 Never download third party tools that claim to speed up Proton Drive downloads. They are malware.
-路 The decryption delay is normal. Do not close the page thinking it is broken.
-路 Use a modern browser like Chrome Firefox Edge or Brave. JavaScript must be enabled.
-路 On iOS use the Proton Drive app for files larger than 100 MB to avoid browser limits.
+· Proton Drive has no ads. Any pop up asking for money is a scam.
+· Never download third party tools that claim to speed up Proton Drive downloads. They are malware.
+· The decryption delay is normal. Do not close the page thinking it is broken.
+· Use a modern browser like Chrome Firefox Edge or Brave. JavaScript must be enabled.
+· On iOS use the Proton Drive app for files larger than 100 MB to avoid browser limits.
 
-MIA NOTES
+NOVA NOTES
 
-MIA shares Proton Drive links because they are clean ad free and safe. MIA verifies Proton Drive links before posting. If a password is needed MIA includes it with the link. When uploading to MIA you may use Proton Drive as a file host. Direct Proton Drive links are accepted. Always credit the original creator.
+NOVA shares Proton Drive links because they are clean ad free and safe. NOVA verifies Proton Drive links before posting. If a password is needed NOVA includes it with the link. When uploading to NOVA you may use Proton Drive as a file host. Direct Proton Drive links are accepted. Always credit the original creator.
 
-MIA DISCORD
+NOVA DISCORD
 
-If you need more help join the MIA Discord server.
-Invite link: https://discord.gg/tS5WmGEyxN
+If you need more help join the NOVA Discord server.
+Invite: https://discord.gg/ThgxvPtUjZ
 Owner: Xameraman5022
-MIA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in MIA.
+NOVA focuses on direct downloads with no ad links.
+Always credit the original creator when sharing in NOVA.
