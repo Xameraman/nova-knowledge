@@ -16,7 +16,7 @@ EASY HOST DOWNLOAD STEPS
 
 Gofile.io: Open the link and find your file in the list. Click the download icon on the right side of the file row, next to the three dots. Wait 1 to 3 seconds for the file to prepare. The download starts automatically. No timers, no captchas.
 
-MediaFire.com: Open the link. Look for the large blue Download button directly below the file name and file size. Do not click any flashing banner ads. Click the real blue button. If a captcha appears, complete it. The file downloads to your Downloads folder. For more help use the MIA MediaFire guide.
+MediaFire.com: Open the link. Look for the large blue Download button directly below the file name and file size. Do not click any flashing banner ads. Click the real blue button. If a captcha appears, complete it. The file downloads to your Downloads folder. For more help use the NOVA MediaFire guide.
 
 Send.now: Open the link. Click the big blue Download button. The download starts instantly with no timers, no captchas, and no ads.
 
@@ -81,14 +81,14 @@ IMPORTANT WARNINGS
 · Never enter payment information or personal details on any file host page.
 · Upfiles.com and Upload.ee have the highest malware risk. Skip them.
 
-MIA NOTES
+NOVA NOTES
 
-MIA rarely shares Mirrored.to links directly. MIA provides direct download links whenever possible, avoiding the Mirrored.to intermediary entirely. If a Mirrored.to link is the only option, MIA recommends always picking from the Easy tier hosts. MIA recommends Gofile.io, MediaFire.com, Send.now, Google Drive, or Dropbox. When uploading to MIA, use a direct host link, not a Mirrored.to wrapper. Direct links only in MIA.
+NOVA rarely shares Mirrored.to links directly. NOVA provides direct download links whenever possible, avoiding the Mirrored.to intermediary entirely. If a Mirrored.to link is the only option, NOVA recommends always picking from the Easy tier hosts. NOVA recommends Gofile.io, MediaFire.com, Send.now, Google Drive, or Dropbox. When uploading to NOVA, use a direct host link, not a Mirrored.to wrapper. Direct links only in NOVA.
 
-MIA DISCORD
+NOVA DISCORD
 
-If you need more help join the MIA Discord server.
-Invite link: https://discord.gg/tS5WmGEyxN
+If you need more help join the NOVA Discord server.
+Invite: https://discord.gg/ThgxvPtUjZ
 Owner: Xameraman5022
-MIA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in MIA.
+NOVA focuses on direct downloads with no ad links.
+Always credit the original creator when sharing in NOVA.
