@@ -45,7 +45,7 @@ The NOVA Discord server includes **ARIA**, the official AI helper bot, to answer
 NOVA SOCIAL AND COMMUNITY LINKS
 
 NOVA Discord: https://discord.gg/ThgxvPtUjZ
-NOVA Library: https://nova-library.pages.dev/
+NOVA Library: https://nova-library-mu.vercel.app/
 NOVA YouTube: youtube.com/@xameraman5022
 NOVA Guides Hub: https://xameraman.github.io/all-nova-guides/
 NOVA GitHub: github.com/Xameraman
