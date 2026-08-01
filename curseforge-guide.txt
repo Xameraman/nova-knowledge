@@ -1,93 +1,47 @@
-WHAT IS CURSEFORGE
+CurseForge Download & Installation Guide
 
-CurseForge is the largest modding platform for Minecraft hosting mods, modpacks, resource packs, shaders, data packs, worlds, and add‑ons for both Java and Bedrock Editions. Originally created in 2007 as a World of Warcraft add‑on site, it was acquired by Twitch in 2016 and later by Overwolf in 2020. The platform includes the CurseForge website (curseforge.com) and the CurseForge App, a standalone desktop launcher. CurseForge supports Forge, Fabric, NeoForge, and Quilt mod loaders for Java, and .mcpack/.mcaddon files for Bedrock. It hosts over 200,000 projects and its Author Rewards Program pays creators based on downloads.
+CurseForge is the largest modding platform for Minecraft, hosting mods, modpacks, resource packs, shaders, data packs, worlds, and add‑ons for both Java and Bedrock editions.
 
-JAVA EDITION DOWNLOAD STEPS ON CURSEFORGE
+⚡ Quick Start
+· Java: Search mod → check version & loader → download .jar → place in .minecraft/mods → launch with Forge/Fabric.
+· Bedrock: Browse Bedrock section → download .mcpack/.mcaddon → tap file → open with Minecraft → activate in world settings.
 
-1. Go to curseforge.com/minecraft. This is the Java section.
-2. Search for a mod using the search bar at the top. Look for the "Verified" badge on trusted mods.
-3. Click the mod to open its project page. Check compatibility before downloading. Look at: Minecraft Version (must match your game), Mod Loader (Forge, Fabric, NeoForge, Quilt), and the Relations tab for dependencies like Fabric API or GeckoLib.
-4. Click the Files tab. You will see a list of available file versions. Use the dropdown filters to narrow by game version and mod loader.
-5. Find the correct version. Click the three dots (⋯) next to the file, then click "Download File". A 5‑second countdown will appear. Wait for it and the .jar file will download automatically.
-6. Locate the downloaded .jar file in your Downloads folder. Do not double‑click it.
-7. Open your .minecraft folder. On Windows press Win+R, type %appdata% and open .minecraft. On macOS use Cmd+Shift+G and paste ~/Library/Application Support/minecraft. On Linux go to ~/.minecraft.
-8. Inside .minecraft, create a folder named mods (lowercase) if it does not exist. Drag the .jar file into the mods folder.
-9. Launch the Minecraft Launcher. Select your Forge, Fabric, or other loader profile and press Play. The mod should appear in the Mods menu if installed correctly.
+💻 JAVA DOWNLOAD STEPS
+1. Go to curseforge.com/minecraft. Search for mod. Look for Verified badge.
+2. Check compatibility: MC version, mod loader (Forge/Fabric), and dependencies (Relations tab).
+3. Click Files tab, find correct version, click ⋯ → Download File. Wait for 5‑second countdown.
+4. Place .jar in .minecraft/mods folder (create mods if missing). Launch with mod loader profile.
 
-BEDROCK EDITION DOWNLOAD STEPS ON CURSEFORGE
+📱 BEDROCK DOWNLOAD STEPS
+1. Go to curseforge.com/minecraft-bedrock. Browse or search.
+2. Ensure file is .mcpack, .mcaddon, .mcworld, or .mcskin. .jar = Java only!
+3. Click Files tab → Download. Wait for countdown.
+4. Open file manager → tap file → open with Minecraft → import.
+5. Activate packs in world settings (both behaviour & resource for .mcaddon).
+6. Enable Experimental Gameplay if needed.
 
-1. Go to curseforge.com/minecraft-bedrock. This is the Bedrock section.
-2. Browse categories like Add‑ons, Texture Packs, or Worlds. Search for what you want.
-3. Before downloading, check the file extension. Bedrock only works with .mcpack, .mcaddon, .mcworld, and .mcskin. If you see a .jar file, it is for Java and will not work.
-4. Click the Files tab on the project page. Select the latest version.
-5. Click the orange Download button. A 5‑second countdown may appear. Wait for it and the file saves to your Downloads folder.
-6. Open your file manager. On Android use ZArchiver. On iOS use the Files app. Locate the .mcpack or .mcaddon file.
-7. Tap the file and select Minecraft. Minecraft will open and display "Import Started…" followed by "Successfully Imported".
-8. After importing, create or edit a world. Go to Behaviour Packs and/or Resource Packs. Tap the pack to move it to Active. For .mcaddon files, enable both packs.
-9. Some add‑ons need Experimental Gameplay. Go to World Settings then Experiments and enable the required toggles.
-10. Enter your world and test the add‑on.
+❗ COMMON PROBLEMS
+- Mod not appearing (Java) → check mods folder, loader version, missing dependencies.
+- Game crash → remove mods one by one, check dependencies, update Java.
+- Import failed (Bedrock) → rename .zip to .mcpack, use "Open with" Minecraft.
+- Pack not working → activate both packs, enable Experimental Gameplay.
+- Countdown doesn't start → refresh page, avoid ads.
+- Dependency missing → check Relations tab on CurseForge.
 
-CURSEFORGE APP
+⚠️ WARNINGS
+· Only download from curseforge.com.
+· Never click banner ads – real button is inside Files tab.
+· Java .jar ≠ Bedrock .mcpack.
+· Check dependencies before downloading.
+· Do not double‑click .jar files.
 
-The CurseForge App is a desktop launcher that automates mod installation, profile management, and modpack creation. Download it from curseforge.com/app. Sign in with your Microsoft account. Browse mods and click Install to automatically handle dependencies and mod loaders.
+❓ FAQ
+Q: Is CurseForge free? A: Yes.
+Q: Is it safe? A: Yes, files are scanned.
+Q: Difference between Java and Bedrock? A: Java uses .jar + mod loaders; Bedrock uses .mcpack/.mcaddon.
+Q: How do creators earn? A: Author Rewards Program via downloads.
 
-COMMON PROBLEMS
-
-PROBLEM: Mod does not appear after installation (Java).
-SOLUTION: Check the .jar is directly in the mods folder. Verify the mod loader matches. Check the Minecraft version matches exactly. Look for missing dependencies on the Relations tab.
-
-PROBLEM: Game crashes on launch (Java).
-SOLUTION: Read the crash report to find the problematic mod. Remove recently added mods one by one. Check all mods are for the correct version. Ensure Java is up to date.
-
-PROBLEM: Import failed on Bedrock.
-SOLUTION: Make sure the file is .mcpack or .mcaddon. If it downloaded as .zip, rename to .mcpack. Try "Open with" Minecraft. Make sure Minecraft has storage permission.
-
-PROBLEM: Pack not working after import (Bedrock).
-SOLUTION: Activate both behaviour and resource packs for .mcaddon. Enable Experimental Gameplay. Check the pack is compatible with your Minecraft version.
-
-PROBLEM: 5‑second countdown does not start download.
-SOLUTION: Wait for the countdown to finish. If nothing happens, refresh the page and try again. Do not click ads.
-
-PROBLEM: Dependency missing (Java).
-SOLUTION: Go to the Relations tab on CurseForge and download all required dependencies like Fabric API, GeckoLib, or Cloth Config.
-
-IMPORTANT WARNINGS
-
-· Only download from curseforge.com. Do not use third‑party sites claiming to host CurseForge files.
-· Never click banner ads around the download area. The real button is inside the Files tab.
-· Java mods (.jar) never work on Bedrock. Bedrock packs (.mcpack) never work on Java.
-· Always check the Relations tab for dependencies before downloading.
-· Do not double‑click .jar files. Place them in the mods folder.
-· The 5‑second countdown is normal and part of the platform. It supports the Author Rewards Program.
-
-FREQUENTLY ASKED QUESTIONS
-
-Q: Do I need an account to download from CurseForge?
-A: No account is needed for browsing or downloading from the website.
-
-Q: Is CurseForge free?
-A: Yes, CurseForge is completely free for users. There is no paid tier.
-
-Q: Is CurseForge safe?
-A: Yes, CurseForge scans projects for malware. Look for the Verified badge on trusted mods.
-
-Q: What is the difference between Java and Bedrock on CurseForge?
-A: Java uses .jar files and mod loaders. Bedrock uses .mcpack and .mcaddon files that auto‑import.
-
-Q: Can I use CurseForge mods with other launchers?
-A: Yes, you can place the .jar files in any Minecraft instance’s mods folder.
-
-Q: How do creators earn money on CurseForge?
-A: Through the Author Rewards Program. Downloads generate points that become monetary rewards.
-
-NOVA NOTES
-
-NOVA encourages the use of direct CurseForge links when sharing mods. CurseForge is allowed as a file host. When uploading to NOVA, use a direct curseforge.com link to the project or file page. Do not wrap CurseForge links with Linkvertise or other ad services. Always credit the original creator in NOVA uploads.
-
-NOVA DISCORD
-
-If you need more help join the NOVA Discord server.
-Invite: https://discord.gg/ThgxvPtUjZ
+🌐 LINKS
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
-NOVA only shares direct download links. No ad links or shorteners.
-Always credit the original creator when sharing in NOVA.
