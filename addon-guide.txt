@@ -1,91 +1,56 @@
-WHAT IS MINECRAFT ADDON AND MOD INSTALLATION
+NOVA Download & Installation Guide
 
-The NOVA Import Guide covers how to install Minecraft addons, mods, and maps for both Bedrock and Java editions. Bedrock uses auto‑import files like .mcpack .mcaddon .mcworld .mcskin. Java uses manual folder placement for .jar mods and .zip resource packs. This guide covers the full process for both editions step by step.
+⚡ Quick Start
+· Bedrock: Download .mcpack / .mcaddon / .mcworld / .mcskin → tap file → open with Minecraft → activate packs in world settings.
+· Java: Install Forge or Fabric → place .jar mods in .minecraft/mods folder → select mod loader profile in launcher.
 
-BEDROCK INSTALLATION STEPS
+📱 BEDROCK INSTALLATION
+1. Check file extension: .mcpack, .mcaddon, .mcworld, .mcskin. Never open .exe, .apk, .msi!
+2. Download from trusted sources: MCPEDL, CurseForge, NOVA Discord (https://discord.gg/Zc5pPEZYpe).
+3. Open file manager (ZArchiver on Android) → Downloads folder → tap file.
+4. If .zip, rename to .mcpack/.mcaddon.
+5. Open with Minecraft → "Import Started" → "Successfully Imported".
+6. Create/edit world → Resource Packs / Behaviour Packs → move pack to Active column.
+   For .mcaddon: activate BOTH behaviour and resource pack.
+7. Enable Experimental Gameplay if needed (World Settings → Experiments).
+8. Test in world.
 
-1. Check the file extension is .mcpack .mcaddon .mcworld or .mcskin. Do NOT open .exe .apk or .msi files.
-2. Download the file from a trusted source like MCPEDL, NOVA Discord, CurseForge Bedrock section, or the creator's official page. The file goes to your Downloads folder.
-3. Open your file manager. On Android, use ZArchiver for best results. Navigate to the Downloads folder.
-4. Tap the .mcpack or .mcaddon file. If it is a .zip file, rename it: remove .zip and make the extension .mcpack or .mcaddon.
-5. Choose Minecraft to open the file. You will see "Import Started" then "Successfully Imported".
-6. Create or edit a world. Scroll to Behaviour Packs or Resource Packs. Move the imported pack to the Active column.
-7. For .mcaddon files, activate both the behaviour pack AND the resource pack separately.
-8. Some addons need Experimental Gameplay. Go to World Settings then Experiments and enable the required toggles.
-9. Enter your world and test the addon. You should see the new content working.
+💻 JAVA INSTALLATION
+1. Install mod loader: Forge (files.minecraftforge.net) or Fabric (fabricmc.net) – match your MC version.
+2. Open .minecraft folder:
+   - Windows: Win+R, %appdata%\.minecraft
+   - macOS: Cmd+Shift+G, ~/Library/Application Support/minecraft
+   - Linux: ~/.minecraft
+3. Create "mods" folder (lowercase) inside .minecraft if missing.
+4. Place .jar mod file into mods folder. Do NOT double-click.
+5. Launch Minecraft with Forge/Fabric profile → mod appears in Mods menu.
+6. Resource packs: Options → Resource Packs → Open Pack Folder → place .zip there (do not extract).
+7. Datapacks: place .zip in saves/worldname/datapacks, then run /reload.
+8. Worlds: extract downloaded .zip, move folder into .minecraft/saves.
 
-JAVA INSTALLATION STEPS
+❗ COMMON PROBLEMS
+- Import failed → use "Open with" Minecraft, rename .zip to .mcpack.
+- Pack not showing → activate both packs, enable Experimental Gameplay.
+- Java crash → check mod version matches Minecraft exactly; check dependencies (Fabric API, etc.).
+- .exe/.apk file → DELETE immediately, report in NOVA Discord.
+- No "mods" folder → create it (lowercase) inside .minecraft.
+- .zip should be .mcpack → rename extension.
 
-1. Install a mod loader first. Forge from files.minecraftforge.net or Fabric from fabricmc.net. Choose the version that matches your Minecraft.
-2. To install a mod (.jar file): Open the .minecraft folder. On Windows press Win+R and type %appdata%\.minecraft. On macOS use Cmd+Shift+G and type ~/Library/Application Support/minecraft. On Linux it is ~/.minecraft.
-3. Inside .minecraft, look for a folder named mods. If it does not exist, create a new folder and name it mods in lowercase.
-4. Place the downloaded .jar mod file into the mods folder. Do not double‑click the .jar.
-5. Launch the Minecraft Launcher and select the Forge or Fabric profile. Press Play. If the mod loads correctly it will appear in the Mods menu.
-6. To install a resource pack (.zip file): Open Minecraft, click Options, Resource Packs, Open Pack Folder. Drag the .zip into that folder. Then activate it in game.
-7. For datapacks: Go to .minecraft/saves/yourworld/datapacks. Place the .zip there. In game run /reload.
-8. For worlds: Download the world .zip, extract the folder, and move it into .minecraft/saves. It appears in the singleplayer list.
+⚠️ WARNINGS
+· Never open .exe/.apk/.msi files.
+· Only download from trusted sites.
+· Bedrock files ≠ Java files.
+· Keep .zip resource packs/datapacks compressed.
+· Check mod dependencies.
+· For .mcaddon, activate both packs.
 
-COMMON PROBLEMS
+❓ FAQ
+Q: Can I use Bedrock addons on Java? A: No.
+Q: How to know if mod is Fabric/Forge? A: Check download page.
+Q: How to install Forge/Fabric? A: Download installer, run, pick MC version.
+Q: Why need mod loader? A: Mods won't work without it.
 
-PROBLEM: Import failed on Bedrock.
-SOLUTION: Use "Open with" and select Minecraft. Rename .zip to .mcpack. Make sure Minecraft has storage permission. Restart your device.
-
-PROBLEM: Pack not showing in Bedrock world.
-SOLUTION: Activate both the behaviour pack and resource pack for .mcaddon files. Enable Experimental Gameplay. Check your Minecraft version.
-
-PROBLEM: Java mod crashes the game.
-SOLUTION: Check the mod version and loader matches your Minecraft version exactly. Read the crash report for missing dependencies like Fabric API or GeckoLib.
-
-PROBLEM: Resource pack not appearing in Java.
-SOLUTION: Ensure the .zip is directly inside the resourcepacks folder. Check that the pack is compatible with your Minecraft version.
-
-PROBLEM: Downloaded file is .exe or .apk.
-SOLUTION: Delete it immediately. It is malware. Report the link in the NOVA Discord server.
-
-PROBLEM: I cannot find the mods folder.
-SOLUTION: Create a new folder named mods inside .minecraft. The name must be all lowercase.
-
-PROBLEM: My file is .zip but should be .mcpack.
-SOLUTION: Rename the file extension. Remove .zip and type .mcpack or .mcaddon. Then open with Minecraft.
-
-IMPORTANT WARNINGS
-
-· Never open .exe .apk or .msi files that claim to be Minecraft addons.
-· Only download from trusted sites: MCPEDL, CurseForge, Modrinth, official websites, and NOVA channels.
-· Bedrock files do not work on Java. Java mods do not work on Bedrock.
-· Do not extract .zip resource packs or datapacks. Keep them compressed.
-· Always check mod dependencies before installing (like Fabric API, Cloth Config).
-· Some addons require Experimental Gameplay to be turned on.
-· For .mcaddon files you must activate both packs.
-
-FREQUENTLY ASKED QUESTIONS
-
-Q: Can I use Bedrock addons on Java?
-A: No. .mcpack and .mcaddon only work on Bedrock. Java uses .jar and .zip files.
-
-Q: How do I know if a mod is for Fabric or Forge?
-A: Check the mod's download page. It says the required loader. Fabric and Forge mods are not interchangeable.
-
-Q: What is the .minecraft folder?
-A: It is the folder where Minecraft stores all game files, mods, resource packs, and worlds.
-
-Q: How do I install Forge or Fabric?
-A: Download the installer from files.minecraftforge.net or fabricmc.net. Run it and select the correct Minecraft version.
-
-Q: Why do I need a mod loader?
-A: Mod loaders allow .jar mod files to run. Without them mods will not work.
-
-Q: What if my addon does not appear after import?
-A: Go to world settings and activate the pack in Behaviour Packs or Resource Packs.
-
-NOVA NOTES
-
-NOVA allows direct download links for both Bedrock and Java content. Uploads must use direct links only, no Linkvertise or Urlspay wrappers. For Bedrock uploads use .mcpack or .mcaddon files. For Java uploads use .jar or .zip files. Always credit the original creator when sharing in NOVA. NOVA has separate channels for Bedrock and Java content.
-
-NOVA DISCORD
-
-If you need more help join the NOVA Discord server.
-Invite: https://discord.gg/ThgxvPtUjZ
+🌐 LINKS
+Discord: https://discord.gg/Zc5pPEZYpe
+Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
-NOVA only shares direct download links. No ad links or shorteners.
-Always credit the original creator when sharing in NOVA.
