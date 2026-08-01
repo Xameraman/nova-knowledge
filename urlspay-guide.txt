@@ -1,57 +1,55 @@
-WHAT IS URLSPAY
+Urlspay Link Unlock Guide
 
-Urlspay is a free URL shortener that pays creators per click. When you click a Urlspay link you must complete unlock rounds before reaching the final file. Each round has a timer, scrolling, and verification. Urlspay is similar to Linkvertise, Adfly, and Shorte.st. Urlspay has a low trust score of 47 out of 100 on Scamadviser. The domain was registered in July 2024. Many users report not receiving payouts. NOVA never shares Urlspay links. NOVA only uses direct download links with no ad walls.
+Urlspay is a URL shortener that requires multiple unlock rounds before revealing the final download link. NOVA never uses Urlspay – we only share direct links. This guide helps you safely navigate one if encountered.
 
-HOW TO UNLOCK A URLSPAY LINK
+---
 
-1. Open the Urlspay link in Chrome or your device browser. Do not use the in app browser from apps like YouTube, Discord, or TikTok.
-2. Wait a few seconds for the page to load. A Continue to Content button appears. Click it.
-3. Wait about 20 seconds. A countdown timer may show. Do not close the tab or switch apps.
-4. Tap Unlock Link when it becomes active. Scroll all the way to the bottom of the page.
-5. Press the Verify button at the bottom. Wait for it to process. The button changes to Continue. Press Continue.
-6. Repeat steps 3 to 5 from three to five times. Each round is the same: wait, unlock, scroll, verify, continue.
-7. After the final round, press Unlock Link one more time. Scroll down, press Continue or Get Link.
-8. You will be redirected to the actual file host, usually MediaFire, Google Drive, or MEGA.
-9. Download your file from the final host page.
+⚡ Quick Start
+Open in Chrome (not in‑app browser) → click Continue to Content → wait ~20s → tap Unlock Link → scroll down → tap Verify → tap Continue. Repeat 3–5 rounds until redirected to the file host. Never click ads or install anything.
 
-COMMON PROBLEMS
+---
 
-PROBLEM: The page keeps reloading or progress resets.
-SOLUTION: Use Chrome or an external browser. In app browsers from Discord and YouTube break session tracking.
+🔓 UNLOCK STEPS
 
-PROBLEM: The countdown timer keeps starting over.
-SOLUTION: Stay on the page without switching tabs. Do not let your screen turn off.
+1. Open the Urlspay link in Chrome, Safari, or your device browser. Avoid in‑app browsers (Discord, YouTube, TikTok).
+2. Click Continue to Content.
+3. Wait ~20 seconds (countdown may appear). Stay on the page – don't switch tabs or let screen turn off.
+4. Tap Unlock Link when active. Scroll all the way to the bottom.
+5. Tap Verify at the bottom – wait for it to change to Continue, then tap it.
+6. Repeat steps 3–5 for 3 to 5 rounds (sometimes up to 7).
+7. After the final round, tap Unlock Link again, scroll down, and tap Continue or Get Link.
+8. You'll be redirected to the actual file host (MediaFire, Google Drive, MEGA, etc.) – download from there.
 
-PROBLEM: I cannot find the Verify button after scrolling.
-SOLUTION: Scroll slowly to the very bottom. The button may be small or hidden below ads. Rotate your phone to landscape mode if on mobile.
+---
 
-PROBLEM: I completed many rounds but the link still does not unlock.
-SOLUTION: Some links need up to seven rounds. If it still fails, the link may be broken. Ask the sharer for a direct link instead.
+❗ COMMON PROBLEMS
 
-PROBLEM: A pop up warns my phone is infected with a virus.
-SOLUTION: This is a fake ad. Close the tab immediately. Do not click any buttons on the pop up.
+Problem Solution
+Page reloads / progress resets Use Chrome or external browser – in‑app browsers break sessions.
+Countdown restarts Stay on the page; don't switch tabs or let screen sleep.
+Cannot find Verify button Scroll slowly to very bottom – it may be hidden under ads. Rotate to landscape.
+Completed rounds but no link May need up to 7 rounds. If still fails, link is broken – ask for direct link.
+"Virus detected" pop‑up Fake ad – close tab immediately. Do not click anything.
+Pop‑up asks to install extension Never install – close tab. It's malware.
 
-PROBLEM: A pop up asks to install a browser extension.
-SOLUTION: Never install anything from link shortener pages. Close the tab. These are often malware.
+---
 
-IMPORTANT WARNINGS
+⚠️ IMPORTANT WARNINGS
+· Never pay for upgrades, enter personal info, or install anything from Urlspay.
+· Never click banner ads or pop‑ups – close unexpected tabs.
+· Ad blockers may break the unlock – disable temporarily, then re‑enable.
+· Use Chrome or Safari – in‑app browsers cause failures.
 
-· Never pay for any upgrade or premium service on Urlspay. It is a known scam risk.
-· Never enter personal information, credit card details, or phone numbers.
-· Never install browser extensions, apps, or software from Urlspay pages.
-· Never click on banner ads or pop ups. Close unexpected tabs immediately.
-· Ad blockers can break the unlock process. Disable them temporarily then re enable after.
-· Urlspay has cryptocurrency services flagged as high risk. Avoid any crypto prompts.
-· Use Chrome or Safari for best compatibility. In app browsers cause failures.
+---
 
-NOVA NOTES
+❓ FAQ
+Q: Why doesn't NOVA use Urlspay? A: NOVA only provides direct download links – no ad walls or shorteners.
+Q: What if I find a Urlspay link in NOVA? A: Report it with /nova-report.
+Q: Are the virus warnings real? A: No – they are fake ads.
 
-NOVA never shares Urlspay links. NOVA policy requires direct download links only. No ad walls, no link shorteners, no paid redirect services. If you found a Urlspay link through NOVA, report it immediately using /nova-report. NOVA provides direct MediaFire, Google Drive, MEGA, or Proton Drive links instead. If a creator only provides a Urlspay link, this guide helps you complete it safely. But always request a direct link when possible.
+---
 
-NOVA DISCORD
-
-If you need more help join the NOVA Discord server.
-Invite: https://discord.gg/ThgxvPtUjZ
+🌐 LINKS
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
-NOVA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in NOVA.
