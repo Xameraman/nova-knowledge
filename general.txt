@@ -1,72 +1,76 @@
-WHAT IS NOVA
+NOVA is a community-driven Discord server and guide network for verified Minecraft Bedrock content — direct downloads, proper credits, 22 clean categories, and zero ad links.
 
-NOVA stands for Nexus Of Verified Assets — a community Discord server and guide network for Minecraft Bedrock Edition content, founded by Xameraman5022. NOVA provides verified, direct download links with proper creator credit, organized across 22 categories. No ad links or shorteners are ever allowed.
+⚡ Quick Start
+Join the Discord → Get the Key Access role → Browse any of the 22 category channels → Click direct download links from trusted hosts. Installation help is always at the guide hub.
 
-HOW TO JOIN AND USE NOVA
+📋 How to Join and Use NOVA
 
-1. Join the Discord: https://discord.gg/Zc5pPEZYpe
-2. Read the rules. English only. Moderation is handled by Wick bot.
-3. Get the "Key Access" role to unlock most channels.
+1. Join the official NOVA Discord: https://discord.gg/Zc5pPEZYpe
+2. Read the rules (English only). Moderation is handled by Wick bot.
+3. Obtain the Key Access role to unlock the main channels.
 4. Browse the 22 categories: PvP, Utility, Furniture, Horror, Anime, Shader, Structure, Weapon, Bosses, Vehicle, Visual, Survival, Client, GUI & UI, Adventure, Minigame, Food, Environment, Addon, World, Animation, Skins.
-5. Click the direct links in each channel — they go to trusted hosts like MediaFire, MEGA, Google Drive, Proton Drive. No ad links.
-6. Need help downloading? Visit the guides hub: https://xameraman.github.io/all-nova-guides/
-7. Creators: use direct links only. Bedrock: .mcpack/.mcaddon. Java: .jar/.zip. Always credit the original creator.
+5. Click any direct link in a channel — all downloads come from trusted hosts (MediaFire, MEGA, Google Drive, Proton Drive). No ad pages.
+6. Need help installing? Visit the complete guide hub: https://xameraman.github.io/all-nova-guides/
 
-HOW SHARING WORKS IN NOVA (IMPORTANT — USE THIS TO DISTINGUISH COMMANDS)
+📥 Downloading & Installing Content
+For Bedrock:
 
-There are two distinct groups of people who share content, and they use different channels/commands:
+1. Download the .mcpack or .mcaddon file from a trusted direct link.
+2. Open the file with Minecraft. The pack will import automatically.
+3. Apply it in your world or global resources settings.
 
-**PACKMAKERS (sharing your own creation):**
-- You can simply drop your MCPEDL or direct creation link in the 💌 request here channel. A preview photo MUST be included; links without photos are ignored.
-- For a formal submission, use /share-with-nova. Required fields: name, file_link, category, credits, support_link, archive (YES/NO/IDK/your own permanent link – filego.io is NEVER used), and a photo.
-- Staff review submissions; approved packmakers get the Verified Packmaker role and are featured.
+For Java:
 
-**NOVA ITEMS SHARERS (sharing someone else's content):**
-- Use /nova-share. Required fields: name, direct download link, original creator credit, description, preview image, category, optional support link.
-- The bot posts an embed with 🚀 Download Now and optionally 💝 Support the Creator buttons.
+1. Download the .jar or .zip file from a trusted direct link.
+2. Place the file in your .minecraft/resourcepacks (or datapacks/mods) folder.
+3. Activate it in the in‑game resource‑pack menu.
 
-**EXPERIENCED NOVA SHARERS (announcing approved packmaker submissions):**
-- Use /nova-feature. Adds a permanent archive link and up to three buttons: 🚀 Download Now, 🌌 Temp Mirror, 💝 Support the Creator.
+🧑‍🤝‍🧑 How Sharing Works on NOVA
 
-ANNOUNCEMENT PROCESS:
-After using /nova-share or /nova-feature, the announcer must publish both the text embed and a separate preview photo to the connected server (https://discord.gg/4HjDRTUc3c), text first, then photo.
+· Packmakers (your own creation): drop a direct link with a preview photo in 💌 request here, or use /share-with-nova for a formal submission (name, file_link, category, credits, support_link, archive, photo). Approved creators receive the Verified Packmaker role.
+· NOVA Items Sharers (someone else’s content): use /nova-share with name, link, credits, description, image, category, and optional support link. The bot posts an embed with 🚀 Download Now.
+· Experienced NOVA Sharers (announcing approved submissions): use /nova-feature to add a permanent archive link and up to three buttons: 🚀 Download Now, 🌌 Temp Mirror, 💝 Support the Creator.
+· All /nova-share and /nova-feature actions are auto‑announced by the bot — no extra steps needed.
 
-NOVA GUIDE WEBSITES
+❗ Common Problems
 
-All 12 guides are at https://xameraman.github.io/all-nova-guides/. They cover Java & Bedrock Import, MCPEDL, MediaFire, Mirror, CurseForge, Modrinth, MEGA, Linkvertise, Proton Drive, Sub2Unlock, Urlspay, and the hub.
+Problem Solution
+Can’t access channels Get the Key Access role
+Broken link Use /nova-report
+Don’t know how to install Visit https://xameraman.github.io/guide-for-java-and-bedrock/
+Found an ad link Report immediately with /nova-report
+Want to upload Decide if you are a packmaker or a sharer, then follow the matching method above
+NOVA Assistant not responding Wait a few seconds and try again, or ask in a support channel
 
-SOCIAL LINKS
+⚠️ Important Warnings
 
-Discord: https://discord.gg/Zc5pPEZYpe
-Library: https://nova-library-mu.vercel.app/
-YouTube: youtube.com/@xameraman5022
-Guides: https://xameraman.github.io/all-nova-guides/
-GitHub: github.com/Xameraman
-Disboard Server ID: 1508503007736893581
-
-COMMON PROBLEMS
-
-Can't access channels → get Key Access role.
-Broken link → use /nova-report.
-Don't know how to install → https://xameraman.github.io/guide-for-java-and-bedrock/
-See an ad link → report immediately with /nova-report.
-Want to upload → First determine if you are a packmaker (your own creation) or a sharer (someone else's). Then follow the appropriate method above.
-NOVA Assistant not responding → wait a few seconds and try again, or ask in a support channel.
-
-WARNINGS
-
-· Only direct download links allowed.
+· Only direct download links are accepted.
 · Always credit the original creator.
 · No NSFW, spam, or paid content.
-· Images mandatory for submissions.
+· Submissions without a preview image are ignored.
 · NOVA is completely free.
-· Only download from trusted hosts.
-· Never open .exe, .apk, .msi files claiming to be Minecraft content.
-· filego.io never used for packmaker archives.
+· Never open .exe, .apk, or .msi files claiming to be Minecraft content.
+· filego.io is never used for packmaker archives.
 
-NOVA VALUES
+❓ FAQ
 
-Verified. Organized. Creator Respecting.
+Is NOVA free?
+Yes, everything on NOVA is and always will be free — no paywalls, no ad gates.
 
-If you need more help, join the NOVA Discord: https://discord.gg/Zc5pPEZYpe
-Owner: Xameraman5022
+What file types are used?
+Bedrock: .mcpack / .mcaddon. Java: .jar / .zip.
+
+How do I get a broken link fixed?
+Use the /nova-report command, and staff will handle it.
+
+Can I share someone else’s creation?
+Absolutely — use /nova-share and give proper credit. Never claim it as your own.
+
+Why can’t I see all 22 category channels?
+Make sure you have the Key Access role. If you only see a few, go to Channels & Roles → Roles at the top of the channel list and pick the categories you want, or grab Access all Without Pings to see everything silently.
+
+🌐 Links
+
+· Discord: https://discord.gg/Zc5pPEZYpe
+· NOVA Library: https://nova-library-mu.vercel.app/
+· Owner: Xameraman5022
