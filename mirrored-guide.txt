@@ -1,89 +1,75 @@
-Mirrored.to Download Guide
-
-Mirrored.to is a file distribution service that mirrors a single file across 10–16 hosting platforms. You choose which host to download from – your safety depends entirely on that choice.
-
----
+Mirrored.to mirrors a single file across multiple hosting platforms. You pick a host; your safety depends entirely on that choice.
 
 ⚡ Quick Start
-Open link → pick an Easy Green host (Gofile, MediaFire, Send.now, Google Drive, Dropbox) → click button → follow host's download steps → check file extension is .mcpack/.mcaddon/.jar/.zip. Avoid Red hosts.
+Open the link → pick an Easy Green host (Gofile, MediaFire, Send.now, Google Drive, Dropbox) → click its button → follow that host’s steps → check the file extension is .mcpack/.mcaddon/.jar/.zip. Avoid Red hosts.
 
----
+📥 How to Download
 
-📥 HOW TO USE MIRRORED.TO
+1. Open the Mirrored.to link to see a list of host buttons.
+2. Choose an Easy Green host first: Gofile.io, MediaFire.com, Send.now, Google Drive, Dropbox.
+      If none available, try Medium Yellow: Krakenfiles, Userdrive, Devuploads, 1fichier, Rapidgator.
+      Avoid Hard Red hosts (Katfile, 4shared, Upfiles, Megaup, Upload.ee, FilesDL) unless it’s the only option.
+3. Click the chosen host’s button to reach its download page.
+4. Follow the host-specific steps below.
+5. After downloading, verify the file extension; delete anything unexpected (like .apk).
 
-1. Open the Mirrored.to link – you'll see a list of hosting buttons.
-2. Always pick from Easy Green hosts first: Gofile.io, MediaFire.com, Send.now, Google Drive, Dropbox – safest and easiest.
-3. If none available, try Medium Yellow hosts: Krakenfiles, Userdrive, Devuploads, 1fichier, Rapidgator – have timers/captchas but usable.
-4. Avoid Hard Red hosts unless absolutely necessary: Katfile, 4shared, Upfiles, Megaup, Upload.ee, FilesDL – NSFW ads, malware risks, or broken.
-5. Click your chosen host button – you'll be taken to that host's download page.
-6. Follow the specific host steps below – each is different.
-7. After downloading, check the file extension – delete anything unexpected (like .apk).
+🟢 Easy Host Steps
 
----
+· Gofile.io: Click the download icon (right side of file row), wait 1–3s, auto-downloads.
+· MediaFire.com: Click the large blue Download button (below file name). Complete captcha if shown.
+· Send.now: Click the big blue Download – starts instantly.
+· Google Drive: Click the download icon (down arrow, top right). For large files, click Download anyway. May need an account.
+· Dropbox: Click Download (top right). No login needed.
 
-🟢 EASY HOST STEPS
+🟡 Medium Host Steps
 
-· Gofile.io: Click the download icon (right side of file row) – wait 1–3s – auto-downloads. No timers/captchas.
-· MediaFire.com: Click the large blue Download button below file name – not banners. Complete captcha if shown.
-· Send.now: Click the big blue Download – starts instantly. No timers/captchas/ads.
-· Google Drive: Click the download icon (down arrow, top right). If large, click Download anyway – may need account.
-· Dropbox: Click Download (top right) – no login needed for public links.
-
----
-
-🟡 MEDIUM HOST STEPS
-
-· Krakenfiles.com: Scroll past ads – click green Download below file info.
+· Krakenfiles.com: Scroll past ads, click green Download below file info.
 · Userdrive.com: Complete captcha → click Create download link → press browser back → click Click to download.
 · Devuploads.com: Scroll down → click blue Generate Download Link → wait 13s → click Go to generated download link → in new tab, click larger Download Now.
 · 1fichier.com: Wait 60s countdown → click green download arrow.
 · Rapidgator.net: Click grey Free Download → wait 45s → enter captcha → click orange Click here to download.
 
----
+🔴 Hard Host Warnings (Skip if possible)
 
-🔴 HARD HOST WARNINGS (SKIP IF POSSIBLE)
-
-· Katfile.online: Opens adult pop-ups – close immediately.
-· 4shared.com: Requires account creation – skip.
-· Upfiles.com: Dangerous pop-ups and malware risk – skip entirely.
+· Katfile.online: Adult pop-ups – close tab immediately.
+· 4shared.com: Requires account – skip.
+· Upfiles.com: Dangerous pop-ups, malware risk – skip entirely.
 · Megaup.net: NSFW ads and pop-ups – skip.
-· Upload.ee: May rename files to .apk (virus risk) – skip.
+· Upload.ee: May rename files to .apk – delete immediately, skip.
 · FilesDL: Broken – every attempt leads to an ad page with no download.
 
----
-
-❗ COMMON PROBLEMS
+❗ Common Problems
 
 Problem Solution
-Too many hosts, don't know which Pick Gofile, MediaFire, or Send.now first – they're easiest.
-Host opens adult pop‑ups Close tab immediately – pick an Easy host instead.
-Countdown timer appears Wait for it – don't refresh or it resets.
-Getting ad pages instead of download You clicked a fake button – read host steps carefully. Use Brave browser to block ads.
-Host asks for account Most don't require one – if it does (except 4shared), you're on a fake page. Try a different host.
-Downloaded file has .apk extension Delete immediately – pick a different host and re‑download.
+Too many hosts Pick Gofile, MediaFire, or Send.now first.
+Adult pop-ups appear Close tab, choose an Easy host.
+Countdown timer starts Wait – refreshing resets it.
+Ad pages instead of download Clicked fake button – follow host steps, use Brave browser.
+Host asks for account Most don’t; if it does (except 4shared), it’s fake. Try another host.
+Downloaded file is .apk Delete immediately, re‑download from a different host.
 
----
+⚠️ Important Warnings
 
-⚠️ IMPORTANT WARNINGS
 · Always pick an Easy Green host first – avoid Red hosts.
 · Use Brave browser for automatic ad blocking.
 · Never install software, extensions, or apps from host pages.
 · Never allow browser notifications.
-· Close unexpected pop‑ups/tabs immediately.
-· Check file extension after every download – delete anything unexpected.
+· Close unexpected pop-ups/tabs immediately.
+· Check file extension after every download; delete anything unexpected.
 · Never enter payment info or personal details.
 · Upfiles.com and Upload.ee have the highest malware risk – skip them.
 
----
-
 ❓ FAQ
-Q: Which host is safest? A: Gofile.io, MediaFire, Send.now, Google Drive, and Dropbox – all Easy tier.
-Q: Does NOVA use Mirrored.to? A: Rarely – we prefer direct links. Use this guide only if it's the only option.
-Q: What if the download is .apk? A: Delete it immediately – it's malware. Pick a different host.
+Q: Which host is safest?
+A: Gofile.io, MediaFire, Send.now, Google Drive, and Dropbox (Easy tier).
 
----
+Q: Does NOVA use Mirrored.to?
+A: Rarely – we prefer direct links. Use this guide only if it’s the only option.
 
-🌐 LINKS
+Q: What if the download is .apk?
+A: Delete it immediately – it’s malware. Pick a different host.
+
+🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
