@@ -1,96 +1,80 @@
 WHAT IS NOVA
 
-NOVA stands for Nexus Of Verified Assets. NOVA is a community‑driven Discord server and network of guide websites built around fast, verified, direct downloads for Minecraft Bedrock Edition content. NOVA was founded and is owned by Xameraman5022. Every file shared in NOVA goes through a structured system — categories are organized, credits are required, links are verified direct downloads, and no ad links or shorteners are ever allowed. NOVA always credits the original creator of every pack and respects creator requests immediately. NOVA has a Discord server, 12 official guide websites, an online library at https://nova-library-mu.vercel.app/, the NOVA Assistant AI helper bot, a YouTube channel, and a GitHub‑powered database. The NOVA Discord server has approximately 179 members and new content is shared daily. NOVA is also listed on Disboard for public discovery.
+NOVA stands for Nexus Of Verified Assets — a community Discord server and guide network for Minecraft Bedrock Edition content, founded by Xameraman5022. NOVA provides verified, direct download links with proper creator credit, organized across 22 categories. No ad links or shorteners are ever allowed.
 
 HOW TO JOIN AND USE NOVA
 
-1. Join the NOVA Discord server using the permanent invite link: https://discord.gg/Zc5pPEZYpe
-2. Once in the server, read the rules channel first. NOVA uses Wick bot for moderation. English is the server language.
-3. Get the Key Access role to unlock most channels. This is the verification role.
-4. Browse the 22 organized content channels: PvP, Utility, Furniture, Horror, Anime, Shader, Structure, Weapon, Bosses, Vehicle, Visual, Survival, Client, GUI & UI, Adventure, Minigame, Food, Environment, Addon, World, Animation, Skins.
-5. To download content, click the direct links shared in each channel. Links go to trusted file hosts like MediaFire, MEGA, Google Drive or Proton Drive. There are never any ad links or Linkvertise wrappers in NOVA.
-6. If you need help with a download, visit the NOVA guides hub at https://xameraman.github.io/all-nova-guides/ and pick the guide for the file host you are using. NOVA has 12 guides covering: Java & Bedrock Import, MCPEDL, MediaFire, Mirror, CurseForge, Modrinth, MEGA, Linkvertise, Proton Drive, Sub2Unlock, Urlspay and the All Guides hub.
-7. If you are a creator uploading to NOVA, use direct links only. For Bedrock content use .mcpack or .mcaddon files. For Java content use .jar or .zip files. Always credit the original creator. Images are mandatory for all submissions.
+1. Join the Discord: https://discord.gg/Zc5pPEZYpe
+2. Read the rules. English only. Moderation is handled by Wick bot.
+3. Get the "Key Access" role to unlock most channels.
+4. Browse the 22 categories: PvP, Utility, Furniture, Horror, Anime, Shader, Structure, Weapon, Bosses, Vehicle, Visual, Survival, Client, GUI & UI, Adventure, Minigame, Food, Environment, Addon, World, Animation, Skins.
+5. Click the direct links in each channel — they go to trusted hosts like MediaFire, MEGA, Google Drive, Proton Drive. No ad links.
+6. Need help downloading? Visit the guides hub: https://xameraman.github.io/all-nova-guides/
+7. Creators: use direct links only. Bedrock: .mcpack/.mcaddon. Java: .jar/.zip. Always credit the original creator.
 
-HOW NOVA UPLOADS WORK
+HOW SHARING WORKS IN NOVA
 
-Packmakers who create their own content use the /share-with-nova command. It requires name, a direct file link, category, credits, support link, an archive preference (YES, NO, IDK, or a personal permanent link — filego.io is never used for archives), and a preview photo. The submission is reviewed by staff, and if approved the packmaker gets the Verified Packmaker role and the pack is featured by an Experienced NOVA Sharer using /nova-feature.
+NOVA has two ways to share content:
 
-NOVA Items Sharers share outside creator content using /nova-share. This command takes the pack name, a direct download link, original creator credit, a short description, a preview image link, the correct category, and an optional support link. The bot sends a formatted embed with a 🚀 Get It Now button and, if a valid support link is provided, a 💝 Support The Creator button.
+1. 💌 Request Here Channel (for packmakers):
+   - Simply drop your MCPEDL or creation link in the channel.
+   - If the link does not have a preview photo, your message will be ignored.
+   - For detailed, structured submissions, use /share-with-nova.
 
-Experienced NOVA Sharers feature verified packmaker submissions with /nova-feature. This command adds a permanent archive link (never filego.io) and can produce up to three buttons: 🚀 Get It Now, 🌌 Temp Mirror, and 💝 Support The Creator.
+2. /share-with-nova (for Packmakers):
+   - Used by packmakers who want a formal submission.
+   - Required fields: name, file_link, category, credits, support_link, archive preference (YES, NO, IDK, or a permanent link — filego.io is NEVER used), and a preview photo.
+   - Staff review the submission. If approved, the packmaker gets the Verified Packmaker role and the pack is featured.
 
-After any announce command, the announcer must publish both the bot text message and a separate preview photo in the channel, in that order, to the connected server.
+3. /nova-share (for NOVA Items Sharers):
+   - Used by trusted members to share content from creators outside the server.
+   - Required fields: name, link, credits, description, image, category, support (or "none").
+   - The bot sends an embed with a 🚀 Download Now button and, if a support link is provided, a 💝 Support the Creator button.
 
-All uploads must use direct download links. No Linkvertise, no Urlspay, no Sub2Unlock wrappers. Every upload must credit the original creator. Images are mandatory.
+4. /nova-feature (for Experienced NOVA Sharers):
+   - Used to announce approved packmaker submissions.
+   - Adds a permanent archive link (never filego.io) and can produce three buttons: 🚀 Download Now, 🌌 Temp Mirror, 💝 Support the Creator.
+
+IMPORTANT: After announcing, the announcer must publish both the text embed and a separate preview photo to the connected server (https://discord.gg/4HjDRTUc3c), in that order.
+
+All uploads must use direct links. No Linkvertise, Urlspay, Sub2Unlock wrappers. Every upload must credit the original creator. Images are mandatory.
 
 NOVA GUIDE WEBSITES
 
-NOVA has 12 guide sites all hosted on GitHub Pages. The guides hub is at https://xameraman.github.io/all-nova-guides/. Individual guides cover:
+All 12 guides are at https://xameraman.github.io/all-nova-guides/. They cover Java & Bedrock Import, MCPEDL, MediaFire, Mirror, CurseForge, Modrinth, MEGA, Linkvertise, Proton Drive, Sub2Unlock, Urlspay, and the hub.
 
-· Java & Bedrock Import Guide: https://xameraman.github.io/guide-for-java-and-bedrock/
-· MCPEDL Guide: https://xameraman.github.io/guide-for-mcpedl/
-· MediaFire Guide: https://xameraman.github.io/guide-for-mediafire/
-· Mirror Guide: https://xameraman.github.io/guide-for-mirror.to/
-· CurseForge Guide: https://xameraman.github.io/guide-for-curseforge/
-· Modrinth Guide: https://xameraman.github.io/guide-for-modrinth/
-· MEGA Guide: https://xameraman.github.io/guide-for-meganz/
-· Linkvertise Guide: https://xameraman.github.io/guide-for-linkvertise/
-· Proton Drive Guide: https://xameraman.github.io/guide-for-ProtonDrive/
-· Sub2Unlock Guide: https://xameraman.github.io/Guide-for-Sub2unlock/
-· Urlspay Guide: https://xameraman.github.io/guide-for-urlspay/
-· All Guides: https://xameraman.github.io/all-nova-guides/
+SOCIAL LINKS
 
-The NOVA Discord server includes NOVA Assistant, the official AI helper bot, to answer your questions about commands, categories, credit rules, and the upload system.
-
-NOVA SOCIAL AND COMMUNITY LINKS
-
-NOVA Discord: https://discord.gg/Zc5pPEZYpe
-NOVA Library: https://nova-library-mu.vercel.app/
-NOVA YouTube: youtube.com/@xameraman5022
-NOVA Guides Hub: https://xameraman.github.io/all-nova-guides/
-NOVA GitHub: github.com/Xameraman
-NOVA on Disboard with Server ID: 1508503007736893581
+Discord: https://discord.gg/Zc5pPEZYpe
+Library: https://nova-library-mu.vercel.app/
+YouTube: youtube.com/@xameraman5022
+Guides: https://xameraman.github.io/all-nova-guides/
+GitHub: github.com/Xameraman
+Disboard Server ID: 1508503007736893581
 
 COMMON PROBLEMS
 
-PROBLEM: I cannot access channels in NOVA Discord.
-SOLUTION: Get the Key Access verification role. Check the rules channel for instructions.
+Can't access channels → get Key Access role.
+Broken link → use /nova-report.
+Don't know how to install → https://xameraman.github.io/guide-for-java-and-bedrock/
+See an ad link → report immediately with /nova-report.
+Want to upload → Packmakers use /share-with-nova or the 💌 request here channel. Sharers use /nova-share. Experienced sharers use /nova-feature.
+NOVA Assistant not responding → wait a few seconds and try again, or ask in a support channel.
 
-PROBLEM: A download link is broken or expired.
-SOLUTION: Report it using the /nova-report command in the server, or ask in the channel where it was posted.
+WARNINGS
 
-PROBLEM: I do not know how to install a downloaded file.
-SOLUTION: Visit the NOVA Java & Bedrock Import Guide at https://xameraman.github.io/guide-for-java-and-bedrock/
-
-PROBLEM: I see a Linkvertise or ad link in NOVA.
-SOLUTION: NOVA never allows ad links. Report the message immediately with /nova-report or notify a staff member.
-
-PROBLEM: I want to upload but do not know the commands.
-SOLUTION: Packmakers use /share-with-nova. Sharers use /nova-share. Experienced sharers use /nova-feature. Check the server instructions channel for detailed help, or ask NOVA Assistant.
-
-PROBLEM: The NOVA Assistant bot is not responding.
-SOLUTION: Wait a few seconds and try again. If it still fails, ask in a support channel or contact a staff member.
-
-IMPORTANT WARNINGS
-
-· NOVA only accepts direct download links. No ad links or shorteners are ever allowed.
-· Always credit the original creator when sharing in NOVA.
-· Never share NSFW, spam, or paid content without explicit creator permission.
-· Images are mandatory for all submissions.
-· NOVA never asks for payment. It is completely free.
-· Only download from trusted file hosts linked in NOVA channels.
-· Avoid .exe .apk and .msi files claiming to be Minecraft content.
-· filego.io is never used for packmaker archives.
+· Only direct download links allowed.
+· Always credit the original creator.
+· No NSFW, spam, or paid content.
+· Images mandatory for submissions.
+· NOVA is completely free.
+· Only download from trusted hosts.
+· Never open .exe, .apk, .msi files claiming to be Minecraft content.
+· filego.io never used for packmaker archives.
 
 NOVA VALUES
 
-NOVA is built on four words: Verified. Organized. Creator Respecting. Every decision — from channel structure to upload rules — reflects these values. NOVA exists to provide fast, verified, direct downloads with proper creator credit and organized content sharing. No clutter. No confusion. No ads.
+Verified. Organized. Creator Respecting.
 
-NOVA DISCORD
-
-If you need more help join the NOVA Discord server.
-Invite: https://discord.gg/Zc5pPEZYpe
+If you need more help, join the NOVA Discord: https://discord.gg/Zc5pPEZYpe
 Owner: Xameraman5022
-NOVA only shares direct download links. No ad links or shorteners.
-Always credit the original creator when sharing in NOVA.
