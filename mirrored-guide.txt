@@ -1,94 +1,89 @@
-WHAT IS MIRRORED.TO
+Mirrored.to Download Guide
 
-Mirrored.to is a file distribution service that takes one uploaded file and mirrors it across many file hosting platforms at once. When you open a Mirrored.to link you see a page with 10 to 16 different host options to choose from. You can pick whichever host works best for you. Mirrored.to itself does not host files. It only provides the mirror links. The safety of your download depends entirely on which host you pick and how you navigate that host. Mirrored.to is also spelled mirrored.to or mirror.to.
+Mirrored.to is a file distribution service that mirrors a single file across 10–16 hosting platforms. You choose which host to download from – your safety depends entirely on that choice.
 
-HOW TO USE MIRRORED.TO
+---
 
-1. Open the Mirrored.to link. You will see a list of hosting service buttons. Each button leads to the same file but on a different host.
-2. Always pick from the Easy Green hosts first. These are Gofile.io, MediaFire.com, Send.now, Google Drive, and Dropbox. These hosts are the safest and easiest to use.
-3. If no Easy host is available, try a Medium Yellow host like Krakenfiles.com, Userdrive.com, Devuploads.com, 1fichier.com, or Rapidgator.net. These have timers or captchas but are still usable.
-4. Avoid Hard Red hosts unless absolutely necessary. These are Katfile.online, 4shared.com, Upfiles.com, Megaup.net, Upload.ee, and FilesDL. They have NSFW ads, malware risks, or broken downloads.
-5. Click the button for the host you chose. You will be taken to that host download page.
-6. Follow the download steps for that specific host. Each host has a different process. See the host guides below.
-7. After downloading, check the file extension. For Minecraft it should be .mcpack, .mcaddon, .mcworld, .jar, or .zip. Delete any unexpected file types.
+⚡ Quick Start
+Open link → pick an Easy Green host (Gofile, MediaFire, Send.now, Google Drive, Dropbox) → click button → follow host's download steps → check file extension is .mcpack/.mcaddon/.jar/.zip. Avoid Red hosts.
 
-EASY HOST DOWNLOAD STEPS
+---
 
-Gofile.io: Open the link and find your file in the list. Click the download icon on the right side of the file row, next to the three dots. Wait 1 to 3 seconds for the file to prepare. The download starts automatically. No timers, no captchas.
+📥 HOW TO USE MIRRORED.TO
 
-MediaFire.com: Open the link. Look for the large blue Download button directly below the file name and file size. Do not click any flashing banner ads. Click the real blue button. If a captcha appears, complete it. The file downloads to your Downloads folder. For more help use the NOVA MediaFire guide.
+1. Open the Mirrored.to link – you'll see a list of hosting buttons.
+2. Always pick from Easy Green hosts first: Gofile.io, MediaFire.com, Send.now, Google Drive, Dropbox – safest and easiest.
+3. If none available, try Medium Yellow hosts: Krakenfiles, Userdrive, Devuploads, 1fichier, Rapidgator – have timers/captchas but usable.
+4. Avoid Hard Red hosts unless absolutely necessary: Katfile, 4shared, Upfiles, Megaup, Upload.ee, FilesDL – NSFW ads, malware risks, or broken.
+5. Click your chosen host button – you'll be taken to that host's download page.
+6. Follow the specific host steps below – each is different.
+7. After downloading, check the file extension – delete anything unexpected (like .apk).
 
-Send.now: Open the link. Click the big blue Download button. The download starts instantly with no timers, no captchas, and no ads.
+---
 
-Google Drive: Open the link. Click the download icon, an arrow pointing down, in the top right corner. If the file is large, Google may show a virus scan warning. Click Download anyway. You may need to confirm with a Google account.
+🟢 EASY HOST STEPS
 
-Dropbox: Open the link. Click the Download button, usually in the top right. No login is needed for public links. The file downloads automatically.
+· Gofile.io: Click the download icon (right side of file row) – wait 1–3s – auto-downloads. No timers/captchas.
+· MediaFire.com: Click the large blue Download button below file name – not banners. Complete captcha if shown.
+· Send.now: Click the big blue Download – starts instantly. No timers/captchas/ads.
+· Google Drive: Click the download icon (down arrow, top right). If large, click Download anyway – may need account.
+· Dropbox: Click Download (top right) – no login needed for public links.
 
-MEDIUM HOST DOWNLOAD STEPS
+---
 
-Krakenfiles.com: Scroll past any banner ads. Find the green Download button below the file information. Click it. If an ad opens, press back and click again.
+🟡 MEDIUM HOST STEPS
 
-Userdrive.com: Complete the captcha on the page. Click Create download link. Press your browser back button. Now click Click to download.
+· Krakenfiles.com: Scroll past ads – click green Download below file info.
+· Userdrive.com: Complete captcha → click Create download link → press browser back → click Click to download.
+· Devuploads.com: Scroll down → click blue Generate Download Link → wait 13s → click Go to generated download link → in new tab, click larger Download Now.
+· 1fichier.com: Wait 60s countdown → click green download arrow.
+· Rapidgator.net: Click grey Free Download → wait 45s → enter captcha → click orange Click here to download.
 
-Devuploads.com: Scroll down and click the blue Generate Download Link button. Wait 13 seconds. Click Go to generated download link. In the new tab, click the larger Download Now button.
+---
 
-1fichier.com: A 60 second countdown starts automatically. Wait for it. Click the green download arrow after the timer ends.
+🔴 HARD HOST WARNINGS (SKIP IF POSSIBLE)
 
-Rapidgator.net: Click the grey Free Download button. Wait 45 seconds. Enter the captcha text. Click the orange Click here to download button.
+· Katfile.online: Opens adult pop-ups – close immediately.
+· 4shared.com: Requires account creation – skip.
+· Upfiles.com: Dangerous pop-ups and malware risk – skip entirely.
+· Megaup.net: NSFW ads and pop-ups – skip.
+· Upload.ee: May rename files to .apk (virus risk) – skip.
+· FilesDL: Broken – every attempt leads to an ad page with no download.
 
-HARD HOST WARNINGS
+---
 
-Katfile.online: Opens adult content pop ups. Close NSFW tabs immediately. Try again. Skip this host if possible.
+❗ COMMON PROBLEMS
 
-4shared.com: Requires creating an account to download. Skip if you do not want to register.
+Problem Solution
+Too many hosts, don't know which Pick Gofile, MediaFire, or Send.now first – they're easiest.
+Host opens adult pop‑ups Close tab immediately – pick an Easy host instead.
+Countdown timer appears Wait for it – don't refresh or it resets.
+Getting ad pages instead of download You clicked a fake button – read host steps carefully. Use Brave browser to block ads.
+Host asks for account Most don't require one – if it does (except 4shared), you're on a fake page. Try a different host.
+Downloaded file has .apk extension Delete immediately – pick a different host and re‑download.
 
-Upfiles.com: Extremely dangerous with many pop up ads and possible malware. Strongly recommended to skip entirely.
+---
 
-Megaup.net: Contains explicit NSFW advertisements and pop ups. Close unexpected tabs immediately. Skip if possible.
+⚠️ IMPORTANT WARNINGS
+· Always pick an Easy Green host first – avoid Red hosts.
+· Use Brave browser for automatic ad blocking.
+· Never install software, extensions, or apps from host pages.
+· Never allow browser notifications.
+· Close unexpected pop‑ups/tabs immediately.
+· Check file extension after every download – delete anything unexpected.
+· Never enter payment info or personal details.
+· Upfiles.com and Upload.ee have the highest malware risk – skip them.
 
-Upload.ee: May rename files to .apk format which can contain viruses. Never open a .apk file from this host. Skip this host.
+---
 
-FilesDL: Every attempt leads to an ad page. There is no working download. This host is broken. Skip it.
+❓ FAQ
+Q: Which host is safest? A: Gofile.io, MediaFire, Send.now, Google Drive, and Dropbox – all Easy tier.
+Q: Does NOVA use Mirrored.to? A: Rarely – we prefer direct links. Use this guide only if it's the only option.
+Q: What if the download is .apk? A: Delete it immediately – it's malware. Pick a different host.
 
-COMMON PROBLEMS
+---
 
-PROBLEM: Too many hosts and I do not know which to pick.
-SOLUTION: Always pick Gofile.io, MediaFire.com, or Send.now first. These are the easiest. Google Drive and Dropbox are also excellent choices.
-
-PROBLEM: A host opened a pop up with adult content.
-SOLUTION: Close that tab immediately. Do not click anything inside it. Go back to the Mirrored.to page and pick a different host from the Easy tier.
-
-PROBLEM: The host I picked has a countdown timer.
-SOLUTION: Wait for the timer to finish. Timers are normal on Medium tier hosts. Do not refresh the page or the timer resets.
-
-PROBLEM: I keep getting ad pages instead of the download.
-SOLUTION: You are clicking the wrong button. Look for the real download button described in the steps above. Use Brave browser to hide most fake buttons.
-
-PROBLEM: A host asks me to create an account.
-SOLUTION: Most hosts do not require an account. If you see this on any host except 4shared.com, you may be on a fake page. Go back and try a different host.
-
-PROBLEM: The downloaded file has a strange extension like .apk.
-SOLUTION: Delete the file immediately. Minecraft files should never be .apk. Pick a different host and download again.
-
-IMPORTANT WARNINGS
-
-· Always pick an Easy Green host first. Avoid Hard Red hosts whenever possible.
-· Use Brave browser for automatic ad blocking on all hosts.
-· Never install software, browser extensions, or apps from file host pages.
-· Never allow browser notifications from any file host page.
-· Close unexpected pop ups and new tabs immediately.
-· Check the file extension after every download. Delete anything unexpected.
-· Never enter payment information or personal details on any file host page.
-· Upfiles.com and Upload.ee have the highest malware risk. Skip them.
-
-NOVA NOTES
-
-NOVA rarely shares Mirrored.to links directly. NOVA provides direct download links whenever possible, avoiding the Mirrored.to intermediary entirely. If a Mirrored.to link is the only option, NOVA recommends always picking from the Easy tier hosts. NOVA recommends Gofile.io, MediaFire.com, Send.now, Google Drive, or Dropbox. When uploading to NOVA, use a direct host link, not a Mirrored.to wrapper. Direct links only in NOVA.
-
-NOVA DISCORD
-
-If you need more help join the NOVA Discord server.
-Invite: https://discord.gg/ThgxvPtUjZ
+🌐 LINKS
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
-NOVA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in NOVA.
