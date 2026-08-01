@@ -1,55 +1,47 @@
-Urlspay Link Unlock Guide
-
-Urlspay is a URL shortener that requires multiple unlock rounds before revealing the final download link. NOVA never uses Urlspay – we only share direct links. This guide helps you safely navigate one if encountered.
-
----
+Urlspay is a URL shortener that forces multiple unlock rounds before revealing the final download link. NOVA never uses Urlspay – we only provide direct links.
 
 ⚡ Quick Start
-Open in Chrome (not in‑app browser) → click Continue to Content → wait ~20s → tap Unlock Link → scroll down → tap Verify → tap Continue. Repeat 3–5 rounds until redirected to the file host. Never click ads or install anything.
+Open in Chrome (not in‑app) → Continue to Content → wait ~20s → Unlock Link → scroll down → Verify → Continue. Repeat 3–5 rounds until redirected to the file host. Never click ads or install anything.
 
----
+🔓 Unlock Steps
 
-🔓 UNLOCK STEPS
-
-1. Open the Urlspay link in Chrome, Safari, or your device browser. Avoid in‑app browsers (Discord, YouTube, TikTok).
+1. Open the Urlspay link in Chrome or Safari (avoid in‑app browsers like Discord, YouTube, TikTok).
 2. Click Continue to Content.
-3. Wait ~20 seconds (countdown may appear). Stay on the page – don't switch tabs or let screen turn off.
-4. Tap Unlock Link when active. Scroll all the way to the bottom.
-5. Tap Verify at the bottom – wait for it to change to Continue, then tap it.
+3. Wait ~20 seconds – stay on the page, don’t switch tabs or let the screen turn off.
+4. Tap Unlock Link when it becomes active, then scroll to the very bottom.
+5. Tap Verify at the bottom – once it changes to Continue, tap it.
 6. Repeat steps 3–5 for 3 to 5 rounds (sometimes up to 7).
 7. After the final round, tap Unlock Link again, scroll down, and tap Continue or Get Link.
-8. You'll be redirected to the actual file host (MediaFire, Google Drive, MEGA, etc.) – download from there.
+8. You’ll be redirected to the actual file host (MediaFire, Google Drive, MEGA, etc.) – download from there.
 
----
-
-❗ COMMON PROBLEMS
+❗ Common Problems
 
 Problem Solution
 Page reloads / progress resets Use Chrome or external browser – in‑app browsers break sessions.
-Countdown restarts Stay on the page; don't switch tabs or let screen sleep.
-Cannot find Verify button Scroll slowly to very bottom – it may be hidden under ads. Rotate to landscape.
-Completed rounds but no link May need up to 7 rounds. If still fails, link is broken – ask for direct link.
-"Virus detected" pop‑up Fake ad – close tab immediately. Do not click anything.
-Pop‑up asks to install extension Never install – close tab. It's malware.
+Countdown restarts Stay on page; don’t switch tabs or let screen sleep.
+Cannot find Verify button Scroll slowly to the very bottom; rotate to landscape.
+Completed all rounds but no link May need up to 7 rounds. If still fails, link is broken – request a direct link.
+“Virus detected” pop‑up Fake ad – close tab immediately, don’t click anything.
+Pop‑up asks to install extension Never install – close the tab, it’s malware.
 
----
+⚠️ Important Warnings
 
-⚠️ IMPORTANT WARNINGS
 · Never pay for upgrades, enter personal info, or install anything from Urlspay.
-· Never click banner ads or pop‑ups – close unexpected tabs.
-· Ad blockers may break the unlock – disable temporarily, then re‑enable.
+· Never click banner ads or pop‑ups – close unexpected tabs immediately.
+· Ad blockers may break the unlock; disable temporarily if needed, then re‑enable.
 · Use Chrome or Safari – in‑app browsers cause failures.
 
----
-
 ❓ FAQ
-Q: Why doesn't NOVA use Urlspay? A: NOVA only provides direct download links – no ad walls or shorteners.
-Q: What if I find a Urlspay link in NOVA? A: Report it with /nova-report.
-Q: Are the virus warnings real? A: No – they are fake ads.
+Q: Why doesn’t NOVA use Urlspay?
+A: NOVA only provides direct download links – no ad walls or shorteners.
 
----
+Q: What if I find a Urlspay link in NOVA?
+A: Report it with /nova-report.
 
-🌐 LINKS
+Q: Are the virus warnings real?
+A: No – they are fake ads.
+
+🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
