@@ -1,92 +1,63 @@
-WHAT IS LINKVERTISE
+Linkvertise is a link monetization platform that requires completing free tasks before unlocking the final download. NOVA never uses Linkvertise—use this guide only if you encounter one elsewhere.
 
-Linkvertise is a link monetization platform that places a gateway page between users and the final download link. Creators use Linkvertise to earn money from their free content. When you click a Linkvertise link you must complete a few free tasks before the real download unlocks. Linkvertise was founded in 2020 and is based in Itzehoe Germany. Over 15 million monetized links use the platform. Linkvertise links typically contain linkvertise.com or link-center.net in the URL. You never need to pay money to use Linkvertise. Creators earn a small commission for each completed visit.
+⚡ Quick Start
+Open in Chrome/Firefox → click main button → select Free Access with Ads → complete tasks (keep tabs open, wait, captcha) → click Continue → download from the final host.
 
-HOW TO COMPLETE A LINKVERTISE LINK
+🔓 How to Complete a Linkvertise Link
 
-1. Open the Linkvertise link in a full browser like Chrome or Firefox. Do not use the Discord or YouTube in app browser. Those browsers break the process.
-2. Wait for the gateway page to load. It shows a file name and a button like Get Link or Continue. A countdown timer may appear before the button works.
-3. Click the main button. You may see subscription plans. Scroll down and choose Free Access with Ads or Watch Ads. You never need to pay anything.
-4. A captcha may appear. Complete it to prove you are human. If it fails to load, wait and retry. If you use a VPN, disable it temporarily.
-5. Complete the assigned tasks. Most links need 1 to 4 tasks. Task types are described below.
-6. When all tasks show as completed, the Continue or Get Access button lights up. Click it.
-7. You will be redirected to the real file host such as MediaFire, Google Drive, MEGA, or Dropbox.
-8. Download the file from that host. For Minecraft .mcpack or .mcaddon files, tap to auto import into Minecraft.
+1. Open the Linkvertise link in Chrome, Firefox, or Edge. Avoid Discord/YouTube in-app browsers.
+2. Wait for the gateway page to load. A countdown timer may run before the main button becomes clickable.
+3. Click the main button, then scroll down and choose Free Access with Ads—never pay.
+4. Complete any captcha. Disable VPNs temporarily if it fails to load.
+5. Complete the assigned tasks (1–4). Typical tasks:
+   · Wait on a sponsored page: Keep the new tab open 10–15 seconds; no clicking needed.
+   · Watch a short video ad: Click Skip when it appears, or wait through it.
+   · Keep an article tab open: Leave it open until the timer on the main tab ends.
+   · Search on Google/Bing: Click Search Now, open any result, stay a few seconds, then return.
+   · Follow/Subscribe: Look for a Skip or No Thanks link first; if none, follow/subscribe, you can unfollow later.
+   · Download an app: Click Download/Install; when the app store opens, immediately close it—no install needed.
+   · Complete a captcha: Follow on-screen instructions.
+6. Once all tasks show as completed, the Continue or Get Access button lights up. Click it.
+7. You’ll be redirected to the real file host (MediaFire, Google Drive, MEGA, etc.). Download from there.
+8. For Minecraft: .mcpack/.mcaddon/.mcworld → tap to import; .jar → place in .minecraft/mods.
 
-LINKVERTISE TASK TYPES
+❗ Common Problems
 
-Task Wait on a Sponsored Page: A new tab opens a sponsored offer. Keep it open for 10 to 15 seconds while a timer runs on the main Linkvertise page. Do not close the tab early. You do not need to click anything on that page.
+Problem Solution
+“Invalid Visit Detected” Disable VPN, switch Wi‑Fi/mobile data, try a different browser.
+Page keeps loading forever Disable all ad blockers/extensions, clear cache, use Chrome/Firefox.
+Continue button stays grey Scroll to find unfinished tasks. Do not refresh or progress resets.
+Tasks don’t register as done Wait longer on each task page; ensure you clicked the required button.
+Pop‑up asks to install software Never install—close the pop‑up. Look for a Skip button.
+Can’t find download on final host Follow host-specific guides (MediaFire: blue button below file name, etc.).
 
-Task Watch a Short Video Ad: A video plays. Click the Skip button as soon as it appears, usually after 5 seconds. If there is no skip, let the full ad play. Keep sound on as some ads require audio.
+⚠️ Important Warnings
 
-Task Keep an Article Tab Open: A random article opens in a new tab. Keep it open until the countdown on the main tab reaches zero. You do not need to read anything. Close the article tab after the timer ends.
+· Never install apps, extensions, or software from task pages.
+· Never click banner ads; only interact with the main button and task elements.
+· Do not enter personal info or payment details—Linkvertise is always free.
+· Disable ad blockers before starting; re‑enable after reaching the final download.
+· Do not use in‑app browsers (Discord, YouTube). Use Chrome, Firefox, or Edge.
+· Never refresh the page during the process or you’ll lose all task progress.
+· NOVA links must be direct; report any Linkvertise link in NOVA with /nova-report.
 
-Task Search on Google or Bing: A Search Now button appears. Click it to open search results. Click any result, stay a few seconds, then return to Linkvertise.
+❓ FAQ
+Q: Do I have to pay or install anything?
+A: No. Free Access with Ads is always available. Opening an app store page is the maximum required—never install.
 
-Task Follow or Subscribe: You may be asked to follow a YouTube channel or social account. Look for a Skip or No Thanks link first. If there is no skip, follow or subscribe and you can unfollow later.
-
-Task Download an App: A prompt asks you to download an app. Click Download or Install. When the app store opens, immediately close it. You do not need to actually install anything. Just opening the store page completes the task.
-
-Task Complete a Captcha: Follow the on screen instructions like clicking images of traffic lights or typing distorted text.
-
-COMMON PROBLEMS
-
-PROBLEM: Invalid Visit Detected error appears.
-SOLUTION: Disable your VPN temporarily. Switch between Wi Fi and mobile data. Try a different browser. On Android try Opera Mini with ad blocking turned off and High data saving mode on.
-
-PROBLEM: Linkvertise page keeps loading forever.
-SOLUTION: Disable all ad blockers and browser extensions completely. Clear your browser cache and cookies. Try Chrome or Firefox instead of less common browsers. Check your internet connection is stable.
-
-PROBLEM: The Continue button stays grey and does not light up.
-SOLUTION: Scroll up and down the page to find unfinished tasks. Check for tasks hidden at the bottom of the page. Do not refresh because it resets all progress. Some links need multiple rounds of tasks.
-
-PROBLEM: Tasks do not register as completed.
-SOLUTION: Wait longer on each task page before returning. Make sure you clicked the required button on the task page. Try opening the task and waiting 5 seconds before coming back.
-
-PROBLEM: A pop up asks me to install software.
-SOLUTION: Never install anything from Linkvertise task pages. Look for a Skip button. Close the pop up entirely. No NOVA file ever requires installing extra software.
-
-PROBLEM: The download button on the final host page is hard to find.
-SOLUTION: On MediaFire look for the large blue Download button not ads. On Google Drive click the download icon in the top right corner. On MEGA click the Download button below the file name.
-
-IMPORTANT WARNINGS
-
-· Never install any apps, browser extensions, or software from Linkvertise task pages.
-· Never click banner ads on Linkvertise pages. Only click the main button.
-· Never allow browser notifications from Linkvertise or task pages.
-· Do not enter personal information or payment details. Linkvertise is free.
-· Disable ad blockers before starting. Re enable them after reaching the final download.
-· Use Chrome, Firefox, or Edge. Do not use in app browsers from Discord or YouTube.
-· Avoid refreshing the page during the process or you will lose all task progress.
-
-FREQUENTLY ASKED QUESTIONS
-
-Q: Do I need to pay for Linkvertise?
-A: No. Free access with ads is always available. Premium is optional.
-
-Q: Do I need to install any apps?
-A: No. If asked to install something, look for a Skip button. Opening the app store page is enough.
-
-Q: Why do creators use Linkvertise?
-A: Creators earn small commissions when you complete tasks. This supports their free content.
+Q: How many tasks will I need?
+A: Usually 1–4, depending on creator settings and your location.
 
 Q: Is Linkvertise safe?
-A: The platform itself is legitimate. Some ads can be misleading. Never click banner ads or install software.
+A: The platform is legitimate, but some ads are misleading. Stick to the main button and never click banners.
 
-Q: How many tasks will I need to complete?
-A: Usually 1 to 4 tasks depending on the creator settings and your location.
+Q: What if the final file is .mcpack/.mcaddon?
+A: Tap it and Minecraft will auto‑import. You’re done once you reach the real host.
 
-Q: What if my file is .mcpack or .mcaddon?
-A: Tap the file and Minecraft will auto import it. You are done after reaching the final download.
+Q: Does NOVA allow Linkvertise links?
+A: No. NOVA requires direct download links. Report any Linkvertise link in NOVA channels using /nova-report.
 
-NOVA NOTES
-
-NOVA requires direct download links without Linkvertise wrappers. When uploading to NOVA, use the direct file host link, not a Linkvertise link. NOVA provides this Linkvertise guide for users who encounter Linkvertise links shared by creators outside NOVA. If you find a Linkvertise link in NOVA channels, report it immediately using /nova-report. NOVA links must be direct with no ad walls.
-
-NOVA DISCORD
-
-If you need more help join the NOVA Discord server.
-Invite: https://discord.gg/ThgxvPtUjZ
+🌐 Links
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
-NOVA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in NOVA.
