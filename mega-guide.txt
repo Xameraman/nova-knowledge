@@ -1,54 +1,51 @@
-WHAT IS MEGA
+MEGA is a secure, ad‑free cloud storage service with end‑to‑end encryption. NOVA verifies all MEGA links before sharing; free accounts get 20 GB with a 5 GB transfer quota every 6 hours.
 
-MEGA is a secure cloud storage and file sharing service at mega.nz. It was founded in 2013 and is based in Auckland New Zealand. MEGA uses end to end encryption so files are encrypted on your device before uploading. MEGA has no advertisements on its download pages. MEGA free accounts give 20 GB of storage but limit downloads to about 5 GB every 6 hours. This is called the transfer quota. MEGA is also called MEGA.nz or mega nz. Many Minecraft creators use MEGA to share addons, mods, and worlds because the interface is clean and there are no fake download buttons. Revenue comes from paid plans, not ads.
+⚡ Quick Start
+Open link → verify file name → click red Download → wait for browser decryption → save. For folders, use Download as ZIP. To skip quota, import to your free MEGA cloud drive first.
 
-HOW TO DOWNLOAD FROM MEGA
+📥 Download Steps
 
-1. Open the MEGA link. The URL starts with mega.nz/file/ or mega.nz/folder/.
-2. The page shows the file name and file size. Check that this matches what you expected.
-3. Click the red Download button. Your browser will start downloading the encrypted file data. A progress bar appears.
-4. After the encrypted data is downloaded, your browser will decrypt the file locally. You will see a decrypting message. This uses JavaScript and needs no extra software. Large files take longer to decrypt.
-5. After decryption, your browser will ask where to save the finished file. Choose your Downloads folder and save.
-6. For Minecraft files like .mcpack .mcaddon .mcworld, tap the file to auto import. For .jar files, place it in your .minecraft/mods folder.
-7. If the link is a folder with multiple files, you can download individual files or use Download as ZIP to get everything at once.
-8. Instead of downloading, you can click Import to Cloud Drive if you have a free MEGA account. The file saves to your own MEGA storage and you can download it later without transfer quota limits.
+1. Open the MEGA link (URL starts with mega.nz/file/ or mega.nz/folder/).
+2. Confirm the file name and size match what you expected.
+3. Click the red Download button. Your browser downloads encrypted data with a progress bar.
+4. After download, your browser decrypts the file locally – a “decrypting” message appears. Large files take longer.
+5. Save the decrypted file to your Downloads folder.
+6. Import into Minecraft: .mcpack/.mcaddon/.mcworld → tap to import; .jar → place in .minecraft/mods.
+7. For folder links: download individual files or click Download as ZIP for all at once.
+8. To bypass the transfer quota, click Import to Cloud Drive (free MEGA account required) – then download anytime from your own storage.
 
-COMMON PROBLEMS
+❗ Common Problems
 
-PROBLEM: Transfer quota exceeded error appears.
-SOLUTION: You have downloaded about 5 GB in the past 6 hours. Wait for the quota to reset or switch to a different network like mobile data. You can also create a free MEGA account and import the file to your cloud drive, then download it from there.
+Problem Solution
+Transfer quota exceeded Downloaded ~5 GB in 6 hours. Wait, switch to mobile data, or import file to your MEGA cloud drive then download from there.
+Stuck on "Decrypting" Large files need time. If over 15 minutes, retry with the MEGA desktop or mobile app.
+Download never starts Use Chrome, Edge, or Brave. Enable pop‑ups for mega.nz. Firefox/Safari can have issues.
+iPhone/iPad can't download Safari limits downloads to ~1 MB. Install the free MEGA iOS app from the App Store.
+Slow speed Transfer quota might be hit, slowing speeds. Wait 6 hours or switch networks.
+Link not found / file removed Sharer deleted it. Ask for a new link or check NOVA Discord for alternatives.
 
-PROBLEM: Download is stuck on Decrypting for a long time.
-SOLUTION: Large files need more time to decrypt in your browser. Be patient. If it takes more than 15 minutes, close the tab and try again with the MEGA desktop app or MEGA mobile app instead.
+⚠️ Important Warnings
 
-PROBLEM: Download never starts or just spins.
-SOLUTION: Try a Chromium based browser like Chrome, Edge, or Brave. Firefox and Safari sometimes have issues with MEGA streaming downloads. Check that your browser is not blocking pop ups for mega.nz.
+· Never use third‑party “MEGA downloader” tools – they are often malware.
+· MEGA has no ads; any pop‑up or banner is fake, close it immediately.
+· For files larger than 500 MB, use the official MEGA desktop or mobile app – browser memory limits may cause failures.
+· Always verify file extensions after download.
+· Older devices may struggle with decryption of very large files – use the app.
 
-PROBLEM: I am on iPhone or iPad and cannot download.
-SOLUTION: Safari and Chrome on iOS limit downloads to about 1 MB. You must use the free MEGA iOS app from the App Store to download any Minecraft file. The app bypasses the browser limit.
+❓ FAQ
+Q: Why am I seeing “transfer quota exceeded”?
+A: Free accounts are limited to ~5 GB per 6 hours. Wait, switch networks, or import the file to your own MEGA account first.
 
-PROBLEM: Download speed is very slow.
-SOLUTION: You may have reached the transfer quota which triggers slower speeds. Wait 6 hours or switch networks. Peak internet congestion can also slow MEGA down.
+Q: How do I avoid the quota?
+A: Create a free MEGA account, click Import to Cloud Drive on the file page, then download from your cloud storage.
 
-PROBLEM: Link not found or file removed.
-SOLUTION: The sharer may have deleted the file. Contact them for a new link. Ask in the NOVA Discord if someone has an alternative.
+Q: Does NOVA use MEGA?
+A: Yes – MEGA is preferred for its ad‑free, clean interface and verified links.
 
-IMPORTANT WARNINGS
+Q: Can I download on iOS?
+A: Yes, but only via the free MEGA iOS app – Safari cannot handle files over ~1 MB.
 
-· Never download third party MEGA downloader tools that promise faster speeds or bypass quotas. These are often malware.
-· MEGA has no ads so any pop up or banner you see is not from MEGA. Close it immediately.
-· Use the official MEGA desktop app or mobile app for files larger than 500 MB. Browsers have limits.
-· MEGA's encryption means your browser uses memory to decrypt. On older devices large files may fail. Use the app instead.
-· Always check the file extension after downloading. MEGA scans files for malware but you should still verify.
-
-NOVA NOTES
-
-NOVA shares MEGA links regularly because of the clean interface and lack of ads. NOVA pre-verifies all MEGA links before sharing. NOVA checks files for safety and correct format. When uploading to NOVA, you can use direct MEGA links. MEGA is a preferred host in NOVA because there are no ad walls or deceptive buttons. Always credit the original creator when sharing in NOVA.
-
-NOVA DISCORD
-
-If you need more help join the NOVA Discord server.
-Invite: https://discord.gg/ThgxvPtUjZ
+🌐 Links
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
-NOVA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in NOVA.
