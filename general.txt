@@ -12,32 +12,24 @@ HOW TO JOIN AND USE NOVA
 6. Need help downloading? Visit the guides hub: https://xameraman.github.io/all-nova-guides/
 7. Creators: use direct links only. Bedrock: .mcpack/.mcaddon. Java: .jar/.zip. Always credit the original creator.
 
-HOW SHARING WORKS IN NOVA
+HOW SHARING WORKS IN NOVA (IMPORTANT — USE THIS TO DISTINGUISH COMMANDS)
 
-NOVA has two ways to share content:
+There are two distinct groups of people who share content, and they use different channels/commands:
 
-1. 💌 Request Here Channel (for packmakers):
-   - Simply drop your MCPEDL or creation link in the channel.
-   - If the link does not have a preview photo, your message will be ignored.
-   - For detailed, structured submissions, use /share-with-nova.
+**PACKMAKERS (sharing your own creation):**
+- You can simply drop your MCPEDL or direct creation link in the 💌 request here channel. A preview photo MUST be included; links without photos are ignored.
+- For a formal submission, use /share-with-nova. Required fields: name, file_link, category, credits, support_link, archive (YES/NO/IDK/your own permanent link – filego.io is NEVER used), and a photo.
+- Staff review submissions; approved packmakers get the Verified Packmaker role and are featured.
 
-2. /share-with-nova (for Packmakers):
-   - Used by packmakers who want a formal submission.
-   - Required fields: name, file_link, category, credits, support_link, archive preference (YES, NO, IDK, or a permanent link — filego.io is NEVER used), and a preview photo.
-   - Staff review the submission. If approved, the packmaker gets the Verified Packmaker role and the pack is featured.
+**NOVA ITEMS SHARERS (sharing someone else's content):**
+- Use /nova-share. Required fields: name, direct download link, original creator credit, description, preview image, category, optional support link.
+- The bot posts an embed with 🚀 Download Now and optionally 💝 Support the Creator buttons.
 
-3. /nova-share (for NOVA Items Sharers):
-   - Used by trusted members to share content from creators outside the server.
-   - Required fields: name, link, credits, description, image, category, support (or "none").
-   - The bot sends an embed with a 🚀 Download Now button and, if a support link is provided, a 💝 Support the Creator button.
+**EXPERIENCED NOVA SHARERS (announcing approved packmaker submissions):**
+- Use /nova-feature. Adds a permanent archive link and up to three buttons: 🚀 Download Now, 🌌 Temp Mirror, 💝 Support the Creator.
 
-4. /nova-feature (for Experienced NOVA Sharers):
-   - Used to announce approved packmaker submissions.
-   - Adds a permanent archive link (never filego.io) and can produce three buttons: 🚀 Download Now, 🌌 Temp Mirror, 💝 Support the Creator.
-
-IMPORTANT: After announcing, the announcer must publish both the text embed and a separate preview photo to the connected server (https://discord.gg/4HjDRTUc3c), in that order.
-
-All uploads must use direct links. No Linkvertise, Urlspay, Sub2Unlock wrappers. Every upload must credit the original creator. Images are mandatory.
+ANNOUNCEMENT PROCESS:
+After using /nova-share or /nova-feature, the announcer must publish both the text embed and a separate preview photo to the connected server (https://discord.gg/4HjDRTUc3c), text first, then photo.
 
 NOVA GUIDE WEBSITES
 
@@ -58,7 +50,7 @@ Can't access channels → get Key Access role.
 Broken link → use /nova-report.
 Don't know how to install → https://xameraman.github.io/guide-for-java-and-bedrock/
 See an ad link → report immediately with /nova-report.
-Want to upload → Packmakers use /share-with-nova or the 💌 request here channel. Sharers use /nova-share. Experienced sharers use /nova-feature.
+Want to upload → First determine if you are a packmaker (your own creation) or a sharer (someone else's). Then follow the appropriate method above.
 NOVA Assistant not responding → wait a few seconds and try again, or ask in a support channel.
 
 WARNINGS
