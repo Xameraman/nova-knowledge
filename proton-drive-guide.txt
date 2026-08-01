@@ -1,54 +1,46 @@
-Proton Drive Download Guide
-
-Proton Drive is an encrypted, ad‑free cloud storage service with no fake buttons or transfer quotas. Many creators use it for clean file sharing. NOVA verifies Proton Drive links before posting.
-
----
+Proton Drive is an encrypted, ad‑free cloud storage service with no fake buttons or transfer quotas. NOVA verifies Proton Drive links before posting.
 
 ⚡ Quick Start
-Open link → enter password (if prompted) → click Download → wait for browser decryption (may take a few seconds to minutes) → save file → import into Minecraft as usual.
+Open link → enter password (if prompted) → click Download → wait for browser decryption (seconds to minutes) → save file → import into Minecraft as usual.
 
----
-
-📥 DOWNLOAD STEPS
+📥 Download Steps
 
 1. Open the Proton Drive link (URL contains drive.proton.me).
 2. If a password prompt appears, enter the password provided by the creator and submit.
-3. You'll see a clean page with file name, size, and a Download button – no ads.
-4. Click Download. Your browser decrypts the file locally – this may take seconds to several minutes.
-5. After decryption, your browser will save the file – choose your Downloads folder.
-6. Locate the file and import/install as usual (.mcpack/.mcaddon → tap to import; .jar → place in mods folder; .mcworld → tap to import).
-7. If download seems stuck, wait – decryption is a privacy feature, not a bug.
+3. A clean page with file name, size, and a Download button appears – no ads.
+4. Click Download. Your browser decrypts the file locally; this may take seconds to several minutes.
+5. After decryption, your browser saves the file – choose your Downloads folder.
+6. Locate the file and import/install: .mcpack/.mcaddon → tap to import; .jar → place in mods folder; .mcworld → tap to import.
+7. If the download seems stuck, wait – decryption is a privacy feature, not a bug.
 
----
-
-❗ COMMON PROBLEMS
+❗ Common Problems
 
 Problem Solution
 Download doesn't start Wait – browser is decrypting. If over 5 minutes, refresh once.
 Slow speed Proton doesn't limit speeds – check your internet/Wi‑Fi.
-"Access Denied" or "Link Invalid" Link may have expired – ask creator for a new one.
+"Access Denied" or "Link Invalid" Link may have expired – ask the creator for a new one.
 Password prompt but no password Contact the sharer – passwords are set by the file owner.
 Download fails on iPhone/iPad Use Chrome for iOS or the free Proton Drive app (App Store).
 
----
+⚠️ Important Warnings
 
-⚠️ IMPORTANT WARNINGS
 · Proton Drive has no ads – any pop‑up asking for money is a scam.
 · Never install third‑party tools claiming to speed up Proton downloads – they are malware.
 · The decryption delay is normal – do not close the page.
 · Use a modern browser (Chrome, Firefox, Edge, Brave) with JavaScript enabled.
 · On iOS, use the Proton Drive app for files over 100 MB.
 
----
-
 ❓ FAQ
-Q: Is Proton Drive free? A: Yes – free accounts get 5 GB of storage.
-Q: Does NOVA use Proton Drive? A: Yes – we share them because they're ad‑free and safe.
-Q: Why does my download take so long? A: Your browser is decrypting the file on‑the‑fly – this adds time.
+Q: Is Proton Drive free?
+A: Yes – free accounts get 5 GB of storage.
 
----
+Q: Does NOVA use Proton Drive?
+A: Yes – we share them because they're ad‑free and safe.
 
-🌐 LINKS
+Q: Why does my download take so long?
+A: Your browser is decrypting the file on‑the‑fly – this adds time.
+
+🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
