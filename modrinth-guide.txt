@@ -1,62 +1,53 @@
-Modrinth Download Guide
-
 Modrinth is an open‑source modding platform for Java Edition only, supporting Forge, Fabric, Quilt, and NeoForge. It has no fake download buttons and shares ad revenue with creators.
 
----
-
 ⚡ Quick Start
-Search mod → check MC version & loader → click Versions → click Download (.jar for mods, .zip for packs) → place .jar in .minecraft/mods → launch with correct loader profile. Or use the free Modrinth App for auto‑install.
+Search mod → check MC version & loader → Versions tab → click Download (.jar for mods, .zip for packs) → place .jar in .minecraft/mods → launch with correct loader profile. Or use the free Modrinth App for auto‑install.
 
----
+📥 Download Steps
 
-📥 DOWNLOAD STEPS
-
-1. Go to modrinth.com – search or browse by category.
-2. Open the project page – check description and images.
-3. Verify compatibility: Minecraft version, mod loader (Forge/Fabric/Quilt/NeoForge), and environment (Client/Both).
-4. Click the Versions tab – find the file matching your version and loader.
-5. Click Download – file saves as .jar (mod) or .zip (resource/data pack).
-6. Open your .minecraft folder:
+1. Go to modrinth.com and find a mod.
+2. On the project page, verify the Minecraft version, mod loader (Forge/Fabric/Quilt/NeoForge), and environment (Client/Both).
+3. Open the Versions tab and locate the file matching your setup.
+4. Click Download – mods save as .jar, resource/data packs as .zip.
+5. Open your .minecraft folder:
    · Windows: Win+R → %appdata%\.minecraft
    · macOS: Cmd+Shift+G → ~/Library/Application Support/minecraft
    · Linux: ~/.minecraft
-7. Create a mods folder (lowercase) if missing – drag the .jar into it. For .zip packs: place in resourcepacks or saves/world/datapacks.
-8. Launch Minecraft with your mod loader profile (Forge/Fabric/etc.) – mods appear in the Mods menu.
-9. Easiest: Download the free Modrinth App from modrinth.com/app – it handles dependencies, versions, and installs automatically.
+6. Create a mods folder (lowercase) if missing – place the .jar inside. For .zip packs: place in resourcepacks or saves/<world>/datapacks.
+7. Launch Minecraft using the matching mod loader profile; mods appear in the Mods menu.
+8. Easiest method: Install the free Modrinth App from modrinth.com/app – it manages dependencies, versions, and installs automatically.
 
----
-
-❗ COMMON PROBLEMS
+❗ Common Problems
 
 Problem Solution
-Mod doesn't work Check loader matches (Fabric ≠ Forge). Verify MC version. Check Relations tab for dependencies (Fabric API, etc.).
-Game crashes on launch Read crash report – remove mods one by one. Ensure all mods are for the same version.
-App can't connect Check internet, restart app, or reinstall from official site.
-Search not finding mods Use filters (loader/version/category). Clear browser cache.
-Downloaded .zip instead of .jar Keep .zip – place in resourcepacks or datapacks folder.
-Don't know which loader I have Check launcher profile name – it shows Forge, Fabric, Quilt, or NeoForge.
+Mod doesn't work Check loader (Fabric ≠ Forge), MC version, and Relations tab for dependencies (e.g., Fabric API).
+Game crashes on launch Remove mods one by one; ensure all are for the same version.
+Downloaded .zip instead of .jar Keep it – place in resourcepacks or datapacks.
+Don't know which loader Look at your launcher profile name (Forge, Fabric, etc.).
+App can't connect Check internet, restart app, or reinstall from the official site.
 
----
+⚠️ Important Warnings
 
-⚠️ IMPORTANT WARNINGS
-· Modrinth is Java only – no Bedrock support.
-· Never double‑click .jar – just place in mods.
-· Always check Relations for required dependencies.
+· Java Edition only – no Bedrock support.
+· Never double‑click .jar files – just place them in the mods folder.
+· Always check Relations for required dependency mods.
 · Only download from modrinth.com – avoid repacks.
-· No fake download buttons – real ads are clean.
-· The Modrinth App is free – never pay for imposters.
-
----
+· The Modrinth App is completely free – never pay for imposters.
 
 ❓ FAQ
-Q: Does Modrinth support Bedrock? A: No – only Java Edition.
-Q: Is Modrinth safe? A: Yes – open source, no malware, verified creators.
-Q: How do creators earn? A: 75% of ad revenue goes to creators.
-Q: Do I need an account? A: No – browsing and downloading are free.
+Q: Does Modrinth support Bedrock?
+A: No – only Java Edition.
 
----
+Q: Is Modrinth safe?
+A: Yes – open source, verified creators, no malware.
 
-🌐 LINKS
+Q: Do I need an account?
+A: No – browsing and downloading are free.
+
+Q: How do creators earn?
+A: 75% of ad revenue goes to creators.
+
+🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
