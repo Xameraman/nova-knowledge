@@ -1,49 +1,53 @@
-WHAT IS SUB2UNLOCK
+Sub2Unlock Link Unlock Guide
 
-Sub2Unlock is a link monetization platform that requires social tasks before you can download a file. Tasks include subscribing to a YouTube channel, following a Twitter account, or joining a Discord server. Sub2Unlock is free for users. No payment is needed. The platform is used by some Minecraft creators to grow their audience. Sub2Unlock is also called sub2unlock.com or sub to unlock. The goal is to complete the tasks, unlock the link, and reach the final file host.
+Sub2Unlock is a platform that requires social tasks (subscribe, follow, join Discord) before revealing a download link. NOVA prefers direct links – use this guide if you encounter a Sub2Unlock link.
 
-HOW TO USE SUB2UNLOCK
+---
 
-1. Open the Sub2Unlock link in Chrome, Brave, or Firefox. Do not use the in app browser from Discord, YouTube, or TikTok. Those browsers break the process.
-2. The page will show a list of tasks, usually 2 to 4. Do not click any banner ads. Only interact with the task list.
-3. For each task, use the smart skip method first. Click the task to open it. Immediately go back to the Sub2Unlock page. The task often registers as completed without you needing to actually subscribe or follow.
-4. If the smart skip does not work, perform the actual task. Subscribe to the YouTube channel, follow the Twitter account, or join the Discord server. Then go back to the Sub2Unlock page.
-5. When all tasks show green checkmarks, the Unlock or Continue button will become clickable. Scroll down if you do not see it. Some tasks may be hidden lower on the page.
-6. Click the Unlock button. You will be redirected to the real file host like MediaFire or Google Drive. Download your file from there.
+⚡ Quick Start
+Open in Chrome/Brave/Firefox (not in‑app browser) → click each task → try smart skip (open then go back) → if not completed, do actual task → wait for green checkmarks → click Unlock → download from file host. Never install anything or allow notifications.
 
-COMMON PROBLEMS
+---
 
-PROBLEM: Progress keeps resetting or tasks do not save.
-SOLUTION: Switch to Chrome or Brave browser. In app browsers from Discord and YouTube break session tracking.
+🔓 UNLOCK STEPS
 
-PROBLEM: Tasks do not register as completed.
-SOLUTION: Open the task and wait 10 seconds before going back. If it still fails, do the actual subscribe or follow action.
+1. Open the Sub2Unlock link in Chrome, Brave, or Firefox. Avoid in‑app browsers (Discord, YouTube, TikTok).
+2. You'll see a list of tasks (usually 2–4). Do not click banner ads – only interact with tasks.
+3. For each task, try smart skip first: click the task to open it, then immediately go back to Sub2Unlock – it often registers as done.
+4. If smart skip fails, complete the actual task (subscribe, follow, or join). Then return to Sub2Unlock.
+5. When all tasks show green checkmarks, the Unlock or Continue button becomes clickable. Scroll down if hidden.
+6. Click Unlock – you'll be redirected to the real file host (MediaFire, Google Drive, etc.). Download from there.
 
-PROBLEM: The Unlock button stays grey even after all tasks are done.
-SOLUTION: Scroll down. Look for hidden tasks below the visible area. Re open each task and return to refresh the progress.
+---
 
-PROBLEM: Pop ups and new tabs keep opening.
-SOLUTION: Close them immediately. They are advertisements, not part of the tasks. Use Brave browser to block many of them.
+❗ COMMON PROBLEMS
 
-PROBLEM: I am asked to install software or allow notifications.
-SOLUTION: Never install anything. Never allow notifications. These are scam ads. Close the tab and go back to the main page.
+Problem Solution
+Progress resets Use Chrome/Brave/Firefox – in‑app browsers break sessions.
+Tasks don't register Open task and wait 10s before going back. If fails, do actual action.
+Unlock button stays grey Scroll down for hidden tasks. Re‑open each task to refresh.
+Pop‑ups / new tabs open Close them immediately – they're ads. Use Brave to block them.
+Asked to install software / allow notifications Never do it – close the tab. These are scam ads.
 
-IMPORTANT WARNINGS
+---
 
-· Never install any apps, browser extensions, or software from Sub2Unlock pages.
-· Never allow browser notifications from Sub2Unlock. Decline all notification requests.
-· Never enter personal information, email, or payment details. Sub2Unlock is free.
-· Use only Chrome, Brave, or Firefox. In app browsers cause progress resets.
-· Install the FastForward browser extension to bypass Sub2Unlock tasks completely. It works automatically.
+⚠️ IMPORTANT WARNINGS
+· Never install apps, extensions, or software from Sub2Unlock.
+· Never allow browser notifications – decline all requests.
+· Never enter personal info or payment details – it's free.
+· Use Chrome, Brave, or Firefox – in‑app browsers fail.
+· Install FastForward browser extension to bypass tasks automatically.
 
-NOVA NOTES
+---
 
-NOVA rarely shares Sub2Unlock links. NOVA provides direct download links whenever possible. If a creator only provides a Sub2Unlock link, this guide helps you complete it safely. When uploading to NOVA, do not use Sub2Unlock wrappers. Direct file host links only. Always credit the original creator.
+❓ FAQ
+Q: Does NOVA use Sub2Unlock? A: Rarely – we prefer direct links. Only use this guide if you encounter one.
+Q: Is Sub2Unlock safe? A: The tasks are safe, but avoid ads and never install anything.
+Q: What if I get stuck? A: Try FastForward extension or ask the sharer for a direct link.
 
-NOVA DISCORD
+---
 
-If you need more help join the NOVA Discord server.
-Invite: https://discord.gg/ThgxvPtUjZ
+🌐 LINKS
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
-NOVA focuses on direct downloads with no ad links.
-Always credit the original creator when sharing in NOVA.
