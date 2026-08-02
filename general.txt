@@ -1,7 +1,7 @@
-NOVA is a community-driven Discord server and guide network for verified Minecraft Bedrock content — direct downloads, proper credits, 22 clean categories, and zero ad links.
+NOVA is a community-driven Discord server and guide network for verified Minecraft Bedrock content — direct downloads, proper credits, 22 clean categories, and zero ad links. All content is sourced primarily from CurseForge and MCPEDL, then re-hosted or linked directly through trusted mirrors.
 
 ⚡ Quick Start
-Join the Discord → Get the Key Access role → Browse any of the 22 category channels → Click direct download links from trusted hosts. Installation help is always at the guide hub.
+Join the Discord → Get the Key Access role → Browse any of the 22 category channels → Click direct download links from CurseForge, MCPEDL, MediaFire, MEGA, Google Drive, or Proton Drive. Installation help is always at the guide hub.
 
 📋 How to Join and Use NOVA
 
@@ -9,17 +9,19 @@ Join the Discord → Get the Key Access role → Browse any of the 22 category c
 2. Read the rules (English only). Moderation is handled by Wick bot.
 3. Obtain the Key Access role to unlock the main channels.
 4. Browse the 22 categories: PvP, Utility, Furniture, Horror, Anime, Shader, Structure, Weapon, Bosses, Vehicle, Visual, Survival, Client, GUI & UI, Adventure, Minigame, Food, Environment, Addon, World, Animation, Skins.
-5. Click any direct link in a channel — all downloads come from trusted hosts like MediaFire, MEGA, Google Drive, or Proton Drive. No ad pages.
+5. Click any direct link in a channel — all downloads are taken from primary sources like CurseForge and MCPEDL, and hosted on trusted mirrors such as MediaFire, MEGA, Google Drive, and Proton Drive. No ad pages ever.
 6. Need help installing? Visit the complete guide hub: https://xameraman.github.io/all-nova-guides/
 
 📥 Downloading & Installing Content
 For Bedrock:
-1. Download the .mcpack or .mcaddon file from a trusted direct link.
+
+1. Download the .mcpack or .mcaddon file from the provided CurseForge, MCPEDL, or mirror link.
 2. Open the file with Minecraft. The pack will import automatically.
 3. Apply it in your world or global resources settings.
 
 For Java:
-1. Download the .jar or .zip file from a trusted direct link.
+
+1. Download the .jar or .zip file from the provided CurseForge, MCPEDL, or mirror link.
 2. Place the file in your .minecraft/resourcepacks (or datapacks/mods) folder.
 3. Activate it in the in‑game resource‑pack menu.
 
@@ -33,9 +35,7 @@ For Java:
 ❗ Common Problems
 
 Problem: I only see a few channels / can't see all 22 categories.
-Solution: Go to the very top of the channel list in Discord. Below the server name, tap "Channels & Roles", then switch to the Roles tab. From there, you can either:
-- Pick individual category roles (PvP, Furniture, etc.) – you'll get pinged when new content is added in those categories.
-- Or grab the "Access all Without Pings" role to instantly see every channel without any notifications. The channels appear immediately after you select a role.
+Solution: Go to the very top of the channel list in Discord. Below the server name, tap Channels & Roles, then switch to the Roles tab. From there, you can either pick individual category roles (with pings when new content is added) or grab the Access all Without Pings role to see everything silently. Channels appear instantly.
 
 Problem: Broken link.
 Solution: Use /nova-report.
@@ -77,7 +77,7 @@ Can I share someone else’s creation?
 Absolutely — use /nova-share and give proper credit. Never claim it as your own.
 
 Why can’t I see all 22 category channels?
-This is the #1 misunderstanding. You already have the Key Access role. To unlock more channels, go to the very top of the channel list, tap "Channels & Roles", then the "Roles" tab, and select the categories you want (or "Access all Without Pings" for everything with zero pings). The channels will appear instantly. You are not missing any downloads — the library is fully accessible once you pick the roles.
+You already have the Key Access role. To unlock more channels, go to the very top of the channel list, tap Channels & Roles, then the Roles tab, and select the categories you want (or Access all Without Pings for everything with zero pings). The channels appear instantly.
 
 🌐 Links
 
