@@ -1,0 +1,24 @@
+TITLE: MEGA Download Guide
+TYPE: File-host guide
+STATUS: Current concepts; account limits can change
+
+WHAT IT IS
+MEGA is a cloud storage/file-sharing service with encryption and account-based storage/transfer limits. The exact limits and product UI can change, so NOVA should avoid hard-coding old quotas unless verified against current official information.
+
+DOWNLOAD FLOW
+1. Open the MEGA share link in a normal browser or the official MEGA app.
+2. Confirm the shared file/folder and filename when available.
+3. Use the site's download option.
+4. Wait for the download/decryption process to finish.
+5. Save the file and verify its extension.
+6. Import/install the Minecraft file according to its type and edition.
+
+TROUBLESHOOTING
+- Transfer/download limit reached: wait for the service's reset/allowance or obtain another legitimate mirror from the creator.
+- Invalid/expired link: request a fresh share link.
+- Browser download stalls: check connection, storage space, and whether the browser/app is still processing the file.
+
+WHAT NOVA SHOULD NOT ASSUME
+- A fixed free-storage number forever.
+- A fixed transfer quota/reset interval forever.
+- That encryption means every uploaded file is safe to execute.

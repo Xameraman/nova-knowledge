@@ -1,0 +1,22 @@
+TITLE: URLSPay Safety Guide
+TYPE: Link-shortener/monetization guide
+STATUS: Safety-focused; exact flow may change
+
+WHAT IT IS
+URLSPay is a monetized URL-shortening service. Its current site advertises link shortening and revenue/monetization features.
+
+NOVA POLICY
+NOVA does not use URLSPay as a normal direct-download layer. Prefer a direct creator/host link.
+
+IF A USER ENCOUNTERS ONE
+1. Prefer obtaining the destination link directly from the creator/sharer.
+2. If inspecting the shortener, use a normal browser and do not install software or extensions.
+3. Never provide payment information, passwords, recovery codes, or unnecessary personal information.
+4. Do not allow unexpected notifications or install executable/APK files presented as a download requirement.
+5. If the page becomes suspicious, leave it and obtain the file from a legitimate source.
+
+WHAT NOVA SHOULD NOT ASSUME
+- A fixed number of unlock rounds.
+- A fixed countdown time.
+- That every security/virus message is fake.
+- That a shortener guarantees the safety of its destination file.

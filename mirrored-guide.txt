@@ -1,0 +1,27 @@
+TITLE: Mirrored.to / Multi-Host Mirror Guide
+TYPE: File-host mirror guide
+STATUS: Current concepts; host availability changes
+
+WHAT IT IS
+Mirrored.to (Mirrorcreator) can distribute a file across multiple hosting services. The current site lists many file and video hosts, and removes/adds hosts over time.
+
+DOWNLOADING
+1. Open the Mirrored.to mirror page.
+2. Review the available host options.
+3. Prefer a reputable, accessible host that the creator/sharer actually intended.
+4. Open the selected host and follow that host's normal download flow.
+5. Verify the filename/extension after downloading.
+
+IMPORTANT
+The list of mirror hosts can change. Current site information should be preferred over old lists saved in this guide.
+
+SAFETY
+- Do not assume every mirror host is equally trustworthy.
+- Do not install executables just because a mirror page offers them.
+- Avoid suspicious pop-ups, extensions, notifications, and unrelated downloads.
+- If a mirror points to a host with an unusable or suspicious page, choose another legitimate mirror or ask for a direct link.
+
+WHAT NOVA SHOULD NOT ASSUME
+- A fixed list of hosts.
+- A fixed upload-size limit for all users/hosts.
+- That a mirrored file is automatically identical to the primary source unless verified.

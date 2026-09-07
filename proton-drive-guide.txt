@@ -1,0 +1,25 @@
+TITLE: Proton Drive Download Guide
+TYPE: File-host guide
+STATUS: Current as of 2026-09-07
+
+WHAT IT IS
+Proton Drive is Proton's encrypted cloud-storage service. Proton's current documentation says Proton Drive Free provides up to 5 GB after the applicable onboarding actions; plan details can change.
+
+DOWNLOAD FLOW
+1. Open the shared Proton Drive link in a modern browser or the official Proton Drive app.
+2. If the owner protected the share with a password, use the password they provided.
+3. Use the current Download control for the shared file/folder.
+4. Wait for any local processing/decryption to finish.
+5. Save the downloaded file.
+6. Verify the extension and import/install it using the correct Minecraft edition workflow.
+
+TROUBLESHOOTING
+- Invalid/expired share: ask the owner/sharer for a new link.
+- Password required: the password must come from the file owner/sharer.
+- Download seems slow: check connection and local storage; client-side processing may also take time depending on the file/device.
+- Mobile issues: try the official Proton Drive app or another modern browser.
+
+WHAT NOVA SHOULD NOT ASSUME
+- A fixed download speed.
+- That every Proton Drive link is permanent.
+- That the host can guarantee the safety of every shared file.

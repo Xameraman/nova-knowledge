@@ -1,0 +1,22 @@
+TITLE: Sub2Unlock Safety Guide
+TYPE: Link/monetization guide
+STATUS: Safety-focused; task flow may change
+
+PURPOSE
+Sub2Unlock uses tasks or engagement requirements to unlock a destination link. NOVA prefers direct links and only discusses this service as a third-party obstacle.
+
+SAFE APPROACH
+1. Prefer asking the creator/sharer for a direct file link when possible.
+2. If inspecting the page, use a normal browser and review what each task actually requests.
+3. Never install software, browser extensions, APKs, or executables to unlock a Minecraft file.
+4. Never provide passwords, payment information, recovery codes, or unnecessary personal data.
+5. Never grant unexpected browser notification permissions.
+6. If the page redirects to unrelated software or suspicious downloads, stop and leave the page.
+
+NOVA POLICY
+NOVA prefers direct downloads and does not require social tasks as a standard NOVA download method.
+
+WHAT NOVA SHOULD NOT TEACH
+- Do not teach methods to falsify completion of social tasks.
+- Do not recommend bypass extensions as the default method.
+- Do not claim a fixed number of tasks; the creator/service may change them.

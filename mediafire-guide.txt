@@ -1,0 +1,27 @@
+TITLE: MediaFire Download Guide
+TYPE: File-host guide
+STATUS: Current concepts; UI may change
+
+WHAT IT IS
+MediaFire is a file-hosting/storage service. A MediaFire URL can lead to a file page or folder; exact download UI can change.
+
+DOWNLOAD FLOW
+1. Open the MediaFire file/folder page in a normal browser.
+2. Confirm the filename and, when shown, file size/type.
+3. Use the page's actual download control for the intended file.
+4. Ignore unrelated advertisements, pop-ups, or software-install prompts.
+5. After download, verify the file extension before opening it.
+6. For Bedrock content, use Minecraft's normal import flow for supported file types.
+7. For Java mods, follow the mod loader and instance instructions.
+
+TROUBLESHOOTING
+- Download unavailable/file removed: the owner may have deleted or changed the share; ask for a new link.
+- Pop-up or new tab: close it if it is unrelated to the intended download and return to the file page.
+- Captcha or verification: complete only the host's normal verification if presented; never install software to pass it.
+- Unexpected executable: stop and verify the source.
+
+WHAT NOVA SHOULD NOT ASSUME
+- A specific button color/position is permanent.
+- Every pop-up is legitimate.
+- MediaFire guarantees the safety of every uploaded file; the uploader controls the file contents.
+- A .zip should always be renamed to .mcpack.

@@ -1,0 +1,23 @@
+TITLE: Linkvertise Safety Guide
+TYPE: Link/monetization guide
+STATUS: Safety-focused; exact task flow may change
+
+PURPOSE
+NOVA does not endorse or require Linkvertise. Use this guide only when a third-party link unexpectedly sends the user there.
+
+SAFE APPROACH
+1. Prefer a direct/primary download link from the creator when one is available.
+2. Open suspicious/advertising-heavy links in a normal browser rather than an in-app browser if the user chooses to inspect the page.
+3. Read the page carefully and distinguish the actual access/download control from advertisements.
+4. Do not enter payment details, passwords, recovery codes, or unnecessary personal information.
+5. Do not install an app, extension, executable, or APK just to unlock a Minecraft file.
+6. Do not disable browser security protections merely to make an unlock page work.
+7. If a link demands unusual software, permissions, notifications, or credentials, stop and obtain the file from a legitimate source instead.
+
+NOVA POLICY
+NOVA prefers direct links and does not use Linkvertise as a normal download layer. A Linkvertise URL found in NOVA content should be treated as a reportable/problematic link according to the current server rules.
+
+WHAT NOVA SHOULD NOT TEACH
+- Do not teach tricks for falsely completing sponsored/social tasks.
+- Do not tell users to install software to bypass a gate.
+- Do not claim every warning/pop-up is fake; evaluate the page and advise caution.

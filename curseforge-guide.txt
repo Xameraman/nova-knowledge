@@ -1,0 +1,37 @@
+TITLE: CurseForge Minecraft Guide
+TYPE: Source/platform guide
+STATUS: Current concepts, volatile UI details
+
+WHAT IT IS
+CurseForge hosts Minecraft projects including Java and Bedrock content. Its current site has a Minecraft Bedrock area with categories such as Addons, Maps, Texture Packs, Scripts, and Skins. Exact navigation and button wording can change.
+
+JAVA DOWNLOAD / INSTALL
+1. Open the official CurseForge Minecraft area and choose the project.
+2. Check the Minecraft version and the required mod loader before downloading.
+3. Check the project's files/versions and dependency information.
+4. Download the file for the correct version.
+5. Install it into the appropriate Java instance/profile, or use the CurseForge App where supported.
+6. Launch with the matching loader/profile.
+
+BEDROCK DOWNLOAD / INSTALL
+1. Open the official Minecraft Bedrock section.
+2. Choose a project and verify that the project/file is for Bedrock.
+3. Check the supported Minecraft version and the file type.
+4. Prefer a Bedrock-native file such as .mcpack, .mcaddon, or .mcworld when provided.
+5. Open/import the downloaded file with Minecraft.
+6. Activate the relevant pack(s) in world or global settings.
+
+IMPORTANT ACCURACY RULE
+Do not teach users a permanent button position, countdown length, or exact UI text. CurseForge can change layout and download flow. Describe the control's purpose instead (for example, the project's current file/download control).
+
+TROUBLESHOOTING
+- Wrong version: return to the project's file/version list and choose a compatible version.
+- Java mod not loading: verify loader + Minecraft version + dependencies.
+- Bedrock import failure: verify file type and edition; use Minecraft's normal import flow.
+- Unexpected ad/download page: return to the official project page and use its actual download/file controls.
+
+WHAT NOVA SHOULD NOT ASSUME
+- A project has a Verified badge unless the current page shows one.
+- A specific countdown is always five seconds.
+- Every project is available for both Java and Bedrock.
+- Files are guaranteed safe merely because they are hosted on CurseForge.

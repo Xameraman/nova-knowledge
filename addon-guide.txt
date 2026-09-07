@@ -1,0 +1,51 @@
+TITLE: Minecraft Content Download & Installation Guide
+TYPE: General installation
+PLATFORMS: Bedrock + Java
+STATUS: Maintained guide
+
+PURPOSE
+Help users identify Minecraft content file types and install them without confusing Bedrock with Java.
+
+BEDROCK QUICK PATH
+1. Confirm the content is intended for Minecraft Bedrock Edition and check the supported game version.
+2. Prefer files such as .mcpack, .mcaddon, or .mcworld when the creator provides them.
+3. Download the file from the creator/primary source or a trusted direct mirror.
+4. Open/import the file with Minecraft using the device's normal file-opening flow.
+5. After import, activate the relevant resource pack and/or behavior pack in world settings or the appropriate global settings.
+6. For add-ons that require experiments, enable only the experiments listed by the creator/documentation.
+7. Test the content in a new or disposable world first when practical.
+
+BEDROCK FILE TYPES
+- .mcpack: commonly a Bedrock pack that Minecraft can import directly.
+- .mcaddon: commonly bundles one or more Bedrock packs/add-on components.
+- .mcworld: a Bedrock world that can normally be imported/opened with Minecraft.
+- .mcskin: a Bedrock skin-related file; handling can vary by device/app, so follow the source's current instructions.
+- .zip: generic archive. Do not blindly rename every .zip to .mcpack. First determine what the archive actually contains and whether it is intended to be a Bedrock pack.
+
+ANDROID / MOBILE
+- A file manager may be needed to locate Downloads.
+- If Minecraft is offered as an app to open a .mcpack/.mcaddon/.mcworld file, use that normal import flow.
+- Android file-management behavior varies by version and manufacturer.
+- Do not install APK/EXE/MSI files that claim to be a Minecraft add-on, pack, shader, or mod.
+
+JAVA QUICK PATH
+1. Confirm the mod is for Java Edition and identify the required Minecraft version and loader (for example Fabric, Forge, NeoForge, or Quilt where supported).
+2. Install/use the required loader/profile.
+3. Put Java mods (.jar) in the correct mods folder for that instance/profile.
+4. Put resource packs (.zip) in the resourcepacks folder without extracting unless the specific pack instructions say otherwise.
+5. Put data packs in the world's datapacks folder as appropriate.
+6. Launch the matching profile and check for loader/dependency errors.
+
+COMMON PROBLEMS
+- Import failed: verify the file type, Minecraft edition, and supported game version; retry with Minecraft's normal import/open-with flow.
+- Pack imports but is missing in-game: check whether it needs activation in world/global settings.
+- Add-on requires experiments: check the creator's requirements rather than enabling every experiment.
+- Java mod crashes: confirm exact Minecraft version, loader, and required dependencies.
+- .zip behaves strangely: inspect its contents and README before renaming or extracting.
+
+WHAT NOVA SHOULD NOT ASSUME
+- Every .zip is a hidden .mcpack.
+- Every Bedrock add-on requires experiments.
+- Every Java mod uses Forge/Fabric; check the listing.
+- Device file handling is identical across Android, iOS, and Windows.
+- An APK is a legitimate Minecraft content format.

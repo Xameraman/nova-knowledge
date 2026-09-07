@@ -1,0 +1,31 @@
+TITLE: MCPEDL Minecraft Bedrock Guide
+TYPE: Source/platform guide
+PLATFORM: Primarily Bedrock
+STATUS: Current concepts; UI may change
+
+WHAT IT IS
+MCPEDL is a long-running Minecraft Bedrock content site with add-ons, maps, texture packs, skins, shaders, and related content. The site's current interface and download flow can change.
+
+DOWNLOAD FLOW
+1. Open the MCPEDL content page.
+2. Read the content description and supported Minecraft version.
+3. Locate the page's actual download area/control. Do not assume a particular button color or position is permanent.
+4. Follow the creator/site's current download path.
+5. Download the file and verify its extension.
+6. Import/open Bedrock files with Minecraft when supported.
+7. Activate the content in Minecraft settings/world settings as appropriate.
+
+COMMON FILES
+- .mcpack: usually imported into Bedrock.
+- .mcaddon: usually imported into Bedrock and may contain multiple add-on components.
+- .mcworld: usually imported as a Bedrock world.
+- .zip: inspect before renaming; only rename when you know the archive is actually a Bedrock pack and the source's instructions support it.
+
+TROUBLESHOOTING
+- File is an unexpected format: do not install it; return to the project page and verify the intended file.
+- Import fails: verify Bedrock version, extension, and Minecraft association.
+- Pack imports but does not work: activate the relevant packs and check the creator's requirements.
+- External host appears: use the host's normal download page and avoid unrelated ads/pop-ups.
+
+ACCURACY NOTE
+Do not teach users that a specific green link, countdown, or page position is guaranteed. The site's UI can change.

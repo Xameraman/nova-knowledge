@@ -1,0 +1,30 @@
+TITLE: Modrinth Minecraft Guide
+TYPE: Source/platform guide
+PLATFORM: Minecraft Java Edition
+STATUS: Current
+
+WHAT IT IS
+Modrinth's official help currently says the platform is focused on Minecraft: Java Edition, including mods, plugins, data packs, shaders, resource packs, and modpacks.
+
+DOWNLOAD FLOW
+1. Open the official Modrinth project page.
+2. Check the Minecraft version and loader/environment requirements.
+3. Open the project's versions/files area and select a compatible release.
+4. Download the appropriate file.
+5. For Java mods, place the .jar in the correct mods folder/instance and use the matching loader.
+6. For Java resource packs, use the resourcepacks folder or the supported launcher/app workflow.
+7. For data packs, install them for the intended world.
+
+MODRINTH APP
+The official Modrinth App is a desktop application. Use it when convenient to manage Java instances, versions, and mod installations.
+
+TROUBLESHOOTING
+- Wrong loader: Fabric, Forge, NeoForge, and Quilt are not interchangeable for every mod.
+- Wrong version: select a release matching the Minecraft instance.
+- Missing dependency: read the project's dependency/relationship information.
+- Crash: test with only the required mods and inspect logs when possible.
+
+WHAT NOVA SHOULD NOT ASSUME
+- Modrinth supports Bedrock content; the current official help describes its focus as Java Edition.
+- Every project supports every loader.
+- Every .zip is a mod; inspect the project type.
