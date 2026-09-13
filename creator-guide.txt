@@ -10,44 +10,57 @@ WHO THIS IS FOR
 - Someone who made their own pack/addon/skin and wants it added to NOVA's
   library under their own name.
 - Not for someone re-sharing another creator's work (see general.txt's
-  "NOVA SHARING ROLES / FLOWS" section for that case instead).
+  "NOVA SHARING ROLES / FLOWS" section for that case instead -- that's a
+  Sharer, not a Packmaker).
 
 HOW TO SUBMIT YOUR OWN WORK
-[FILL IN: the actual current flow. Example shape -- replace with the real
-one: "Join the NOVA Discord, go to #creator-submissions, and use the
-/submit-pack command" OR "Fill out the submission form linked in
-#creator-info" OR whatever it really is today.]
+Two ways, both valid:
+
+1. Quick way: post your MCPEDL, CurseForge, or MediaFire link directly in
+   the 📤 | Uploads here channel. You must include a preview picture
+   (a thumbnail or screenshot of the creation) -- submissions without one
+   are ignored.
+2. Formal way: use the /share-with-nova command for a more detailed
+   submission. It takes: name, file_link, category, credits, support_link,
+   archive, and photo.
+
+Either way works -- the command just captures more structured detail up
+front.
 
 WHAT YOU NEED BEFORE SUBMITTING
-[FILL IN the real requirements, for example:]
-- [A description of the pack and what it does]
-- [Preview images or a short video]
-- [Which of the 22 official categories it belongs to]
-- [Confirmation the work is entirely your own, or credit for anything it's based on]
-- [File type/size expectations]
+- A preview picture (thumbnail or screenshot) -- required either way, no
+  exceptions.
+- Your MCPEDL / CurseForge / MediaFire link (quick way), or the full set of
+  fields the command asks for (formal way): name, file_link, category,
+  credits, support_link, archive link, photo.
+- Confirmation the work is genuinely yours, or clear credit for anything
+  it's based on.
 
 REVIEW PROCESS
-[FILL IN: who reviews submissions, roughly how long it takes, and what
-happens if something is rejected or needs changes -- describe the process,
-not a permanent turnaround-time promise that could go stale.]
+[FILL IN: who reviews submissions in 📤 | Uploads here / via
+/share-with-nova, roughly how long it takes, and what happens if something
+needs changes before approval.]
 
 BECOMING A RECOGNIZED CREATOR / PACKMAKER ROLE
-[FILL IN if NOVA has a Discord role, badge, or tag for creators once they
-have one or more approved submissions -- describe how it's granted.]
+Once a submission is approved, the creator receives the **Verified
+Packmaker** role.
 
 RULES FOR CREATORS
 - Only submit work you made yourself, or clearly credit what it's based on.
 - Do not claim someone else's pack as your own.
 - Keep descriptions accurate; do not overstate compatibility or features.
+- A preview picture is mandatory -- submissions without one are ignored.
 - Broken or inappropriate NOVA links/submissions should be reported through
-  the current reporting command when available.
+  /nova-report.
 
 NOVA ASSISTANT BEHAVIOR FOR THIS TOPIC
 - If asked "how do I upload/submit/become a packmaker", answer using the
-  concrete steps above -- do not invent a command, channel, or form that
-  isn't listed here.
-- If this file hasn't been filled in yet, say plainly that you don't have
-  the exact current submission steps and point the user to the NOVA Discord
-  to ask staff directly, rather than guessing.
+  concrete steps above: 📤 | Uploads here (MCPEDL/CurseForge/MediaFire link
+  + required preview picture) or /share-with-nova for the formal route.
+- Do not invent a command, channel, or requirement not listed here.
+- If this file is out of date (e.g. the channel gets renamed again), say
+  you're not fully sure of the current exact steps and point the user to
+  the NOVA Discord to ask staff directly, rather than guessing.
 
-UPDATED: [FILL IN DATE WHEN YOU EDIT THIS]
+UPDATED: 2026-09 (submission channel confirmed as 📤 | Uploads here;
+previously listed as 💌 request here, which was out of date)
