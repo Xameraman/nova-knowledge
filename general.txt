@@ -1,34 +1,86 @@
-TITLE: NOVA General Knowledge
-TYPE: NOVA-specific policy + basic Minecraft help
+NOVA is a community-driven Discord server and guide network for verified Minecraft Bedrock content — direct downloads, proper credits, 22 clean categories, and zero ad links. All content is sourced primarily from CurseForge and MCPEDL, then re-hosted or linked directly through trusted mirrors.
 
-NOVA PURPOSE
-NOVA is a Minecraft-focused community and guide system. It aims to make Minecraft Bedrock/Java content easier to find, understand, install, and share while preserving creator credit.
+⚡ Quick Start
+Join the Discord → Get the Key Access role → Browse any of the 22 category channels → Click direct download links from CurseForge, MCPEDL, MediaFire, MEGA, Google Drive, or Proton Drive. Installation help is always at the guide hub.
 
-OFFICIAL CATEGORY LIST (22)
-PvP, Utility, Furniture, Horror, Anime, Shader, Structure, Weapon, Bosses, Vehicle, Visual, Survival, Client, GUI & UI, Adventure, Minigame, Food, Environment, Addon, World, Animation, Skins.
+📋 How to Join and Use NOVA
 
-NOVA SHARING ROLES / FLOWS
-- A creator sharing their own work should use the current creator submission flow configured by the bot/server.
-- A sharer submitting someone else's content must preserve the original creator's credit and should provide a useful description/preview where required.
-- Feature/share commands may include optional support and showcase/testing links. Optional means optional; the embed should not display empty buttons.
-- Broken or inappropriate NOVA links should be reported through the current reporting command when available.
+1. Join the official NOVA Discord: https://discord.gg/Zc5pPEZYpe
+2. Read the rules (English only). Moderation is handled by Wick bot.
+3. Obtain the Key Access role to unlock the main channels.
+4. Browse the 22 categories: PvP, Utility, Furniture, Horror, Anime, Shader, Structure, Weapon, Bosses, Vehicle, Visual, Survival, Client, GUI & UI, Adventure, Minigame, Food, Environment, Addon, World, Animation, Skins.
+5. Click any direct link in a channel — all downloads are taken from primary sources like CurseForge and MCPEDL, and hosted on trusted mirrors such as MediaFire, MEGA, Google Drive, and Proton Drive. No ad pages ever.
+6. Need help installing? Visit the complete guide hub: https://xameraman.github.io/all-nova-guides/
 
-DOWNLOAD PHILOSOPHY
-- Prefer direct/primary links over unnecessary ad gates and shorteners.
-- A mirror can be useful when the primary host is unavailable, but it should not be presented as the original creator's host.
-- Preserve creator credit and do not claim somebody else's work as your own.
+📥 Downloading & Installing Content
+For Bedrock:
 
-NOVA ASSISTANT BEHAVIOR
-- Help first. Do not append the NOVA Discord invite to ordinary answers.
-- Mention NOVA/Discord when the user asks about NOVA, the community, staff/contact, sharing, or a task genuinely requires that information.
-- For natural requests such as "find me the furniture pack", interpret the request normally; users should not have to know Find:/Search:/Look up: syntax.
-- For installation questions, first identify the edition and device when needed.
-- For current websites, avoid inventing exact buttons or layouts.
+1. Download the .mcpack or .mcaddon file from the provided CurseForge, MCPEDL, or mirror link.
+2. Open the file with Minecraft. The pack will import automatically.
+3. Apply it in your world or global resources settings.
 
-BASIC FILE TYPES
-Bedrock: commonly .mcpack, .mcaddon, .mcworld.
-Java: commonly .jar mods and .zip resource/data packs.
+For Java:
 
-SAFETY
-- Do not run or install executable files presented as Minecraft content unless the user independently knows they are legitimate software and actually needs them. For a pack/add-on download, an unexpected .exe/.msi/.apk is a strong reason to stop and verify the source.
-- Do not claim a file is malware without evidence. Say it is suspicious/unexpected and recommend obtaining the official file/source instead.
+1. Download the .jar or .zip file from the provided CurseForge, MCPEDL, or mirror link.
+2. Place the file in your .minecraft/resourcepacks (or datapacks/mods) folder.
+3. Activate it in the in‑game resource‑pack menu.
+
+🧑‍🤝‍🧑 How Sharing Works on NOVA
+
+· Packmakers (your own creation): post your MCPEDL, CurseForge, or MediaFire link in 📤 | Uploads here — a preview picture (thumbnail/screenshot of the creation) is required, submissions without one are ignored. Or use /share-with-nova for a more formal, detailed submission (name, file_link, category, credits, support_link, archive, photo). Approved creators receive the Verified Packmaker role.
+· NOVA Items Sharers (someone else's content): use /nova-share with name, link, credits, description, image, category, and optional support link. The bot posts an embed with 🚀 Download Now.
+· Experienced NOVA Sharers (announcing approved submissions): use /nova-feature to add a permanent archive link and up to three buttons: 🚀 Download Now, 🌌 Temp Mirror, 💝 Support the Creator.
+· All /nova-share and /nova-feature actions are auto‑announced by the bot — no extra steps needed.
+
+❗ Common Problems
+
+Problem: I only see a few channels / can't see all 22 categories.
+Solution: Go to the very top of the channel list in Discord. Below the server name, tap Channels & Roles, then switch to the Roles tab. From there, you can either pick individual category roles (with pings when new content is added) or grab the Access all Without Pings role to see everything silently. Channels appear instantly.
+
+Problem: Broken link.
+Solution: Use /nova-report.
+
+Problem: Don’t know how to install.
+Solution: Visit https://xameraman.github.io/guide-for-java-and-bedrock/
+
+Problem: Found an ad link.
+Solution: Report immediately with /nova-report.
+
+Problem: Want to upload.
+Solution: Decide if you are a packmaker or a sharer, then follow the matching method above.
+
+Problem: NOVA Assistant not responding.
+Solution: Wait a few seconds and try again, or ask in a support channel.
+
+⚠️ Important Warnings
+
+· Only direct download links are accepted.
+· Always credit the original creator.
+· No NSFW, spam, or paid content.
+· Submissions without a preview image are ignored.
+· NOVA is completely free.
+· Never open .exe, .apk, or .msi files claiming to be Minecraft content.
+· filego.io is never used for packmaker archives.
+
+❓ FAQ
+
+Is NOVA free?
+Yes, everything on NOVA is and always will be free — no paywalls, no ad gates.
+
+What file types are used?
+Bedrock: .mcpack / .mcaddon. Java: .jar / .zip.
+
+How do I get a broken link fixed?
+Use the /nova-report command, and staff will handle it.
+
+Can I share someone else’s creation?
+Absolutely — use /nova-share and give proper credit. Never claim it as your own.
+
+Why can’t I see all 22 category channels?
+You already have the Key Access role. To unlock more channels, go to the very top of the channel list, tap Channels & Roles, then the Roles tab, and select the categories you want (or Access all Without Pings for everything with zero pings). The channels appear instantly.
+
+🌐 Links
+
+· Discord: https://discord.gg/Zc5pPEZYpe
+· NOVA Library: https://nova-library-mu.vercel.app/
+· Owner: Xameraman5022
