@@ -1,37 +1,42 @@
-TITLE: CurseForge Minecraft Guide
-TYPE: Source/platform guide
-STATUS: Current concepts, volatile UI details
+CurseForge Download & Installation Guide
 
-WHAT IT IS
-CurseForge hosts Minecraft projects including Java and Bedrock content. Its current site has a Minecraft Bedrock area with categories such as Addons, Maps, Texture Packs, Scripts, and Skins. Exact navigation and button wording can change.
+CurseForge is the largest Minecraft modding platform, hosting mods, modpacks, resource packs, shaders, data packs, and worlds for both Java and Bedrock.
 
-JAVA DOWNLOAD / INSTALL
-1. Open the official CurseForge Minecraft area and choose the project.
-2. Check the Minecraft version and the required mod loader before downloading.
-3. Check the project's files/versions and dependency information.
-4. Download the file for the correct version.
-5. Install it into the appropriate Java instance/profile, or use the CurseForge App where supported.
-6. Launch with the matching loader/profile.
+⚡ Quick Start
+· Java: search the mod → check version & loader → download the .jar → place in .minecraft/mods → launch with Forge/Fabric.
+· Bedrock: browse the Bedrock section → download .mcpack/.mcaddon → tap the file → open with Minecraft → activate in world settings.
 
-BEDROCK DOWNLOAD / INSTALL
-1. Open the official Minecraft Bedrock section.
-2. Choose a project and verify that the project/file is for Bedrock.
-3. Check the supported Minecraft version and the file type.
-4. Prefer a Bedrock-native file such as .mcpack, .mcaddon, or .mcworld when provided.
-5. Open/import the downloaded file with Minecraft.
-6. Activate the relevant pack(s) in world or global settings.
+💻 Java Steps
+1. Go to curseforge.com/minecraft, search, and look for the Verified badge.
+2. Check compatibility: MC version, mod loader (Forge/Fabric), and dependencies (Relations tab).
+3. Files tab → find the right version → ⋯ → Download File → wait out the 5-second countdown.
+4. Place the .jar in .minecraft/mods (create the folder if missing), then launch with your loader profile.
 
-IMPORTANT ACCURACY RULE
-Do not teach users a permanent button position, countdown length, or exact UI text. CurseForge can change layout and download flow. Describe the control's purpose instead (for example, the project's current file/download control).
+📱 Bedrock Steps
+1. Go to curseforge.com/minecraft-bedrock and search or browse.
+2. Confirm the file is .mcpack, .mcaddon, .mcworld, or .mcskin — .jar is Java only.
+3. Files tab → Download → wait out the countdown.
+4. Open a file manager → tap the file → open with Minecraft → import.
+5. Activate the pack(s) in world settings (both behaviour and resource for .mcaddon); enable Experimental Gameplay if needed.
 
-TROUBLESHOOTING
-- Wrong version: return to the project's file/version list and choose a compatible version.
-- Java mod not loading: verify loader + Minecraft version + dependencies.
-- Bedrock import failure: verify file type and edition; use Minecraft's normal import flow.
-- Unexpected ad/download page: return to the official project page and use its actual download/file controls.
+❗ Common Problems
+· Mod not appearing (Java) → check the mods folder, loader version, and missing dependencies.
+· Game crash → remove mods one by one, check dependencies, update Java.
+· Import failed (Bedrock) → rename .zip to .mcpack, use "Open with" Minecraft.
+· Pack not working → activate both packs, enable Experimental Gameplay.
+· Countdown won't start → refresh the page, avoid clicking ads.
 
-WHAT NOVA SHOULD NOT ASSUME
-- A project has a Verified badge unless the current page shows one.
-- A specific countdown is always five seconds.
-- Every project is available for both Java and Bedrock.
-- Files are guaranteed safe merely because they are hosted on CurseForge.
+⚠️ Warnings
+· Only download from curseforge.com.
+· Never click banner ads — the real button is inside the Files tab.
+· Java .jar and Bedrock .mcpack are not interchangeable.
+· Check dependencies before downloading; never double-click .jar files.
+
+❓ FAQ
+Q: Is CurseForge free and safe? A: Yes — free, and files are scanned.
+Q: Java vs. Bedrock files? A: Java uses .jar + mod loaders; Bedrock uses .mcpack/.mcaddon.
+
+🌐 Links
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
+Owner: Xameraman5022
