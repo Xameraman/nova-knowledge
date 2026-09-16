@@ -1,27 +1,33 @@
-TITLE: MediaFire Download Guide
-TYPE: File-host guide
-STATUS: Current concepts; UI may change
+MediaFire is a free cloud host (10 GB free) commonly used by Minecraft creators. NOVA's real download button always sits directly below the file name.
 
-WHAT IT IS
-MediaFire is a file-hosting/storage service. A MediaFire URL can lead to a file page or folder; exact download UI can change.
+⚡ Quick Start
+Open the link → confirm the file name → click the large blue Download button below it → complete any captcha → save → import into Minecraft.
 
-DOWNLOAD FLOW
-1. Open the MediaFire file/folder page in a normal browser.
-2. Confirm the filename and, when shown, file size/type.
-3. Use the page's actual download control for the intended file.
-4. Ignore unrelated advertisements, pop-ups, or software-install prompts.
-5. After download, verify the file extension before opening it.
-6. For Bedrock content, use Minecraft's normal import flow for supported file types.
-7. For Java mods, follow the mod loader and instance instructions.
+📥 Steps
+1. Open the mediafire.com link and confirm the file name/size at the top.
+2. Find the real button: a large blue Download (size) directly under the file name — ignore every other button, banner, or sidebar.
+3. Click it; complete a captcha if one appears.
+4. If the download doesn't start, allow pop-ups for mediafire.com.
+5. Import: .mcpack/.mcaddon/.mcworld → tap to import; .jar → place in .minecraft/mods. If it downloaded as .zip, rename it to .mcpack/.mcaddon (not .jar).
 
-TROUBLESHOOTING
-- Download unavailable/file removed: the owner may have deleted or changed the share; ask for a new link.
-- Pop-up or new tab: close it if it is unrelated to the intended download and return to the file page.
-- Captcha or verification: complete only the host's normal verification if presented; never install software to pass it.
-- Unexpected executable: stop and verify the source.
+❗ Common Problems
+· Clicked an ad, new tab opened → close it; the real button sits below the file name.
+· Captcha loops → complete carefully, clear cookies, or try another browser/disable VPN.
+· Downloaded as .zip → rename to .mcpack/.mcaddon/.mcworld.
+· File Not Found → creator removed it; ask for a new link or check NOVA Discord.
+· Button does nothing → refresh, allow pop-ups, try Chrome/Firefox/Brave.
 
-WHAT NOVA SHOULD NOT ASSUME
-- A specific button color/position is permanent.
-- Every pop-up is legitimate.
-- MediaFire guarantees the safety of every uploaded file; the uploader controls the file contents.
-- A .zip should always be renamed to .mcpack.
+⚠️ Warnings
+· The real button never opens a new tab — if it does, it was an ad.
+· MediaFire never requires installing software.
+· Brave browser helps block fake buttons automatically.
+· Always verify the file extension after downloading.
+
+❓ FAQ
+Q: Which button is real? A: The large blue Download button right below the file name — everything else is an ad.
+Q: Does NOVA use MediaFire? A: Yes, verified links shared directly with no extra ad layers.
+
+🌐 Links
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
+Owner: Xameraman5022
