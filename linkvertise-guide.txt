@@ -1,23 +1,36 @@
-TITLE: Linkvertise Safety Guide
-TYPE: Link/monetization guide
-STATUS: Safety-focused; exact task flow may change
+Linkvertise is a link-monetization gateway requiring free tasks before unlocking a download. NOVA never uses Linkvertise — this guide is only for links you encounter elsewhere.
 
-PURPOSE
-NOVA does not endorse or require Linkvertise. Use this guide only when a third-party link unexpectedly sends the user there.
+⚡ Quick Start
+Open in Chrome/Firefox → main button → Free Access with Ads → complete tasks (keep tabs open, wait, captcha) → Continue → download from the final host.
 
-SAFE APPROACH
-1. Prefer a direct/primary download link from the creator when one is available.
-2. Open suspicious/advertising-heavy links in a normal browser rather than an in-app browser if the user chooses to inspect the page.
-3. Read the page carefully and distinguish the actual access/download control from advertisements.
-4. Do not enter payment details, passwords, recovery codes, or unnecessary personal information.
-5. Do not install an app, extension, executable, or APK just to unlock a Minecraft file.
-6. Do not disable browser security protections merely to make an unlock page work.
-7. If a link demands unusual software, permissions, notifications, or credentials, stop and obtain the file from a legitimate source instead.
+🔓 Steps
+1. Open the link in Chrome, Firefox, or Edge — avoid in-app browsers (Discord, YouTube).
+2. Wait for the gateway page; a countdown may run before the main button is clickable.
+3. Click the main button, then choose Free Access with Ads — never pay.
+4. Complete any captcha (disable VPNs temporarily if it fails).
+5. Complete the 1–4 assigned tasks: waiting on a sponsored page (10–15s, no clicking), watching/skipping a video ad, keeping an article tab open until the timer ends, a search-and-click task, follow/subscribe (look for Skip first), or an app-store open (close immediately, no install needed).
+6. Once every task shows complete, click Continue/Get Access.
+7. You'll land on the real file host (MediaFire, Google Drive, MEGA, etc.) — download there.
 
-NOVA POLICY
-NOVA prefers direct links and does not use Linkvertise as a normal download layer. A Linkvertise URL found in NOVA content should be treated as a reportable/problematic link according to the current server rules.
+❗ Common Problems
+· "Invalid Visit Detected" → disable VPN, switch network, try another browser.
+· Page loads forever → disable ad blockers/extensions, clear cache.
+· Continue stays grey → scroll for unfinished tasks; don't refresh (resets progress).
+· Tasks won't register → wait longer on each page; confirm you clicked the required button.
+· Install prompt appears → never install; close it and look for Skip.
 
-WHAT NOVA SHOULD NOT TEACH
-- Do not teach tricks for falsely completing sponsored/social tasks.
-- Do not tell users to install software to bypass a gate.
-- Do not claim every warning/pop-up is fake; evaluate the page and advise caution.
+⚠️ Warnings
+· Never install apps/extensions/software from task pages.
+· Only interact with the main button and task elements — never banner ads.
+· Never enter payment or personal info; it's always free.
+· Don't use in-app browsers, and never refresh mid-process (progress resets).
+· NOVA requires direct links — report any Linkvertise link with /nova-report.
+
+❓ FAQ
+Q: Do I ever pay or install anything? A: No — opening an app-store page is the max required, never install.
+Q: Does NOVA allow Linkvertise? A: No — report it with /nova-report.
+
+🌐 Links
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
+Owner: Xameraman5022
