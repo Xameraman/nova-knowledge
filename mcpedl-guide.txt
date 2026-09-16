@@ -1,31 +1,37 @@
-TITLE: MCPEDL Minecraft Bedrock Guide
-TYPE: Source/platform guide
-PLATFORM: Primarily Bedrock
-STATUS: Current concepts; UI may change
+MCPEDL (mcpedl.com) is the largest free site for Bedrock content — addons, maps, texture packs, skins. No account needed.
 
-WHAT IT IS
-MCPEDL is a long-running Minecraft Bedrock content site with add-ons, maps, texture packs, skins, shaders, and related content. The site's current interface and download flow can change.
+⚡ Quick Start
+Open MCPEDL → Skip to Download, or scroll to the bottom → pick the version link (small green text, not the big banner) → download .mcpack/.mcaddon/.mcworld → tap to import → activate in world settings.
 
-DOWNLOAD FLOW
-1. Open the MCPEDL content page.
-2. Read the content description and supported Minecraft version.
-3. Locate the page's actual download area/control. Do not assume a particular button color or position is permanent.
-4. Follow the creator/site's current download path.
-5. Download the file and verify its extension.
-6. Import/open Bedrock files with Minecraft when supported.
-7. Activate the content in Minecraft settings/world settings as appropriate.
+📥 Steps
+1. Find your content via search or categories on mcpedl.com.
+2. Click Skip to Download, or scroll to the bottom of the page.
+3. Pick the link matching your Minecraft version (check Settings → About).
+4. Click the real link — small green text inside the content area, never a large flashy banner.
+5. It leads to a direct file or an external host (MediaFire, Google Drive, Dropbox). If Linkvertise appears, see NOVA's Linkvertise guide.
+6. If the file is .zip, rename it to .mcpack or .mcaddon.
+7. Tap the file → open with Minecraft → wait for "Successfully Imported."
+8. Activate: resource packs via Settings → Global Resources; behaviour packs via edit world → Behaviour Packs. For .mcaddon, activate both.
+9. Enable Experimental Gameplay if the MCPEDL page says so (World Settings → Experiments).
 
-COMMON FILES
-- .mcpack: usually imported into Bedrock.
-- .mcaddon: usually imported into Bedrock and may contain multiple add-on components.
-- .mcworld: usually imported as a Bedrock world.
-- .zip: inspect before renaming; only rename when you know the archive is actually a Bedrock pack and the source's instructions support it.
+❗ Common Problems
+· Clicked the big DOWNLOAD button, nothing happened → that was an ad; use the small green link instead.
+· File downloaded as .zip → rename to .mcpack/.mcaddon, then import.
+· Import failed → use "Open with" Minecraft; check the extension and storage permissions.
+· Addon not appearing → activate both packs; enable required Experimental Gameplay toggles.
+· Broken/expired link → check the MCPEDL comments, or ask in NOVA Discord.
 
-TROUBLESHOOTING
-- File is an unexpected format: do not install it; return to the project page and verify the intended file.
-- Import fails: verify Bedrock version, extension, and Minecraft association.
-- Pack imports but does not work: activate the relevant packs and check the creator's requirements.
-- External host appears: use the host's normal download page and avoid unrelated ads/pop-ups.
+⚠️ Warnings
+· The real link is small green text — large banners are ads.
+· .jar files on MCPEDL are Java-only and won't work on Bedrock.
+· MCPEDL often redirects to external hosts — follow that host's guide.
+· Console users must download on phone/PC first, then sync via Microsoft account.
 
-ACCURACY NOTE
-Do not teach users that a specific green link, countdown, or page position is guaranteed. The site's UI can change.
+❓ FAQ
+Q: Is MCPEDL free? A: Yes, no account required.
+Q: Does NOVA share MCPEDL links? A: Yes — verified first, linking straight to the content page.
+
+🌐 Links
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
+Owner: Xameraman5022
