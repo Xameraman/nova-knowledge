@@ -1,24 +1,35 @@
-TITLE: MEGA Download Guide
-TYPE: File-host guide
-STATUS: Current concepts; account limits can change
+MEGA is an ad-free, end-to-end encrypted cloud host. NOVA verifies all MEGA links; free accounts get 20 GB storage with a 5 GB/6-hour transfer quota.
 
-WHAT IT IS
-MEGA is a cloud storage/file-sharing service with encryption and account-based storage/transfer limits. The exact limits and product UI can change, so NOVA should avoid hard-coding old quotas unless verified against current official information.
+⚡ Quick Start
+Open the link → confirm the file name → click red Download → wait for browser decryption → save. For folders, use Download as ZIP. To skip the quota, import to your own free MEGA drive first.
 
-DOWNLOAD FLOW
-1. Open the MEGA share link in a normal browser or the official MEGA app.
-2. Confirm the shared file/folder and filename when available.
-3. Use the site's download option.
-4. Wait for the download/decryption process to finish.
-5. Save the file and verify its extension.
-6. Import/install the Minecraft file according to its type and edition.
+📥 Steps
+1. Open a mega.nz/file/ or /folder/ link and confirm the file name/size.
+2. Click the red Download button — your browser downloads encrypted data with a progress bar.
+3. It then decrypts locally ("decrypting…"); large files take longer.
+4. Save the decrypted file to Downloads.
+5. Import: .mcpack/.mcaddon/.mcworld → tap to import; .jar → place in .minecraft/mods.
+6. Folders: download files individually, or Download as ZIP for all at once.
+7. To bypass the quota: click Import to Cloud Drive (needs a free MEGA account), then download anytime from your own storage.
 
-TROUBLESHOOTING
-- Transfer/download limit reached: wait for the service's reset/allowance or obtain another legitimate mirror from the creator.
-- Invalid/expired link: request a fresh share link.
-- Browser download stalls: check connection, storage space, and whether the browser/app is still processing the file.
+❗ Common Problems
+· Transfer quota exceeded → wait, switch networks, or import to your own MEGA drive first.
+· Stuck on "Decrypting" → large files need time; past 15 minutes, retry with the MEGA app.
+· Download never starts → use Chrome/Edge/Brave with pop-ups enabled for mega.nz.
+· iPhone/iPad can't download → Safari caps around 1 MB; use the free MEGA iOS app.
+· Link not found → sharer deleted it; ask for a new one or check NOVA Discord.
 
-WHAT NOVA SHOULD NOT ASSUME
-- A fixed free-storage number forever.
-- A fixed transfer quota/reset interval forever.
-- That encryption means every uploaded file is safe to execute.
+⚠️ Warnings
+· Never use third-party "MEGA downloader" tools — usually malware.
+· MEGA has no ads — any pop-up asking for anything is fake.
+· Files over 500 MB: use the official desktop/mobile app to avoid browser memory limits.
+· Always verify the file extension after downloading.
+
+❓ FAQ
+Q: Why "transfer quota exceeded"? A: Free accounts cap ~5 GB per 6 hours — wait, switch networks, or import to your own account first.
+Q: Can I download on iOS? A: Yes, but only via the free MEGA app — Safari can't handle files over ~1 MB.
+
+🌐 Links
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
+Owner: Xameraman5022
