@@ -1,22 +1,36 @@
-TITLE: Sub2Unlock Safety Guide
-TYPE: Link/monetization guide
-STATUS: Safety-focused; task flow may change
+Sub2Unlock Link Unlock Guide
 
-PURPOSE
-Sub2Unlock uses tasks or engagement requirements to unlock a destination link. NOVA prefers direct links and only discusses this service as a third-party obstacle.
+Sub2Unlock requires social tasks (subscribe, follow, join Discord) before revealing a download link. NOVA prefers direct links — use this only if you hit a Sub2Unlock link elsewhere.
 
-SAFE APPROACH
-1. Prefer asking the creator/sharer for a direct file link when possible.
-2. If inspecting the page, use a normal browser and review what each task actually requests.
-3. Never install software, browser extensions, APKs, or executables to unlock a Minecraft file.
-4. Never provide passwords, payment information, recovery codes, or unnecessary personal data.
-5. Never grant unexpected browser notification permissions.
-6. If the page redirects to unrelated software or suspicious downloads, stop and leave the page.
+⚡ Quick Start
+Open in Chrome/Brave/Firefox (not an in-app browser) → try each task's smart skip (open, then go back) → do the real task if that fails → wait for green checkmarks → Unlock → download from the file host.
 
-NOVA POLICY
-NOVA prefers direct downloads and does not require social tasks as a standard NOVA download method.
+🔓 Steps
+1. Open the link in Chrome, Brave, or Firefox — avoid Discord/YouTube/TikTok in-app browsers.
+2. You'll see 2–4 tasks; never click banner ads, only the tasks themselves.
+3. Smart skip first: open the task, then immediately go back — it often registers as done.
+4. If that fails, complete the actual task (subscribe/follow/join), then return.
+5. Once every task shows a green check, Unlock/Continue becomes clickable — scroll down if it's hidden.
+6. Click Unlock — you'll land on the real file host (MediaFire, Google Drive, etc.).
 
-WHAT NOVA SHOULD NOT TEACH
-- Do not teach methods to falsify completion of social tasks.
-- Do not recommend bypass extensions as the default method.
-- Do not claim a fixed number of tasks; the creator/service may change them.
+❗ Common Problems
+· Progress resets → use Chrome/Brave/Firefox; in-app browsers break sessions.
+· Tasks don't register → open the task, wait ~10s, go back; do the real action if it still fails.
+· Unlock stays grey → scroll for hidden tasks, or re-open each one to refresh.
+· Pop-ups/new tabs → close immediately; they're ads.
+· Asked to install software or allow notifications → never do it, close the tab.
+
+⚠️ Warnings
+· Never install apps/extensions or allow notifications.
+· Never enter payment or personal info — it's free.
+· Use Chrome, Brave, or Firefox — in-app browsers fail.
+· The FastForward browser extension can auto-bypass tasks.
+
+❓ FAQ
+Q: Does NOVA use Sub2Unlock? A: Rarely — we prefer direct links.
+Q: Stuck? A: Try the FastForward extension, or ask the sharer for a direct link.
+
+🌐 Links
+Discord: https://discord.gg/Zc5pPEZYpe
+NOVA Library: https://nova-library-mu.vercel.app/
+Owner: Xameraman5022
