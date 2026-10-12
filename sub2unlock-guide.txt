@@ -1,6 +1,6 @@
 Sub2Unlock Link Unlock Guide
 
-Sub2Unlock requires social tasks (subscribe, follow, join Discord) before revealing a download link. NOVA prefers direct links — use this only if you hit a Sub2Unlock link elsewhere.
+Sub2Unlock requires social tasks (subscribe, follow, join Discord) before revealing a download link. NOVA never uses Sub2Unlock — NOVA prefers direct download links and does not intentionally use ad gates or link-unlock services. Use this only if you hit a Sub2Unlock link elsewhere.
 
 ⚡ Quick Start
 Open in Chrome/Brave/Firefox (not an in-app browser) → try each task's smart skip (open, then go back) → do the real task if that fails → wait for green checkmarks → Unlock → download from the file host.
@@ -24,13 +24,15 @@ Open in Chrome/Brave/Firefox (not an in-app browser) → try each task's smart s
 · Never install apps/extensions or allow notifications.
 · Never enter payment or personal info — it's free.
 · Use Chrome, Brave, or Firefox — in-app browsers fail.
-· The FastForward browser extension can auto-bypass tasks.
+· The FastForward browser extension can auto-bypass tasks. It needs permission to read every website you visit and may not be available in every browser store, so install it only from its official page.
 
 ❓ FAQ
-Q: Does NOVA use Sub2Unlock? A: Rarely — we prefer direct links.
+Q: Does NOVA use Sub2Unlock? A: Never — NOVA prefers direct links.
 Q: Stuck? A: Try the FastForward extension, or ask the sharer for a direct link.
 
 🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
