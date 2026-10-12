@@ -1,4 +1,4 @@
-MediaFire is a free cloud host (10 GB free) commonly used by Minecraft creators. NOVA's real download button always sits directly below the file name.
+MediaFire is a free cloud host (10 GB free; ad-supported) commonly used by Minecraft creators. NOVA's real download button always sits directly below the file name. NOVA uses MediaFire as an archive option: when a packmaker needs or requests an archive, or provides their own valid archive link. It does not replace NOVA's preferred MCPEDL and CurseForge sources.
 
 ⚡ Quick Start
 Open the link → confirm the file name → click the large blue Download button below it → complete any captcha → save → import into Minecraft.
@@ -16,6 +16,7 @@ Open the link → confirm the file name → click the large blue Download button
 · Downloaded as .zip → rename to .mcpack/.mcaddon/.mcworld.
 · File Not Found → creator removed it; ask for a new link or check NOVA Discord.
 · Button does nothing → refresh, allow pop-ups, try Chrome/Firefox/Brave.
+· Folder link → free accounts are reported not to download whole folders at once; download the files one by one.
 
 ⚠️ Warnings
 · The real button never opens a new tab — if it does, it was an ad.
@@ -25,9 +26,11 @@ Open the link → confirm the file name → click the large blue Download button
 
 ❓ FAQ
 Q: Which button is real? A: The large blue Download button right below the file name — everything else is an ad.
-Q: Does NOVA use MediaFire? A: Yes, verified links shared directly with no extra ad layers.
+Q: Does NOVA use MediaFire? A: Yes, as a supported archive option (when a packmaker needs one or provides their own valid archive link), with no extra ad layers. MCPEDL and CurseForge stay the preferred, verified-first sources.
 
 🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
