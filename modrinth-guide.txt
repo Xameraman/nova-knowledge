@@ -5,7 +5,7 @@ Search the mod → check MC version & loader → Versions tab → Download → p
 
 📥 Steps
 1. Find a mod on modrinth.com.
-2. Confirm the MC version, loader (Forge/Fabric/Quilt/NeoForge), and environment (Client/Both).
+2. Confirm the MC version (2026 versions look like 26.1 or 26.2), loader (Forge/Fabric/Quilt/NeoForge), and environment (Client/Both).
 3. Versions tab → find the matching file → Download (mods save as .jar, packs as .zip).
 4. Open .minecraft: Windows Win+R → %appdata%\.minecraft · macOS Cmd+Shift+G → ~/Library/Application Support/minecraft · Linux ~/.minecraft
 5. Create a lowercase "mods" folder if missing and drop the .jar in; .zip packs go in resourcepacks or saves/<world>/datapacks.
@@ -13,8 +13,9 @@ Search the mod → check MC version & loader → Versions tab → Download → p
 7. Easiest route: install the free Modrinth App (modrinth.com/app) — it manages versions and dependencies automatically.
 
 ❗ Common Problems
-· Mod doesn't work → check loader (Fabric ≠ Forge), MC version, and the Relations tab for dependencies.
-· Game crashes on launch → remove mods one at a time; confirm they all match one MC version.
+· Mod doesn't work → check loader (Fabric ≠ Forge ≠ NeoForge), MC version, and the Relations tab for dependencies.
+· Game crashes on launch → remove mods one at a time; confirm they all match one MC version; Minecraft 26.1 and newer needs Java 25.
+· A mod has no build for your loader/version → loaders update at different speeds (Quilt had no 26.1+ builds as of mid-2026); pick another loader or version the mod supports.
 · Downloaded a .zip instead of .jar → that's correct for resource/data packs — place it accordingly.
 · Not sure which loader → check your launcher profile name.
 
@@ -32,3 +33,5 @@ Q: Do I need an account? A: No — browsing and downloading are free.
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
