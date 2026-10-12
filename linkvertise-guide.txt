@@ -1,4 +1,4 @@
-Linkvertise is a link-monetization gateway requiring free tasks before unlocking a download. NOVA never uses Linkvertise — this guide is only for links you encounter elsewhere.
+Linkvertise is a link-monetization gateway requiring free tasks before unlocking a download. NOVA never uses Linkvertise — NOVA prefers direct download links and does not intentionally use ad gates or link-unlock services. This guide is only for links you encounter elsewhere.
 
 ⚡ Quick Start
 Open in Chrome/Firefox → main button → Free Access with Ads → complete tasks (keep tabs open, wait, captcha) → Continue → download from the final host.
@@ -28,9 +28,11 @@ Open in Chrome/Firefox → main button → Free Access with Ads → complete tas
 
 ❓ FAQ
 Q: Do I ever pay or install anything? A: No — opening an app-store page is the max required, never install.
-Q: Does NOVA allow Linkvertise? A: No — report it with /nova-report.
+Q: Does NOVA allow Linkvertise? A: No — NOVA never uses it. Report it with /nova-report.
 
 🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
