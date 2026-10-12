@@ -1,27 +1,28 @@
 CurseForge Download & Installation Guide
 
-CurseForge is the largest Minecraft modding platform, hosting mods, modpacks, resource packs, shaders, data packs, and worlds for both Java and Bedrock.
+CurseForge is the largest Minecraft modding platform, hosting mods, modpacks, resource packs, shaders, data packs, and worlds for both Java and Bedrock. It is one of NOVA's preferred sources: NOVA verifies the CurseForge content page first.
 
 ⚡ Quick Start
-· Java: search the mod → check version & loader → download the .jar → place in .minecraft/mods → launch with Forge/Fabric.
+· Java: search the mod → check version & loader → download the .jar → place in .minecraft/mods → launch with your mod loader (Fabric, NeoForge or Forge).
 · Bedrock: browse the Bedrock section → download .mcpack/.mcaddon → tap the file → open with Minecraft → activate in world settings.
 
 💻 Java Steps
 1. Go to curseforge.com/minecraft, search, and look for the Verified badge.
-2. Check compatibility: MC version, mod loader (Forge/Fabric), and dependencies (Relations tab).
+2. Check compatibility: MC version, mod loader (Fabric/NeoForge/Forge), and dependencies (Relations tab).
 3. Files tab → find the right version → ⋯ → Download File → wait out the 5-second countdown.
 4. Place the .jar in .minecraft/mods (create the folder if missing), then launch with your loader profile.
+5. Easier option: the free CurseForge app can install mods and launch the game for you. It works for Java Edition only.
 
 📱 Bedrock Steps
 1. Go to curseforge.com/minecraft-bedrock and search or browse.
 2. Confirm the file is .mcpack, .mcaddon, .mcworld, or .mcskin — .jar is Java only.
 3. Files tab → Download → wait out the countdown.
-4. Open a file manager → tap the file → open with Minecraft → import.
+4. Open a file manager → tap the file → open with Minecraft → import. (On Windows, double-click the file.)
 5. Activate the pack(s) in world settings (both behaviour and resource for .mcaddon); enable Experimental Gameplay if needed.
 
 ❗ Common Problems
 · Mod not appearing (Java) → check the mods folder, loader version, and missing dependencies.
-· Game crash → remove mods one by one, check dependencies, update Java.
+· Game crash → remove mods one by one, check dependencies, update Java (Minecraft 26.1 and newer needs Java 25).
 · Import failed (Bedrock) → rename .zip to .mcpack, use "Open with" Minecraft.
 · Pack not working → activate both packs, enable Experimental Gameplay.
 · Countdown won't start → refresh the page, avoid clicking ads.
@@ -35,8 +36,11 @@ CurseForge is the largest Minecraft modding platform, hosting mods, modpacks, re
 ❓ FAQ
 Q: Is CurseForge free and safe? A: Yes — free, and files are scanned.
 Q: Java vs. Bedrock files? A: Java uses .jar + mod loaders; Bedrock uses .mcpack/.mcaddon.
+Q: Does the CurseForge app work for Bedrock? A: No — Java Edition only.
 
 🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
