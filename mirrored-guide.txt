@@ -1,4 +1,4 @@
-Mirrored.to mirrors one file across multiple hosts. You pick the host, so your safety depends entirely on that choice.
+Mirrored.to (formerly Mirrorcreator) mirrors one file across multiple hosts. You pick the host, so your safety depends entirely on that choice. NOVA never uses Mirrored.to — NOVA prefers direct download links and does not intentionally use ad gates or link-unlock services. This guide is only for Mirrored.to links you meet elsewhere.
 
 ⚡ Quick Start
 Open the link → pick an Easy Green host (Gofile, MediaFire, Send.now, Google Drive, Dropbox) → follow that host's steps → confirm the file extension. Avoid Red hosts.
@@ -10,7 +10,7 @@ Open the link → pick an Easy Green host (Gofile, MediaFire, Send.now, Google D
 4. Verify the file extension after download; delete anything unexpected (like .apk).
 
 🟢 Easy Hosts
-· Gofile.io: click the download icon on the file row, wait 1–3s.
+· Gofile.io: click the download icon on the file row, wait 1–3s. Free files can be deleted after a period without downloads (commonly reported as about 10 days), so an old link may be gone.
 · MediaFire.com: click the large blue Download button below the file name; complete a captcha if shown.
 · Send.now: click the big blue Download.
 · Google Drive: click the download arrow (top right); for large files, choose Download anyway.
@@ -45,9 +45,11 @@ Open the link → pick an Easy Green host (Gofile, MediaFire, Send.now, Google D
 
 ❓ FAQ
 Q: Which host is safest? A: Gofile, MediaFire, Send.now, Google Drive, Dropbox.
-Q: Does NOVA use Mirrored.to? A: Rarely — we prefer direct links.
+Q: Does NOVA use Mirrored.to? A: Never — NOVA prefers direct links.
 
 🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
