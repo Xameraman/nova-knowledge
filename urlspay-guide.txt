@@ -1,4 +1,4 @@
-Urlspay is a URL shortener forcing multiple unlock rounds before the final link. NOVA never uses Urlspay — direct links only.
+Urlspay is a URL shortener forcing multiple unlock rounds before the final link. NOVA never uses Urlspay — direct links only. NOVA prefers direct download links and does not intentionally use ad gates or link-unlock services.
 
 ⚡ Quick Start
 Open in Chrome (not in-app) → Continue to Content → wait ~20s → Unlock Link → scroll down → Verify → Continue. Repeat 3–5 rounds until redirected to the file host.
@@ -34,3 +34,5 @@ Q: Found one in NOVA? A: Report it with /nova-report.
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
