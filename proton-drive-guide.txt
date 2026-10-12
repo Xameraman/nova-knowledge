@@ -1,4 +1,4 @@
-Proton Drive is an encrypted, ad-free cloud host with no fake buttons or transfer quotas. NOVA verifies all Proton Drive links before posting.
+Proton Drive is an encrypted, ad-free cloud host with no fake buttons or transfer quotas. NOVA uses Proton Drive as an archive option: when a packmaker needs or requests an archive, or provides their own valid archive link. NOVA verifies Proton Drive links before posting; this is separate from verifying the original MCPEDL/CurseForge content page, which stay the preferred sources.
 
 ⚡ Quick Start
 Open the link → enter a password if prompted → click Download → wait for browser decryption → save → import into Minecraft as usual.
@@ -25,10 +25,12 @@ Open the link → enter a password if prompted → click Download → wait for b
 · On iOS, use the Proton Drive app for files over 100 MB.
 
 ❓ FAQ
-Q: Is it free? A: Yes, 5 GB on a free account.
+Q: Is it free? A: Yes. A free account starts at 2 GB and can reach 5 GB after Proton's onboarding actions.
 Q: Why so slow? A: Your browser is decrypting the file as it downloads.
 
 🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
