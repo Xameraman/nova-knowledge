@@ -1,4 +1,4 @@
-MEGA is an ad-free, end-to-end encrypted cloud host. NOVA verifies all MEGA links; free accounts get 20 GB storage with a 5 GB/6-hour transfer quota.
+MEGA is an ad-free, end-to-end encrypted cloud host. Free accounts get 20 GB storage with roughly a 5 GB/6-hour transfer quota (MEGA does not publish one fixed number, so treat it as approximate). NOVA uses MEGA as an archive option: when a packmaker needs or requests an archive, or provides their own valid archive link; archive links are checked before posting, separately from verifying the original MCPEDL/CurseForge content page. It does not replace those preferred sources.
 
 ⚡ Quick Start
 Open the link → confirm the file name → click red Download → wait for browser decryption → save. For folders, use Download as ZIP. To skip the quota, import to your own free MEGA drive first.
@@ -26,10 +26,12 @@ Open the link → confirm the file name → click red Download → wait for brow
 · Always verify the file extension after downloading.
 
 ❓ FAQ
-Q: Why "transfer quota exceeded"? A: Free accounts cap ~5 GB per 6 hours — wait, switch networks, or import to your own account first.
+Q: Why "transfer quota exceeded"? A: Free accounts cap roughly 5 GB per 6 hours — wait, switch networks, or import to your own account first.
 Q: Can I download on iOS? A: Yes, but only via the free MEGA app — Safari can't handle files over ~1 MB.
 
 🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
+
+UPDATED: 2026-10-11
