@@ -6,7 +6,7 @@ This file tells NOVA how a user becomes a creator/packmaker and submits their ow
 
 WHO THIS IS FOR
 - Someone who made their own pack/addon/skin and wants it added to NOVA's library under their own name (a Packmaker).
-- Not for someone re-sharing another creator's work — that is a Sharer (/nova-share is for outside creators' packs; /nova-feature features a pack from a NOVA packmaker). See "Sharing on NOVA" in general.txt. /nova-share and /nova-feature require the Experienced Nova Sharer role (the bot also allows a few staff roles); administrators grant that role after a user has shared other people's creations correctly, without a single mistake.
+- Not for someone re-sharing another creator's work — that is a Sharer (/nova-share is for outside creators' packs; /nova-feature features a pack from a NOVA packmaker). See "Sharing on NOVA" in general.txt. /nova-share is for Experienced Nova Sharers and starter sharers (Nova Items Sharer role); /nova-feature needs the Experienced Nova Sharer role; some staff roles can also use them. Administrators grant the Experienced Nova Sharer role after a user has shared other people's creations correctly, without a single mistake.
 
 HOW TO SUBMIT YOUR OWN WORK
 Two ways, both valid:
