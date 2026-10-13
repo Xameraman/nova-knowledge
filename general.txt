@@ -27,7 +27,7 @@ Java: download .jar/.zip → place in .minecraft/resourcepacks (or mods/datapack
 🧑‍🤝‍🧑 Sharing on NOVA
 · Packmakers (own creation): post in 📤 | Uploads here, or use /share-with-nova for a formal submission. Approved creators get the Verified Packmaker role.
 · Sharers (an outside creator's content): use /nova-share with proper credit. /nova-feature features a pack from a NOVA packmaker.
-· /nova-share and /nova-feature require the Experienced Nova Sharer role (the bot also allows a few staff roles). Administrators grant the Experienced Nova Sharer role after a user has successfully shared other people's creations correctly, without a single mistake. Having access to the server does not grant these commands.
+· /nova-share is for members with the Experienced Nova Sharer role, and for starter sharers who hold the Nova Items Sharer role (people who applied to become sharers). /nova-feature needs the Experienced Nova Sharer role. Some staff roles can also use them. Administrators grant the Experienced Nova Sharer role after a user has successfully shared other people's creations correctly, without a single mistake. Having access to the server does not grant these commands.
 · /share-with-nova is open to packmakers who have no special role — an unverified or unroled packmaker can submit their creation with it. The Verified Packmaker role comes after approval.
 · /nova-share and /nova-feature announce automatically — nothing to publish or send afterwards. In an announcement channel the post is also published to servers following it.
 
@@ -45,7 +45,7 @@ A button appears only when its link is valid.
 
 ❗ Common Problems
 · Can't see all 23 categories → top of channel list → Channels & Roles → Roles tab → pick individual category roles, or grab Access all Without Pings. Channels appear instantly.
-· "No permission" on /nova-share or /nova-feature → these need the Experienced Nova Sharer role.
+· "No permission" on /nova-share → it needs the Experienced Nova Sharer role (or the starter Nova Items Sharer role); /nova-feature needs the Experienced Nova Sharer role.
 · Broken link → /nova-report
 · Don't know how to install → see the guide hub above
 · Found an ad link → report with /nova-report immediately
@@ -65,7 +65,7 @@ A button appears only when its link is valid.
 Is NOVA free? Yes — no paywalls, no ad gates.
 File types? Bedrock: .mcpack/.mcaddon/.mcworld/.mcskin. Java: .jar (mods) and .zip (resource packs, data packs, worlds).
 Broken link fixed how? /nova-report — staff handles it.
-Can I share someone else's creation? Yes, via /nova-share (Experienced Nova Sharer role) with proper credit — never claim it as your own.
+Can I share someone else's creation? Yes, via /nova-share (Experienced Nova Sharer or Nova Items Sharer role) with proper credit — never claim it as your own.
 
 🌐 Links
 Discord: https://discord.gg/Zc5pPEZYpe
