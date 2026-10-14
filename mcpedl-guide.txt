@@ -1,27 +1,30 @@
 MCPEDL (mcpedl.com) is the largest free site for Bedrock content — addons, maps, texture packs, skins. No account needed. It is one of NOVA's preferred sources: NOVA verifies the MCPEDL content page first.
 
 ⚡ Quick Start
-Open MCPEDL → Skip to Download, or scroll to the bottom → pick the version link (small green text, not the big banner) → download .mcpack/.mcaddon/.mcworld → tap to import → activate in world settings.
+Open MCPEDL → Skip to Download, or scroll to the bottom → pick the version link (small green text, not the big banner) → download .mcpack/.mcaddon/.mcworld → tap to import → activate in world settings. If the file downloads as .zip, check its contents and the creator's instructions before changing its extension.
 
 📥 Steps
 1. Find your content via search or categories on mcpedl.com.
 2. Click Skip to Download (the page may label it Skip to Downloads), or scroll to the bottom of the page.
-3. Pick the link matching your Minecraft version (check Settings → About). Each file lists the versions it supports; 2026 versions look like 26.10.
+3. Pick the link matching your Minecraft version (check Settings → About). Each file lists the versions it supports; use the page's compatibility information instead of guessing based on the year alone.
 4. Click the real link — small green text inside the content area, never a large flashy banner.
 5. It leads to a direct file or an external host (MediaFire, Google Drive, Dropbox). If Linkvertise appears, see NOVA's Linkvertise guide.
-6. If the file is .zip, rename it to .mcpack or .mcaddon.
-7. Tap the file → open with Minecraft → wait for "Successfully Imported."
-8. Activate: resource packs via Settings → Global Resources; behaviour packs via edit world → Behaviour Packs. For .mcaddon, activate both.
+6. If the file is .mcpack, .mcaddon, or .mcworld, keep its extension and open it with Minecraft. If it is .zip, do NOT automatically rename it to .mcpack or .mcaddon. Inspect the archive and follow the creator's instructions:
+   - A valid single resource or behavior pack may use .mcpack when the archive contains a valid Bedrock pack structure.
+   - A .mcaddon is a ZIP-format bundle that contains .mcpack or .mcworld files. Do not use .mcaddon just because a file ends in .zip.
+   - If the ZIP contains ordinary folders, loose files, documentation, or an unclear structure, extract it or check the creator's instructions first. Do not guess the extension.
+7. Tap a valid .mcpack/.mcaddon/.mcworld file → open with Minecraft → wait for "Successfully Imported." If Minecraft does not recognize it, check the archive structure and creator's instructions instead of repeatedly changing the extension.
+8. Activate imported packs in the world where you want to use them: edit/create the world → Resource Packs and/or Behavior Packs → activate the required packs. Importing does not automatically activate a pack in every world. Use Global Resources only when you specifically want a supported resource pack applied globally.
 9. Enable Experimental Gameplay if the MCPEDL page says so (World Settings → Experiments).
-10. Some add-ons come as two files (behaviour pack and resource pack, often marked BP and RP) — install both.
+10. Some add-ons come as two files (behavior pack and resource pack, often marked BP and RP) — install both when the creator says both are required.
 
 ❗ Common Problems
 · Clicked the big DOWNLOAD button, nothing happened → that was an ad; use the small green link instead.
-· File downloaded as .zip → rename to .mcpack/.mcaddon, then import.
-· Import failed → use "Open with" Minecraft; check the extension and storage permissions.
-· Addon not appearing → activate both packs; enable required Experimental Gameplay toggles.
-· Add-on only half works → one of its two files (BP/RP) is missing; install both.
-· Broken/expired link → check the MCPEDL comments, or ask in NOVA Discord.
+· File downloaded as .zip → do not blindly rename it. Check the archive contents and creator instructions to determine whether it is a valid single pack, a bundle, or an archive that should be extracted.
+· Import failed → check whether the extension matches the archive's actual structure, then use Open with Minecraft for a valid Minecraft package.
+· Addon not appearing → activate the required resource and behavior packs in the world's settings; enable required Experimental Gameplay toggles.
+· Add-on only half works → check whether the creator requires both BP and RP files.
+· Broken/expired link → check the MCPEDL comments, or ask in the NOVA Discord.
 
 ⚠️ Warnings
 · The real link is small green text — large banners are ads.
@@ -39,4 +42,4 @@ Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
 
-UPDATED: 2026-10-11
+UPDATED: 2026-10-14
