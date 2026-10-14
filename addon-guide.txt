@@ -1,54 +1,44 @@
 NOVA Download & Installation Guide
 
-⚡ Quick Start
-· Bedrock: download .mcpack/.mcaddon/.mcworld/.mcskin → tap file → open with Minecraft → activate in world settings.
-· Java: install a mod loader (Fabric, NeoForge or Forge) → place .jar in .minecraft/mods → select the loader profile in your launcher.
+QUICK START
+- Bedrock: download a valid .mcpack/.mcaddon/.mcworld/.mcskin file, open it with Minecraft, then activate the required packs in the intended world.
+- Java: install a compatible mod loader, place .jar mods in .minecraft/mods, and launch the matching loader profile.
 
-📋 Minecraft versions (2026)
-Since 2026 Minecraft versions are year-based. Java 26.1 (March 2026) matches Bedrock 26.10; Java 26.2 followed. Bedrock hotfix numbers differ from Java's, so compare against the edition you play. Packs and mods list the versions they support — pick the file for your version. Java Edition 26.1 and newer needs Java 25.
+MINECRAFT BEDROCK INSTALLATION
+1. Check the file extension: .mcpack, .mcaddon, .mcworld, and .mcskin are recognized Minecraft-related package formats. Never open unexpected .exe, .apk, or .msi files as Minecraft packs.
+2. Download content from a source you trust, and check the creator's version requirements.
+3. On Android, open the Downloads folder in a file manager and tap a recognized Minecraft package file. Choose Minecraft if prompted and wait for the import confirmation.
+4. ZIP FILES — DO NOT RENAME AUTOMATICALLY. A .zip extension alone does not reveal whether its contents are a valid Minecraft pack or a bundle. Inspect the archive and follow the creator's instructions first.
+   - .mcpack is a ZIP-formatted resource pack or behavior pack.
+   - .mcaddon is a ZIP-format bundle containing .mcpack or .mcworld files, and is generally used to distribute add-ons.
+   - .mcworld is a ZIP archive containing the files for a Minecraft Bedrock world.
+   - If the ZIP contains ordinary folders, loose files, multiple packages, documentation, or an unclear structure, do not guess the extension. Extract it only when appropriate and use the creator's documented installation procedure.
+5. After importing, activate the required resource and/or behavior packs in the world settings where you intend to use them. Importing does not automatically activate a pack in every world. A linked resource pack may be activated automatically when its behavior pack dependency is enabled, but do not promise this for every add-on.
+6. Enable Experimental Gameplay only when the creator's page says it is required.
+7. Some add-ons include separate behavior-pack (BP) and resource-pack (RP) files. Import and activate both when the creator says both are required.
 
-📱 Bedrock Installation
-1. Check the extension: .mcpack, .mcaddon, .mcworld, .mcskin. Never open .exe, .apk, or .msi.
-2. Download from a trusted source: MCPEDL, CurseForge, or the NOVA Discord (https://discord.gg/Zc5pPEZYpe).
-3. Open a file manager (ZArchiver on Android) → Downloads → tap the file. On Windows, double-click the file.
-4. If it's a .zip, rename it to .mcpack/.mcaddon.
-5. Open with Minecraft → wait for "Successfully Imported."
-6. In your world: Resource Packs / Behaviour Packs → move the pack to Active. For .mcaddon, activate both.
-7. Enable Experimental Gameplay if the pack requires it (World Settings → Experiments).
-8. Some add-ons come as two files (behaviour pack and resource pack, often marked BP and RP) — install both.
+JAVA EDITION INSTALLATION
+1. Use a mod loader compatible with both the Minecraft version and the mod.
+2. Open the .minecraft directory and create the lowercase mods folder if needed.
+3. Place the .jar file in the mods folder; do not double-click it to install it.
+4. Launch the matching loader profile and check the mod list.
+5. Resource packs may be distributed as ZIP files and generally should retain their documented format. Java worlds and datapacks have their own folder requirements; do not apply Bedrock file-extension advice to Java content.
 
-💻 Java Installation
-1. Install a mod loader matching your MC version: Fabric (fabricmc.net), NeoForge (neoforged.net) or Forge (files.minecraftforge.net). Quilt had no 26.1+ builds as of mid-2026. The CurseForge app and the Modrinth App can set up loaders and mods for you (Java only).
-2. Open .minecraft: Windows Win+R → %appdata%\.minecraft · macOS Cmd+Shift+G → ~/Library/Application Support/minecraft · Linux ~/.minecraft
-3. Create a lowercase "mods" folder if missing, then place the .jar inside — don't double-click it.
-4. Launch with the matching loader profile; the mod appears in the Mods menu.
-5. Resource packs: Options → Resource Packs → Open Pack Folder → drop the .zip in (don't extract).
-6. Datapacks: place the .zip in saves/<world>/datapacks, then run /reload.
-7. Worlds: extract the .zip and move the folder into .minecraft/saves.
+COMMON PROBLEMS
+- File downloaded as .zip: do not blindly rename it to .mcpack or .mcaddon; inspect its contents and creator instructions.
+- Import failed: confirm that it is a valid Minecraft package, check the extension against its actual contents, and choose Open with Minecraft where appropriate.
+- Pack not showing in a world: activate the required resource and behavior packs in that world's settings; enable required experiments.
+- Add-on only partly works: check whether the creator requires both behavior-pack and resource-pack files.
+- Java mod crash: check exact Minecraft version, loader compatibility, and dependencies.
+- Never open unexpected executable or app-installer files as Minecraft packs.
 
-❗ Common Problems
-· Import failed → use "Open with" Minecraft; rename .zip to .mcpack.
-· Pack not showing → activate both packs, enable Experimental Gameplay.
-· Add-on only half works → one of its two files (BP/RP) is missing; install both.
-· Java crash → match mod version to your MC version exactly; check dependencies (e.g. Fabric API); 26.1+ needs Java 25.
-· .exe/.apk file → delete immediately, report in NOVA Discord.
-· No "mods" folder → create one (lowercase) in .minecraft.
+CORE FILE EXTENSION DEFINITIONS
+- .mcpack: a zipped Bedrock resource pack or behavior pack.
+- .mcaddon: a ZIP bundle containing .mcpack or .mcworld files; generally used to distribute add-ons.
+- .mcworld: a ZIP archive containing a Bedrock world.
+These definitions describe formats, not a guarantee that any arbitrary ZIP archive can safely be renamed. The internal structure and creator's instructions matter.
 
-⚠️ Warnings
-· Never open .exe/.apk/.msi files.
-· Only download from trusted sites.
-· Bedrock files and Java files are not interchangeable.
-· Activate both packs for .mcaddon.
-· Check mod dependencies before launching.
-
-❓ FAQ
-Q: Can I use Bedrock addons on Java? A: No.
-Q: How do I install Fabric/NeoForge/Forge? A: Download the installer, run it, and pick your MC version.
-Q: Why is my Minecraft version 26.x? A: 2026 versions start with the year (26.1, 26.2…).
-
-🌐 Links
-Discord: https://discord.gg/Zc5pPEZYpe
+Links
 NOVA Library: https://nova-library-mu.vercel.app/
-Owner: Xameraman5022
 
-UPDATED: 2026-10-11
+UPDATED: 2026-10-14
