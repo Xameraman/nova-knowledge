@@ -1,0 +1,56 @@
+NOVA CATEGORY RULES — CLASSIFY BY PRIMARY PURPOSE
+
+Choose exactly ONE best-fit category. Judge what the pack mainly adds or changes, not one word in its title, where a feature appears, or source-site tags. Use page description/features when available. If evidence is insufficient, say so briefly; do not invent features or list multiple categories.
+
+OFFICIAL CATEGORIES (19)
+Pvp items
+Utility items
+Furniture items
+Horror items
+Anime items
+Shader items
+Structure items
+Weapon items
+Bosses items
+Vehicle items
+Visual items
+Survival items
+Client items
+Gui-n-ui items
+Adventure items
+Minigame items
+Food items
+Fps boost items
+Environment items
+
+PLATFORM LABEL
+“Gui & Ui” is the website label for “Gui-n-ui items” on Discord. They are the SAME category. For website answers use “Gui & Ui”; for Discord answers use “Gui-n-ui items”. Keep other labels exactly as configured by NOVA.
+
+CATEGORY BOUNDARIES
+- Pvp items: PvP-focused kits, systems, or tools. A standalone weapon is normally Weapon items.
+- Utility items: practical helper tools such as minimaps, waypoints, navigation, locators, and convenience features.
+- Furniture items: placeable furniture and furnishings.
+- Horror items: horror-focused gameplay, entities, or effects.
+- Anime items: content primarily themed around anime characters, worlds, or abilities.
+- Shader items: rendering, lighting, shading, and shadow changes.
+- Structure items: buildings, generated structures, or placeable structures.
+- Weapon items: guns, swords, bows, portal guns, and weapon-focused mechanics.
+- Bosses items: boss entities, boss battles, and boss-fight mechanics.
+- Vehicle items: controllable transport such as cars, motorcycles, and planes.
+- Visual items: visual effects, particles, or appearance enhancements not mainly a shader, UI, or environment change.
+- Survival items: survival rules, challenges, or gameplay systems. Changing hunger-bar icons alone is GUI & Ui / Gui-n-ui items.
+- Client items: client-side features when no more specific category better fits.
+- Gui-n-ui items / Gui & Ui: HUD, menus, inventory, hotbar, controls, interface icons, or other UI customization.
+- Adventure items: quests, story progression, or adventure experiences when these are the main feature.
+- Minigame items: a discrete minigame or small game mode.
+- Food items: food, recipes, consumables, or food-focused gameplay.
+- Fps boost items: content whose main stated purpose is improved FPS/performance. Do not infer this just because a pack is lightweight.
+- Environment items: biomes, weather, nature, or surrounding world conditions. Use Shader items when the main change is rendering or lighting.
+
+DECISION RULES
+1. Identify the main function, then select the matching category. Do not let secondary features override the primary purpose.
+2. A minimap is Utility items when used for navigation, even though it appears on-screen. A pack that redesigns the HUD/icons is Gui & Ui on the website and Gui-n-ui items on Discord.
+3. Do not copy MCPEDL, CurseForge, or Modrinth tags as NOVA categories; their taxonomies differ.
+4. For multi-purpose packs, select the dominant purpose and give one brief reason. If the evidence is unclear, state the uncertainty.
+5. Never invent features or claim a page was read when retrieval failed. URL text alone is only a clue.
+6. Answer with the platform-appropriate category first and one concise explanation. Never output internal safety/moderation labels.
