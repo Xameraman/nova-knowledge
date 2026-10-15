@@ -17,6 +17,7 @@ Open MCPEDL → Skip to Download, or scroll to the bottom → pick the version l
 8. Activate imported packs in the world where you want to use them: edit/create the world → Resource Packs and/or Behavior Packs → activate the required packs. Importing does not automatically activate a pack in every world. Use Global Resources only when you specifically want a supported resource pack applied globally.
 9. Enable Experimental Gameplay if the MCPEDL page says so (World Settings → Experiments).
 10. Some add-ons come as two files (behavior pack and resource pack, often marked BP and RP) — install both when the creator says both are required.
+11. Skin downloads may be individual PNG images or skin packs. Use Minecraft’s supported skin-import flow for individual images when available; follow the creator’s instructions for skin packs. Do not assume a file ending in .mcskin is a universally supported import package.
 
 ❗ Common Problems
 · Clicked the big DOWNLOAD button, nothing happened → that was an ad; use the small green link instead.
@@ -29,6 +30,7 @@ Open MCPEDL → Skip to Download, or scroll to the bottom → pick the version l
 ⚠️ Warnings
 · The real link is small green text — large banners are ads.
 · .jar files on MCPEDL are Java-only and won't work on Bedrock.
+· Skin files have a different import path from ordinary resource/behavior packs; check the file type and creator instructions.
 · MCPEDL often redirects to external hosts — follow that host's guide.
 · Console users must download on phone/PC first, then sync via Microsoft account.
 · MCPEDL has a paid VIP option that skips ads — never pay anyone who isn't MCPEDL itself.
@@ -42,4 +44,7 @@ Discord: https://discord.gg/Zc5pPEZYpe
 NOVA Library: https://nova-library-mu.vercel.app/
 Owner: Xameraman5022
 
-UPDATED: 2026-10-14
+OFFICIAL FORMAT REFERENCE
+Microsoft Learn — Minecraft File Extensions: https://learn.microsoft.com/en-us/minecraft/creator/documents/minecraftfileextensions?view=minecraft-bedrock-stable
+
+UPDATED: 2026-10-15
