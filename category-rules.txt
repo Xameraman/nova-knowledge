@@ -1,8 +1,8 @@
 NOVA CATEGORY RULES — CLASSIFY BY PRIMARY PURPOSE
 
-Choose exactly ONE best-fit category. Judge what the pack mainly adds or changes, not one word in its title, where a feature appears, or source-site tags. Use page description/features when available. If evidence is insufficient, say so briefly; do not invent features or list multiple categories.
+Choose exactly ONE best-fit primary category. Judge what the pack mainly adds or changes, not one word in its title, where a feature appears, or source-site tags. Use the page description/features when available. If evidence is insufficient, say so briefly; do not invent features or list multiple categories.
 
-OFFICIAL CATEGORIES (19)
+OFFICIAL CATEGORIES (20)
 Pvp items
 Utility items
 Furniture items
@@ -22,6 +22,7 @@ Minigame items
 Food items
 Fps boost items
 Environment items
+Others
 
 PLATFORM LABEL
 “Gui & Ui” is the website label for “Gui-n-ui items” on Discord. They are the SAME category. For website answers use “Gui & Ui”; for Discord answers use “Gui-n-ui items”. Keep other labels exactly as configured by NOVA.
@@ -34,7 +35,7 @@ CATEGORY BOUNDARIES
 - Anime items: content primarily themed around anime characters, worlds, or abilities.
 - Shader items: rendering, lighting, shading, and shadow changes.
 - Structure items: buildings, generated structures, or placeable structures.
-- Weapon items: guns, swords, bows, portal guns, and weapon-focused mechanics.
+- Weapon items: weapon-focused items or mechanics. Classify by primary purpose rather than a secondary feature.
 - Bosses items: boss entities, boss battles, and boss-fight mechanics.
 - Vehicle items: controllable transport such as cars, motorcycles, and planes.
 - Visual items: visual effects, particles, or appearance enhancements not mainly a shader, UI, or environment change.
@@ -46,11 +47,25 @@ CATEGORY BOUNDARIES
 - Food items: food, recipes, consumables, or food-focused gameplay.
 - Fps boost items: content whose main stated purpose is improved FPS/performance. Do not infer this just because a pack is lightweight.
 - Environment items: biomes, weather, nature, or surrounding world conditions. Use Shader items when the main change is rendering or lighting.
+- Others: use when the item's primary purpose or content type does not fit any of the other 19 categories. Examples include standalone skin/skin-pack content or dinosaur/species add-ons when no existing category is a clear fit. Do not force an item into an unrelated category merely to avoid Others.
+
+SECONDARY TAG — SCRIPTS
+“Scripts” is NOVA's separate secondary tag, NOT a primary category. Keep the item’s one best-fit primary category and apply the Scripts tag only when there is evidence that the add-on actually uses Minecraft Bedrock scripting code (for example, a script module or creator documentation explicitly describing script-based functionality). Bedrock script APIs use JavaScript; TypeScript may also be used as source that compiles to JavaScript.
+- Do not assign Scripts just because an add-on changes gameplay, contains a behavior pack, or has “script” in an unrelated title or external site tag.
+- Do not confuse command/function files with the Bedrock Script API; they are not automatically evidence of script-based functionality.
+- If the page or files do not provide enough evidence, do not guess that the Scripts tag applies.
+- If an item fits no primary category but is script-based, its classification may be Others with the separate Scripts tag.
 
 DECISION RULES
 1. Identify the main function, then select the matching category. Do not let secondary features override the primary purpose.
 2. A minimap is Utility items when used for navigation, even though it appears on-screen. A pack that redesigns the HUD/icons is Gui & Ui on the website and Gui-n-ui items on Discord.
-3. Do not copy MCPEDL, CurseForge, or Modrinth tags as NOVA categories; their taxonomies differ.
+3. Do not copy MCPEDL, CurseForge, or Modrinth tags as NOVA categories or secondary tags without checking that NOVA's own rules support them.
 4. For multi-purpose packs, select the dominant purpose and give one brief reason. If the evidence is unclear, state the uncertainty.
 5. Never invent features or claim a page was read when retrieval failed. URL text alone is only a clue.
-6. Answer with the platform-appropriate category first and one concise explanation. Never output internal safety/moderation labels.
+6. Answer with the platform-appropriate category first and one concise explanation. Mention the Scripts tag separately only when supported by evidence. Never output internal safety/moderation labels.
+
+REFERENCE FOR SCRIPT TERMINOLOGY
+Microsoft Learn — Minecraft File Extensions: https://learn.microsoft.com/en-us/minecraft/creator/documents/minecraftfileextensions?view=minecraft-bedrock-stable
+Microsoft Learn — Introduction to Scripting in Minecraft: https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/introduction?view=minecraft-bedrock-stable
+
+UPDATED: 2026-10-15
