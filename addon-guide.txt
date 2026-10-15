@@ -1,11 +1,11 @@
 NOVA Download & Installation Guide
 
 QUICK START
-- Bedrock: download a valid .mcpack/.mcaddon/.mcworld/.mcskin file, open it with Minecraft, then activate the required packs in the intended world.
+- Bedrock: open a valid .mcpack/.mcaddon/.mcworld file with Minecraft, then activate the required packs in the intended world. Individual skin images have a separate skin-import flow; do not treat every skin download as an add-on package.
 - Java: install a compatible mod loader, place .jar mods in .minecraft/mods, and launch the matching loader profile.
 
 MINECRAFT BEDROCK INSTALLATION
-1. Check the file extension: .mcpack, .mcaddon, .mcworld, and .mcskin are recognized Minecraft-related package formats. Never open unexpected .exe, .apk, or .msi files as Minecraft packs.
+1. Check the file type: .mcpack, .mcaddon, and .mcworld are documented Minecraft Bedrock package formats. Microsoft’s official file-extension reference does not list .mcskin as a standard package extension, so do not assume that tapping a .mcskin file will import it on every platform. Never open unexpected .exe, .apk, or .msi files as Minecraft packs.
 2. Download content from a source you trust, and check the creator's version requirements.
 3. On Android, open the Downloads folder in a file manager and tap a recognized Minecraft package file. Choose Minecraft if prompted and wait for the import confirmation.
 4. ZIP FILES — DO NOT RENAME AUTOMATICALLY. A .zip extension alone does not reveal whether its contents are a valid Minecraft pack or a bundle. Inspect the archive and follow the creator's instructions first.
@@ -16,6 +16,7 @@ MINECRAFT BEDROCK INSTALLATION
 5. After importing, activate the required resource and/or behavior packs in the world settings where you intend to use them. Importing does not automatically activate a pack in every world. A linked resource pack may be activated automatically when its behavior pack dependency is enabled, but do not promise this for every add-on.
 6. Enable Experimental Gameplay only when the creator's page says it is required.
 7. Some add-ons include separate behavior-pack (BP) and resource-pack (RP) files. Import and activate both when the creator says both are required.
+8. Individual skins are commonly provided as PNG images and use Minecraft’s skin-import controls when available. Skin packs may use a supported pack format. Follow the creator’s platform-specific instructions; do not blindly rename a skin file or assume every device supports the same import method.
 
 JAVA EDITION INSTALLATION
 1. Use a mod loader compatible with both the Minecraft version and the mod.
@@ -36,9 +37,10 @@ CORE FILE EXTENSION DEFINITIONS
 - .mcpack: a zipped Bedrock resource pack or behavior pack.
 - .mcaddon: a ZIP bundle containing .mcpack or .mcworld files; generally used to distribute add-ons.
 - .mcworld: a ZIP archive containing a Bedrock world.
-These definitions describe formats, not a guarantee that any arbitrary ZIP archive can safely be renamed. The internal structure and creator's instructions matter.
+These definitions describe formats, not a guarantee that any arbitrary ZIP archive can safely be renamed. The internal structure and creator's instructions matter. Microsoft’s documented file-extension reference does not list .mcskin as a standard Bedrock package extension.
 
 Links
 NOVA Library: https://nova-library-mu.vercel.app/
+Microsoft Learn — Minecraft File Extensions: https://learn.microsoft.com/en-us/minecraft/creator/documents/minecraftfileextensions?view=minecraft-bedrock-stable
 
-UPDATED: 2026-10-14
+UPDATED: 2026-10-15
